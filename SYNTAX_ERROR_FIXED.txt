@@ -1,0 +1,206 @@
+# 🐛 SYNTAX ERROR FIXED! + Better Build Script
+
+## ❌ THE PROBLEM:
+
+**Syntax Error on Line 197:**
+```python
+self.log_message(...)
+else:  # ← ORPHANED ELSE! No matching IF!
+    placeholder = ...
+```
+
+This caused the build to fail completely!
+
+---
+
+## ✅ THE FIXES:
+
+### Fix 1: Removed Orphaned `else:` Block ✅
+The code had leftover lines from an old version that broke Python syntax.
+
+**Removed lines 197-205:**
+```python
+else:
+    # No artwork found - show placeholder
+    placeholder = ttk.Label(...)
+    ...
+```
+
+**Why it was wrong:**
+The logic now uses `if not artwork_path: return` earlier, so the `else` had no matching `if` statement at that indentation level.
+
+---
+
+### Fix 2: Build Script Shows Errors Now ✅
+**Before:**
+```batch
+rocksmith_gui.py 2>nul  ← Hid all errors!
+```
+
+**After:**
+```batch
+rocksmith_gui.py        ← Shows actual errors!
+echo Build command completed with error level: %errorlevel%
+```
+
+Now you can see what went wrong!
+
+---
+
+### Fix 3: Better Artwork Detection ✅
+**Before:**
+```batch
+if exist "..." (
+    ...
+) else if exist "..." (
+    ...
+) else (
+    ...
+)
+```
+This had issues with variable scope.
+
+**After:**
+```batch
+set ARTWORK_FLAG=
+if exist "..." (
+    set "ARTWORK_FLAG=..."
+    goto :artwork_done
+)
+if exist "..." (
+    set "ARTWORK_FLAG=..."
+    goto :artwork_done
+)
+echo ! Artwork not found
+:artwork_done
+```
+
+Uses `goto` labels for cleaner logic!
+
+---
+
+### Fix 4: Better Error Messages ✅
+The build script now tells you:
+- Exact error level from PyInstaller
+- Common issues and solutions
+- Where to find build warnings
+
+---
+
+## 📥 DOWNLOAD THESE 2 FILES:
+
+**Above ⬆️:**
+
+1. **rocksmith_gui.py** - SYNTAX ERROR FIXED!
+2. **BUILD_COMPLETE.bat** - Shows errors + better detection
+
+---
+
+## ⚡ REBUILD NOW:
+
+### Step 1: Replace Files
+```
+1. Download: rocksmith_gui.py (FIXED!)
+2. Download: BUILD_COMPLETE.bat (IMPROVED!)
+3. Replace in: C:\RiffBridge\
+```
+
+### Step 2: Clean Old Build
+```
+Delete these if they exist:
+- C:\RiffBridge\dist\ (folder)
+- C:\RiffBridge\build\ (folder)
+- C:\RiffBridge\RiffBridge.spec (file)
+```
+
+### Step 3: Rebuild
+```
+1. Double-click: BUILD_COMPLETE.bat
+2. Watch the output carefully
+3. If it fails, you'll see the ACTUAL error!
+```
+
+---
+
+## 📋 WHAT YOU'LL SEE:
+
+### If Successful:
+```
+[1/5] Python found: Python 3.14.2
+[2/5] Checking required files...
+  + All Python files found
+  + Icon found: RiffBridge_icon.ico
+  + Artwork found: Riff_Bridge_cover_art.jpg
+[3/5] Installing dependencies...
+  + Dependencies installed
+[4/5] Building RiffBridge.exe...
+Building... (takes ~1 minute)
+[PyInstaller output here]
+Build command completed with error level: 0
+============================================================================
+[5/5] BUILD SUCCESSFUL!
+============================================================================
+RiffBridge.exe created!
+Size: ~50 MB
+Features:
+  + Custom icon embedded
+  + Artwork embedded
+  + PS4 and PC files supported
+```
+
+### If It Fails:
+```
+[Error messages will show here - no longer hidden!]
+Build command completed with error level: 1
+============================================================================
+[!] BUILD FAILED - RiffBridge.exe was not created
+============================================================================
+Common issues:
+  - Missing dependencies: Run "pip install -r requirements_gui.txt"
+  - PyInstaller not installed: Run "pip install pyinstaller"
+  - Syntax error in rocksmith_gui.py
+```
+
+---
+
+## 🎯 COMMON BUILD ERRORS:
+
+### Error: "No module named 'tkinterdnd2'"
+**Fix:**
+```
+pip install tkinterdnd2 --break-system-packages
+```
+
+### Error: "No module named 'PIL'"
+**Fix:**
+```
+pip install Pillow --break-system-packages
+```
+
+### Error: "No module named 'PyInstaller'"
+**Fix:**
+```
+pip install pyinstaller --break-system-packages
+```
+
+### Error: "SyntaxError"
+**Fix:**
+Make sure you downloaded the NEW rocksmith_gui.py (syntax error fixed!)
+
+---
+
+## ✅ VERIFICATION:
+
+After downloading, verify no syntax errors:
+```
+python -m py_compile rocksmith_gui.py
+```
+
+If it says nothing = SUCCESS!
+If it shows an error = Download didn't work, try again!
+
+---
+
+**Download both files and rebuild!** 🔧
+
+This time you'll see exactly what's happening!

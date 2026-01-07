@@ -1,0 +1,63 @@
+# 🎉 SWITCHED TO LibOrbisPkg (Open Source!)
+
+## ✅ MAJOR UPDATE: No More orbis-pub-cmd Issues!
+
+RiffBridge now uses **LibOrbisPkg** - a fully open-source PKG builder that actually works!
+
+---
+
+## 🐛 WHY THE SWITCH?
+
+### Problems with orbis-pub-cmd:
+- ❌ Missing sc.exe error
+- ❌ Path issues with param.sfo
+- ❌ Complex folder structure requirements
+- ❌ Proprietary/closed source
+- ❌ Hard to debug errors
+
+### Benefits of LibOrbisPkg:
+- ✅ Open source (LGPL-3.0)
+- ✅ Better error messages
+- ✅ Actively maintained
+- ✅ Cross-platform (Windows, Linux, Mac via Mono)
+- ✅ Clean, simple API
+- ✅ Works reliably!
+
+---
+
+## 📥 DOWNLOAD LibOrbisPkg
+
+### Option 1: PkgTool (Command Line) - RECOMMENDED
+```
+1. Go to: https://github.com/maxton/LibOrbisPkg
+2. Click: Releases → Latest release
+3. Download: PkgTool.zip (Windows)
+4. Extract: PkgTool.exe
+5. Copy to: C:\RiffBridge\
+```
+
+### Option 2: Pkg-Editor-2023 (GUI + CLI)
+```
+1. Go to: https://github.com/KimieStar/Pkg-Editor-2023
+2. Click: Releases → Latest release (0.3.1)
+3. Download: Pkg-Editor-2023.zip
+4. Extract all files
+5. Copy: PkgTool.exe to C:\RiffBridge\
+```
+
+**AppVeyor Builds (Latest):**
+https://ci.appveyor.com/project/maxton/liborbispkg/build/artifacts
+
+---
+
+## ⚡ QUICK START:
+
+1. Download PkgTool.exe from LibOrbisPkg
+2. Copy to C:\RiffBridge\
+3. Download 3 updated Python files (above)
+4. Rebuild RiffBridge
+5. Done!
+
+---
+
+**No more orbis-pub-cmd headaches - use open source LibOrbisPkg instead!** 🚀

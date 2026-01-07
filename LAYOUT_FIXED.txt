@@ -1,0 +1,211 @@
+# ✅ LAYOUT FIXED - All Controls Now Visible!
+
+## 🐛 THE PROBLEM:
+
+Text and controls below the Conversion Log were getting cut off:
+- Output folder path was hidden
+- "Change" button was hidden
+- "Convert All" button was hidden
+- Progress bar was hidden
+
+You had to manually resize the window to see them!
+
+---
+
+## ✅ THE FIXES:
+
+### Fix 1: Reduced Log Height ✅
+**Before:**
+```python
+height=6  # Log was too tall
+```
+
+**After:**
+```python
+height=4  # Smaller log = more room for controls!
+```
+
+The log still has a scrollbar, so you can see everything - just more compact!
+
+---
+
+### Fix 2: Better Row Weights ✅
+**Before:**
+```python
+left_panel.rowconfigure(2, weight=1)  # Only file list could resize
+```
+
+**After:**
+```python
+left_panel.rowconfigure(2, weight=1)  # File list can shrink
+left_panel.rowconfigure(3, weight=1)  # Log can shrink
+# Row 4 (controls) has NO weight = always visible!
+```
+
+Now the file list and log can shrink if needed, but controls at the bottom ALWAYS show!
+
+---
+
+### Fix 3: Increased Window Height ✅
+**Before:**
+```python
+self.root.geometry("1600x700")  # 700px tall
+```
+
+**After:**
+```python
+self.root.geometry("1600x800")  # 800px tall - 100px more space!
+```
+
+More vertical space = everything fits comfortably!
+
+---
+
+## 📥 DOWNLOAD THIS FILE:
+
+**Above ⬆️:**
+
+**rocksmith_gui.py** - Layout fixed!
+
+---
+
+## ⚡ TEST IT:
+
+### Option 1: Quick Test with Python
+```
+1. Download: rocksmith_gui.py
+2. Replace in: C:\RiffBridge\
+3. Double-click: LAUNCH_RIFFBRIDGE.bat
+4. Check: Can you see everything at the bottom?
+```
+
+### Option 2: Rebuild .exe
+```
+1. Download: rocksmith_gui.py
+2. Replace in: C:\RiffBridge\
+3. Delete: dist\RiffBridge.exe
+4. Run: BUILD_COMPLETE.bat
+5. Test: dist\RiffBridge.exe
+```
+
+---
+
+## 🎨 NEW LAYOUT:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  RiffBridge - Rocksmith PC → PS4 Converter              │
+├─────────────────────┬───────────────────────────────────┤
+│                     │                                   │
+│  Drop Files Here    │                                   │
+│  [Add Files]        │                                   │
+│                     │                                   │
+│  Queue (5 rows)     │      [HUGE BAND PHOTO]            │
+│  with scrollbar     │       700px x 700px               │
+│                     │                                   │
+│  Log (4 rows) ✓     │                                   │
+│  with scrollbar     │                                   │
+│                     │                                   │
+│  Output: C:\...  ✓  │                                   │
+│  [Change] [Convert] │                                   │
+└─────────────────────┴───────────────────────────────────┘
+          All controls visible without scrolling! ✓
+```
+
+---
+
+## 📊 SPACE BREAKDOWN:
+
+### Before (700px height):
+```
+Title:         30px
+Drop zone:     80px
+Queue:        ~180px (5 rows + buttons)
+Log:          ~200px (6 rows + buttons)
+Controls:      50px
+Status bar:    25px
+Padding:       ~135px
+────────────────────
+TOTAL:        700px  ← Controls getting cut off!
+```
+
+### After (800px height):
+```
+Title:         30px
+Drop zone:     80px
+Queue:        ~180px (5 rows + buttons)
+Log:          ~150px (4 rows + buttons) ← Reduced!
+Controls:      50px  ← Now visible!
+Status bar:    25px
+Padding:       ~285px (extra space!)
+────────────────────
+TOTAL:        800px  ← Everything fits! ✓
+```
+
+---
+
+## ✅ WHAT YOU'LL SEE:
+
+When you run the updated version:
+
+1. ✅ Window opens at 1600x800 (wider and taller)
+2. ✅ Image is huge (700px x 700px)
+3. ✅ Queue has 5 rows with scrollbar
+4. ✅ Log has 4 rows with scrollbar
+5. ✅ **Output folder path fully visible**
+6. ✅ **"Change" button fully visible**
+7. ✅ **"Convert All" button fully visible**
+8. ✅ **Progress bar fully visible**
+9. ✅ Status bar at bottom visible
+10. ✅ No need to resize window!
+
+---
+
+## 🎯 BENEFITS:
+
+### Log Scrollbar:
+- Log is smaller (4 rows instead of 6)
+- But has a scrollbar
+- You can still see all messages
+- Just scroll if needed
+
+### Queue Scrollbar:
+- Queue is 5 rows
+- Has a scrollbar
+- Add 100 files? Just scroll!
+
+### Controls Always Visible:
+- No more manual resizing
+- Everything you need is visible
+- Professional layout
+
+---
+
+## 🔧 IF YOU WANT TO CUSTOMIZE:
+
+Want even more space for the log?
+
+**Edit line 276 in rocksmith_gui.py:**
+```python
+height=4,  # Change to 5 or 6 for more log space
+```
+
+Want smaller queue?
+
+**Edit line 242 in rocksmith_gui.py:**
+```python
+height=5  # Change to 3 or 4 for smaller queue
+```
+
+Want different window size?
+
+**Edit line 46 in rocksmith_gui.py:**
+```python
+self.root.geometry("1600x800")  # Change width x height
+```
+
+---
+
+**Download rocksmith_gui.py and test it!** 🎸
+
+Everything should be visible now without resizing!

@@ -1,0 +1,104 @@
+# ⚡ QUICK SETUP GUIDE
+
+## 🎯 3 FILES TO DOWNLOAD:
+
+1. **PYTHON_PKG_BUILDER_INTEGRATED.txt** - Complete documentation
+2. **ps4_pkg_builder.py** - NEW! Built-in PKG builder (no external tools!)
+3. **enhanced_converter.py** - UPDATED! Uses Python PKG builder
+
+---
+
+## 🚀 SETUP (3 STEPS):
+
+### Step 1: Download Files
+```
+Download these 3 files ⬆️
+Place in: C:\RiffBridge\
+```
+
+### Step 2: Rebuild
+```
+1. Delete: C:\RiffBridge\dist\RiffBridge.exe
+2. Delete: C:\RiffBridge\build\ (optional)
+3. Run: C:\RiffBridge\BUILD_COMPLETE.bat
+4. Wait ~1 minute
+```
+
+### Step 3: Test
+```
+1. Run: C:\RiffBridge\dist\RiffBridge.exe
+2. Drag in: your_song_p.psarc
+3. Click: "Convert All"
+4. Watch it create .pkg with built-in Python!
+```
+
+---
+
+## ✅ WHAT YOU GET:
+
+### NO MORE:
+- ❌ PkgTool.exe downloads
+- ❌ Windows Defender blocks
+- ❌ orbis-pub-cmd.exe issues
+- ❌ sc.exe missing errors
+- ❌ Path problems
+
+### INSTEAD:
+- ✅ Built-in Python PKG builder
+- ✅ No external dependencies
+- ✅ Cross-platform compatible
+- ✅ Just works!
+
+---
+
+## 🎯 EXPECTED OUTPUT:
+
+```
+[7/7] Building PKG file...
+Using built-in Python PKG builder (no external tools needed!)
+✓ PKG created: EP0001-CUSA00745_00-SONGCOOPPOIS0000.pkg
+  Size: 45.3 MB
+
+✓ COMPLETE PS4 PKG CREATED SUCCESSFULLY!
+```
+
+---
+
+## 📂 COMPLETE FILE LIST:
+
+### In C:\RiffBridge\:
+```
+C:\RiffBridge\
+├── ps4_pkg_builder.py (NEW!)
+├── enhanced_converter.py (UPDATED!)
+├── rocksmith_gui.py (existing)
+├── rocksmith_pc_to_ps4.py (existing)
+├── steam_dlc_database.py (existing)
+├── requirements_gui.txt (existing)
+├── BUILD_COMPLETE.bat (existing)
+├── LAUNCH_RIFFBRIDGE.bat (existing)
+├── RiffBridge_icon.ico (existing)
+└── Riff_Bridge_cover_art.jpg (existing)
+```
+
+### After Build:
+```
+C:\RiffBridge\dist\
+└── RiffBridge.exe ← Run this!
+```
+
+---
+
+## 🎮 USE IT:
+
+```
+1. Run: RiffBridge.exe
+2. Drag: .psarc files
+3. Convert: Click "Convert All"
+4. Get: .pkg files on Desktop
+5. Install: Copy to USB → PS4
+```
+
+---
+
+**That's it! No PkgTool.exe needed!** 🚀

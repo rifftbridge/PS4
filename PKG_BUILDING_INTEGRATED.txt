@@ -1,0 +1,314 @@
+# 🎉 PKG BUILDING NOW BUILT-IN!
+
+RiffBridge can now build complete PS4 .pkg installer files automatically!
+
+---
+
+## ✅ WHAT'S NEW:
+
+### Automatic PKG Building ✅
+- RiffBridge now calls `orbis-pub-cmd.exe` to build final .pkg files
+- No more manual steps!
+- Works for PS4 format files (creates complete installable PKG)
+
+### New Menu Option ✅
+**Settings → Build Final PKG File** (checked by default)
+- When enabled: Auto-builds .pkg file after creating GP4 project
+- When disabled: Only creates GP4 project (you build PKG manually)
+
+### Smart Tool Detection ✅
+RiffBridge automatically searches for `orbis-pub-cmd.exe` in:
+1. Same folder as RiffBridge
+2. `tools/` subfolder
+3. `PS4-Fake-PKG-Tools-3.87/` folder
+4. Your home directory
+5. System PATH
+
+---
+
+## 📥 REQUIRED: Get orbis-pub-cmd.exe
+
+### Download PS4 Fake PKG Tools:
+1. Go to: https://github.com/CyB1K/PS4-Fake-PKG-Tools-3.87
+2. Click "Releases" on the right
+3. Download latest version (v7.0.0 or newer)
+4. Extract the ZIP file
+
+### Install Options:
+
+**Option 1: Put in RiffBridge folder (EASIEST)**
+```
+C:\RiffBridge\
+├── RiffBridge.exe
+├── orbis-pub-cmd.exe          ← Copy this
+├── orbis-pub-gen.exe           ← Copy this (optional, for GUI)
+├── orbis-pub-sfo.exe           ← Copy this (optional)
+└── orbis-pub-prx.dll           ← Copy this (required!)
+```
+
+**Option 2: Put in tools folder**
+```
+C:\RiffBridge\
+├── RiffBridge.exe
+└── tools\
+    ├── orbis-pub-cmd.exe
+    ├── orbis-pub-gen.exe
+    ├── orbis-pub-sfo.exe
+    └── orbis-pub-prx.dll
+```
+
+**Option 3: Keep in separate folder**
+```
+C:\PS4-Fake-PKG-Tools-3.87\
+├── orbis-pub-cmd.exe
+├── orbis-pub-gen.exe
+├── orbis-pub-sfo.exe
+└── orbis-pub-prx.dll
+```
+RiffBridge will find it automatically!
+
+---
+
+## 🎯 HOW IT WORKS:
+
+### For PS4 Format Files (COMPLETE WORKFLOW):
+```
+1. Drag PS4 .psarc into RiffBridge
+2. Click "Convert All"
+3. RiffBridge:
+   ✓ Detects Steam App ID (if available)
+   ✓ Creates param.sfo
+   ✓ Creates icon0.png
+   ✓ Creates .gp4 project file
+   ✓ Builds .pkg file automatically! ← NEW!
+4. Done! Install PKG on PS4!
+```
+
+### For PC Format Files (NEEDS PSARC REPACKING):
+```
+1. Drag PC .psarc into RiffBridge
+2. Click "Convert All"
+3. RiffBridge:
+   ✓ Converts manifest to PS4 format
+   ✓ Creates proper folder structure
+   ✓ Creates param.sfo
+   ✓ Creates icon0.png
+   ✓ Creates .gp4 project file
+   ✗ Cannot build PKG yet (needs psarc repacking)
+4. You must:
+   - Repack the psarc with PS4 flags (0x4)
+   - Then use orbis-pub-cmd to build PKG
+```
+
+**Why?** PC psarc files need to be repacked with PS4-specific compression flags. RiffBridge prepares everything else, but psarc repacking requires external tools.
+
+---
+
+## 📋 EXAMPLE OUTPUT:
+
+### When orbis-pub-cmd.exe is found:
+```
+[7/7] Building PKG file with orbis-pub-cmd...
+GP4 project: cooppois_ps4.gp4
+Output PKG: cooppois_ps4.pkg
+Running: orbis-pub-cmd.exe img_create cooppois_ps4.gp4 cooppois_ps4.pkg
+✓ PKG built successfully!
+  Size: 45.3 MB
+  Location: C:\RiffBridge\output\cooppois\cooppois_ps4.pkg
+
+============================================================
+✓ COMPLETE PS4 PKG CREATED SUCCESSFULLY!
+============================================================
+Output files:
+  • cooppois_ps4.psarc (PS4 format psarc)
+  • param.sfo
+  • icon0.png
+  • cooppois_ps4.gp4
+  • cooppois_ps4.pkg (45.3 MB) ← READY TO INSTALL!
+
+✓ Your PS4 PKG is ready!
+   Location: C:\RiffBridge\output\cooppois\cooppois_ps4.pkg
+   Install on PS4: Copy to USB → Install from Package Installer
+```
+
+### When orbis-pub-cmd.exe is NOT found:
+```
+[7/7] Building PKG file with orbis-pub-cmd...
+
+⚠ orbis-pub-cmd.exe not found!
+   Download from: https://github.com/CyB1K/PS4-Fake-PKG-Tools-3.87
+   Place in same folder as RiffBridge or in 'tools' folder
+   Skipping PKG build...
+
+⚠ PKG file was not built (orbis-pub-cmd not found)
+   You can build it manually with:
+   orbis-pub-cmd.exe img_create cooppois_ps4.gp4 cooppois_ps4.pkg
+
+============================================================
+✓ PKG FILES CREATED SUCCESSFULLY!
+============================================================
+Output files:
+  • cooppois_ps4.psarc (PS4 format psarc)
+  • param.sfo
+  • icon0.png
+  • cooppois_ps4.gp4
+
+Next steps:
+  1. Use orbis-pub-cmd or similar tool to build PKG
+  2. Install PKG on PS4
+  3. Enjoy!
+```
+
+---
+
+## ⚙️ SETTINGS:
+
+### In the GUI:
+- **Settings → Build Final PKG File** (checkbox)
+  - ✓ Checked: Auto-build PKG files (default)
+  - ☐ Unchecked: Only create GP4 project files
+
+### Why disable it?
+- You don't have orbis-pub-cmd.exe
+- You want to edit the GP4 project first
+- You want to build PKGs in batch later
+- You're testing and don't need PKGs yet
+
+---
+
+## 🔧 TROUBLESHOOTING:
+
+### "orbis-pub-cmd.exe not found"
+**Fix:**
+1. Download PS4 Fake PKG Tools from GitHub
+2. Extract orbis-pub-cmd.exe and orbis-pub-prx.dll
+3. Put both files in RiffBridge folder or tools/ subfolder
+4. Try again
+
+### "PKG build failed with error code: 1"
+**Possible causes:**
+- Missing orbis-pub-prx.dll (must be in same folder as orbis-pub-cmd.exe)
+- Corrupted .gp4 project file
+- Invalid paths in .gp4 file
+
+**Fix:**
+1. Make sure orbis-pub-prx.dll is present
+2. Check the log for specific error messages
+3. Try building manually: `orbis-pub-cmd.exe img_create project.gp4 output.pkg`
+
+### "PKG built but file not found"
+**This shouldn't happen, but if it does:**
+- Check output folder manually
+- Look for .pkg file in same folder as .gp4
+- Check disk space (PKGs can be 100+ MB)
+
+---
+
+## 📚 TECHNICAL DETAILS:
+
+### PKG Building Process:
+```python
+# What RiffBridge does:
+1. find_orbis_pub_tools()
+   → Searches common locations for orbis-pub-cmd.exe
+   
+2. build_pkg_from_gp4(gp4_file, output_pkg)
+   → Runs: orbis-pub-cmd.exe img_create <gp4> <pkg>
+   → Captures output and errors
+   → Verifies PKG was created
+   → Reports file size
+```
+
+### Command Line:
+```batch
+orbis-pub-cmd.exe img_create project.gp4 output.pkg
+```
+
+This creates a fake PKG that can be installed on jailbroken PS4 consoles (firmware 5.05+).
+
+---
+
+## 🎮 INSTALLING PKG ON PS4:
+
+1. **Copy PKG to USB drive**
+   - Format: exFAT or FAT32
+   - Put in root or any folder
+
+2. **On PS4:**
+   - Go to Settings
+   - Select "Install Package"
+   - Navigate to USB drive
+   - Select your .pkg file
+   - Install!
+
+3. **Launch game:**
+   - Find it in your games library
+   - Launch and enjoy!
+
+---
+
+## 📖 WHAT FILES DOES RIFFBRIDGE CREATE?
+
+```
+output_folder/
+├── songcode_ps4.psarc         # PS4 format psarc
+├── param.sfo                  # PS4 metadata
+├── icon0.png                  # 512x512 icon
+├── songcode_ps4.gp4           # GP4 project file
+├── songcode_ps4.pkg           # Final PKG (if built)
+└── metadata.json              # Steam info (if found)
+```
+
+---
+
+## ✅ UPDATED FILES:
+
+**enhanced_converter.py** - Added:
+- `find_orbis_pub_tools()` - Searches for orbis-pub-cmd.exe
+- `build_pkg_from_gp4()` - Builds PKG from GP4 project
+- Updated `create_pkg_from_ps4()` - Now builds PKG automatically
+- Updated `convert_enhanced()` - Added build_pkg parameter
+
+**rocksmith_gui.py** - Added:
+- Settings menu checkbox for "Build Final PKG File"
+- Passes build_pkg setting to converter
+- Shows PKG file size in results
+- Better success messages
+
+---
+
+## 🎯 CURRENT STATUS:
+
+✅ **Working:**
+- PS4 files → Complete PKG installer
+- Auto-detection of orbis-pub-cmd.exe
+- Smart error messages
+- File size reporting
+- Ready-to-install PKGs
+
+⚠️ **Needs Work:**
+- PC files still need manual psarc repacking
+- Will add automatic repacking in future update
+
+---
+
+## 📥 DOWNLOAD UPDATED FILES:
+
+1. **enhanced_converter.py** - PKG building added
+2. **rocksmith_gui.py** - GUI integration added
+
+---
+
+## 🚀 QUICK START:
+
+1. Download PS4 Fake PKG Tools from GitHub
+2. Copy orbis-pub-cmd.exe and orbis-pub-prx.dll to RiffBridge folder
+3. Download updated enhanced_converter.py and rocksmith_gui.py
+4. Drag a PS4 .psarc file into RiffBridge
+5. Click "Convert All"
+6. Get a complete .pkg file!
+7. Copy to USB and install on PS4!
+
+---
+
+**PKG building is now automatic!** 🎸

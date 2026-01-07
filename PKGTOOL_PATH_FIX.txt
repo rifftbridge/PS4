@@ -1,0 +1,122 @@
+# ✅ PKGTOOL PATH FIX - Working Directory Issue Resolved
+
+## 🐛 THE PROBLEM:
+
+PkgTool.exe was failing with:
+```
+[ERROR] File or Directory does not exist!
+```
+
+**Cause:** PkgTool was being run with absolute paths, but it needs to run from the directory containing the GP4 file and all the referenced files.
+
+---
+
+## ✅ THE FIX:
+
+### Changed Working Directory:
+**Before:** Ran PkgTool from wherever it was installed
+**After:** Runs PkgTool from the output directory where all files are
+
+### Changed Paths:
+**Before:**
+```
+PkgTool.exe pkg_build C:\Users\ag\Desktop\cooppois_p\cooppois_ps4.gp4 C:\Users\ag\Desktop\cooppois_p
+```
+
+**After:**
+```
+cd C:\Users\ag\Desktop\cooppois_p
+PkgTool.exe pkg_build cooppois_ps4.gp4 .
+```
+
+Using relative paths so PkgTool can find the files!
+
+---
+
+## 🎯 WHAT TO EXPECT NOW:
+
+```
+[7/7] Building PKG file with PkgTool.exe...
+GP4 project: cooppois_ps4.gp4
+Working directory: C:\Users\ag\Desktop\cooppois_p
+Using LibOrbisPkg (open source)
+Command: PkgTool.exe pkg_build cooppois_ps4.gp4 .
+Return code: 0
+✓ PKG built successfully!
+  File: EP0001-CUSA00745_00-SONGCOOPPOIS0000.pkg
+  Size: 45.3 MB
+  Location: C:\Users\ag\Desktop\cooppois_p\EP0001-CUSA00745_00-SONGCOOPPOIS0000.pkg
+```
+
+---
+
+## 📋 FOLDER STRUCTURE (What PkgTool Sees):
+
+```
+cooppois_p/    ← Working directory
+├── cooppois_ps4.gp4          ← Relative: cooppois_ps4.gp4
+├── cooppois_ps4.psarc        ← Relative: cooppois_ps4.psarc
+└── sce_sys/
+    ├── param.sfo             ← Relative: sce_sys/param.sfo
+    └── icon0.png             ← Relative: sce_sys/icon0.png
+```
+
+PkgTool reads the GP4 which references files like:
+- `sce_sys/param.sfo` → Found! ✓
+- `sce_sys/icon0.png` → Found! ✓
+- `cooppois_ps4.psarc` → Found! ✓
+
+---
+
+## 🔍 DEBUGGING FEATURES:
+
+If PKG build fails, the new code will:
+
+1. **Show return code:**
+   ```
+   Return code: 1
+   ```
+
+2. **Show stdout/stderr:**
+   ```
+   stdout: [ERROR] Missing required files
+   ```
+
+3. **List directory contents:**
+   ```
+   Files in C:\Users\ag\Desktop\cooppois_p:
+     - cooppois_ps4.gp4
+     - cooppois_ps4.psarc
+     - sce_sys/ (directory)
+       - param.sfo
+       - icon0.png
+   ```
+
+This helps diagnose what's wrong!
+
+---
+
+## ⚡ SETUP:
+
+```
+1. Download: enhanced_converter.py (updated version above)
+2. Replace in: C:\RiffBridge\
+3. Delete: dist\RiffBridge.exe
+4. Run: BUILD_COMPLETE.bat
+5. Test: dist\RiffBridge.exe
+```
+
+---
+
+## 🎸 IT SHOULD WORK NOW!
+
+The PKG will be created with the correct Content ID as the filename:
+```
+EP0001-CUSA00745_00-SONGCOOPPOIS0000.pkg
+```
+
+Ready to install on PS4!
+
+---
+
+**Key Change: PkgTool now runs from the correct directory with relative paths!** 🚀

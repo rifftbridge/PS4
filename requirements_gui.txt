@@ -1,0 +1,13 @@
+# Requirements for Rocksmith PC to PS4 Converter GUI
+
+# Core GUI framework
+tkinterdnd2>=0.3.0
+
+# Image processing for icon generation
+pillow>=9.0.0
+
+# Steam API integration
+requests>=2.28.0
+
+# For building Windows executable
+pyinstaller>=5.7.0
