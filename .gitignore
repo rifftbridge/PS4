@@ -13,3 +13,13 @@ poison_pfs.img
 # Test build directories
 test_build/
 rocksmith-custom-song-toolkit/
+
+# New tool repositories
+MakePFS/
+pkg_pfs_tool/
+
+# Test/build directories
+test_conversion/
+poison_extracted/
+poison.gp4
+config.ini
