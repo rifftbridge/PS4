@@ -1,0 +1,14 @@
+
+# Cloned tool repositories
+FPKGi/
+LibOrbisPkg/
+fpkg-tools/
+pkgtoolbox/
+PS4_Tools/
+
+# Extracted analysis data
+poison_entries/
+poison_pfs.img
+
+# Test build directories
+test_build/
