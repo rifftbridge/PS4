@@ -323,14 +323,23 @@ class RocksmithGUI:
         
         ttk.Button(output_frame, text="📁 Change", command=self.choose_output_dir).pack(side=tk.LEFT)
         
-        # Right side - Convert button
-        self.convert_btn = ttk.Button(
+        # Right side - Convert button (Large & Red!)
+        self.convert_btn = tk.Button(
             control_frame,
-            text="🚀 Convert All",
+            text="🚀 CONVERT ALL",
             command=self.start_conversion,
-            style='Accent.TButton'
+            font=('Arial', 16, 'bold'),
+            bg='#DC143C',  # Crimson red
+            fg='white',
+            activebackground='#FF0000',  # Bright red when clicked
+            activeforeground='white',
+            relief=tk.RAISED,
+            bd=3,
+            padx=30,
+            pady=15,
+            cursor='hand2'
         )
-        self.convert_btn.grid(row=0, column=1, sticky=tk.E, padx=5)
+        self.convert_btn.grid(row=0, column=1, sticky=tk.E, padx=10, pady=5)
         
         # Progress bar
         self.progress_bar = ttk.Progressbar(
@@ -546,7 +555,7 @@ class RocksmithGUI:
             return
         
         # Disable convert button
-        self.convert_btn.config(state=tk.DISABLED, text="Converting...")
+        self.convert_btn.config(state=tk.DISABLED, text="⏳ CONVERTING...", bg='#808080')
         self.is_converting = True
         
         # Start conversion in thread
@@ -650,7 +659,7 @@ class RocksmithGUI:
     def conversion_complete(self):
         """Called when batch conversion completes"""
         self.is_converting = False
-        self.convert_btn.config(state=tk.NORMAL, text="🚀 Convert All")
+        self.convert_btn.config(state=tk.NORMAL, text="🚀 CONVERT ALL", bg='#DC143C')
         
         # Count results
         completed = sum(1 for job in self.jobs if job.status == "Complete")
