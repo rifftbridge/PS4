@@ -1,0 +1,63 @@
+{
+  "_comment": "Official PS4 Content ID Mapping for Rocksmith 2014 DLC",
+  "_description": "Maps Steam App IDs and song codes to official PS4 Content IDs from Sony/Ubisoft",
+  "_source": "https://serialstation.com/titles/CUSA/00745",
+  "_format": {
+    "steam_app_id": "string - Steam App ID (if known)",
+    "song_code": "string - Internal Rocksmith song code",
+    "artist": "string - Artist name",
+    "song": "string - Song title",
+    "content_id": "string - Official PS4 Content ID (REQUIRED FOR INSTALLATION)",
+    "region": "string - Region code (EP=Europe, UP=USA, JP=Japan)"
+  },
+
+  "_instructions": "To add a new DLC mapping:",
+  "_step1": "Find the DLC at https://serialstation.com/titles/CUSA/00745",
+  "_step2": "Look for the 'Content ID' column (format: XX####-CUSA00745_00-################)",
+  "_step3": "Add entry below with steam_app_id, song_code, and official content_id",
+
+  "mappings": [
+    {
+      "steam_app_id": "222120",
+      "song_code": "AliceCooper",
+      "artist": "Alice Cooper",
+      "song": "Poison",
+      "content_id": "EXAMPLE-CUSA00745_00-ALICECOOPERPOISO",
+      "region": "EP",
+      "note": "This is an EXAMPLE - replace with actual Content ID from SerialStation"
+    },
+    {
+      "steam_app_id": "222121",
+      "song_code": "TheBlackKeys",
+      "artist": "The Black Keys",
+      "song": "Gold on the Ceiling",
+      "content_id": "EXAMPLE-CUSA00745_00-BLACKKEYSGOLDCEI",
+      "region": "EP",
+      "note": "This is an EXAMPLE - replace with actual Content ID from SerialStation"
+    }
+  ],
+
+  "_important_notes": [
+    "CRITICAL: You MUST use the official Content IDs from SerialStation or the PS4 will reject the package with error CE-34707-1",
+    "Each official Rocksmith DLC has a unique Content ID assigned by Sony/Ubisoft",
+    "Generated/random Content IDs will NOT work - they must match the official database",
+    "If a song is not in SerialStation, it may be a custom/unofficial DLC that needs a properly formatted but unique ID",
+    "Content IDs must be EXACTLY 36 characters: REGION-CUSA00745_00-XXXXXXXXXXXXXXXX",
+    "The last 16 characters (XXXXXXXXXXXXXXXX) are unique to each DLC"
+  ],
+
+  "_region_codes": {
+    "EP": "Europe (SCEE)",
+    "UP": "USA (SCEA)",
+    "JP": "Japan (SCEJ)",
+    "HP": "Asia (SCEH)"
+  },
+
+  "_custom_dlc_guidelines": [
+    "For custom/unofficial songs NOT in SerialStation:",
+    "1. Use format: REGION-CUSA00745_00-CUSTOMSONGXXXXXX",
+    "2. Make the last 16 chars unique (use song code or hash)",
+    "3. Keep a record to avoid conflicts with future custom DLCs",
+    "4. Example: EP0001-CUSA00745_00-CUSTOMSONG000001"
+  ]
+}

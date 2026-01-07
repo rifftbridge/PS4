@@ -11,8 +11,9 @@ This version can:
 
 import sys
 import struct
+import json
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict
 
 # Import the base converter
 try:
@@ -32,11 +33,63 @@ except ImportError:
 
 class EnhancedRocksmithConverter(RocksmithPS4Converter):
     """Enhanced converter with Steam DLC database integration"""
-    
+
     def __init__(self, verbose: bool = True, use_steam_db: bool = True):
         super().__init__(verbose)
         self.use_steam_db = use_steam_db
         self.steam_db = SteamDLCDatabase() if use_steam_db else None
+        self.content_id_mapping = self.load_content_id_mapping()
+
+    def load_content_id_mapping(self) -> Dict:
+        """Load official PS4 Content ID mappings from JSON file"""
+        try:
+            mapping_file = Path(__file__).parent / "ps4_content_id_mapping.json"
+            if mapping_file.exists():
+                with open(mapping_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    mappings = data.get('mappings', [])
+                    if self.verbose and mappings:
+                        self.log(f"✓ Loaded {len(mappings)} official Content ID mappings")
+                    return data
+            else:
+                if self.verbose:
+                    self.log("⚠ No Content ID mapping file found (ps4_content_id_mapping.json)")
+                return {'mappings': []}
+        except Exception as e:
+            if self.verbose:
+                self.log(f"⚠ Could not load Content ID mapping: {e}")
+            return {'mappings': []}
+
+    def lookup_official_content_id(self, app_id: Optional[int] = None,
+                                   song_code: Optional[str] = None) -> Optional[str]:
+        """
+        Look up official PS4 Content ID from mapping database
+
+        Args:
+            app_id: Steam App ID
+            song_code: Rocksmith song code
+
+        Returns:
+            Official Content ID if found, None otherwise
+        """
+        mappings = self.content_id_mapping.get('mappings', [])
+
+        for mapping in mappings:
+            # Try to match by Steam App ID first
+            if app_id and str(mapping.get('steam_app_id', '')) == str(app_id):
+                content_id = mapping.get('content_id')
+                if content_id and 'EXAMPLE' not in content_id:
+                    self.log(f"✓ Found official Content ID for App ID {app_id}: {content_id}")
+                    return content_id
+
+            # Try to match by song code
+            if song_code and mapping.get('song_code', '').lower() == song_code.lower():
+                content_id = mapping.get('content_id')
+                if content_id and 'EXAMPLE' not in content_id:
+                    self.log(f"✓ Found official Content ID for song code '{song_code}': {content_id}")
+                    return content_id
+
+        return None
     
     def detect_steam_app_id(self, pc_unpacked_dir: Path) -> Optional[int]:
         """
@@ -179,19 +232,34 @@ class EnhancedRocksmithConverter(RocksmithPS4Converter):
                 if app_id:
                     self.log(f"  Steam App ID: {app_id}")
             
-            # Generate Content ID
+            # Generate Content ID with priority order:
+            # 1. User-specified (highest priority)
+            # 2. Official mapping database
+            # 3. Steam-based generation
+            # 4. Hash-based fallback (lowest priority)
             if not content_id:
-                if app_id and auto_steam:
-                    # Use Steam-based Content ID
+                # Try to find official Content ID from mapping database
+                song_code = song_info.get('song_code', '')
+                official_id = self.lookup_official_content_id(app_id=app_id, song_code=song_code)
+
+                if official_id:
+                    # Use official Content ID from mapping
+                    content_id = official_id
+                    self.log(f"✓ Using OFFICIAL Content ID from mapping database")
+                elif app_id and auto_steam:
+                    # Use Steam-based Content ID (generated - may not work!)
                     content_id = self.generate_steam_content_id(app_id, region, title_id)
+                    self.log(f"⚠ WARNING: Generated Content ID - may cause CE-34707-1 error on PS4!")
+                    self.log(f"⚠ Add official Content ID to ps4_content_id_mapping.json for this DLC")
                 else:
-                    # Use hash-based Content ID (fallback)
+                    # Use hash-based Content ID (fallback - likely won't work!)
                     import hashlib
                     hash_input = f"{song_info.get('artist', '')}{song_info.get('song_name', '')}"
                     hash_suffix = hashlib.md5(hash_input.encode()).hexdigest()[:16].upper()
                     content_id = f"{region}-{title_id}_00-{hash_suffix}"
-                    self.log(f"  Generated Content ID from hash: {content_id}")
-            
+                    self.log(f"⚠ WARNING: Generated Content ID from hash - will likely cause CE-34707-1 error!")
+                    self.log(f"⚠ Provide official Content ID with --content-id parameter or add to mapping file")
+
             self.log(f"\n  Final Content ID: {content_id}")
             
             # Step 4: Convert structure
@@ -468,23 +536,37 @@ class EnhancedRocksmithConverter(RocksmithPS4Converter):
             else:
                 self.log("\n[1/5] Skipping Steam detection")
             
-            # Generate Content ID
+            # Generate Content ID with priority order:
+            # 1. User-specified (highest priority)
+            # 2. Official mapping database
+            # 3. Steam-based generation
+            # 4. Song code fallback (lowest priority)
             self.log("\n[2/5] Generating Content ID...")
             if not content_id:
-                if app_id:
-                    # Use Steam-based content ID
+                # Try to find official Content ID from mapping database
+                official_id = self.lookup_official_content_id(app_id=app_id, song_code=song_code)
+
+                if official_id:
+                    # Use official Content ID from mapping
+                    content_id = official_id
+                    self.log(f"✓ Using OFFICIAL Content ID from mapping database")
+                elif app_id:
+                    # Use Steam-based content ID (generated - may not work!)
                     content_id = self.generate_steam_content_id(
                         app_id=app_id,
                         region=region,
                         title_id=title_id
                     )
+                    self.log(f"⚠ WARNING: Generated Content ID - may cause CE-34707-1 error on PS4!")
+                    self.log(f"⚠ Add official Content ID to ps4_content_id_mapping.json for this DLC")
                 else:
-                    # Generate generic content ID from song code
+                    # Generate generic content ID from song code (likely won't work!)
                     # Format: REGION-TITLEID_00-SONGCODE0000000
                     song_suffix = f"SONG{song_code.upper()}".ljust(16, '0')[:16]
                     content_id = f"{region}-{title_id}_00-{song_suffix}"
-                    self.log(f"  Generated generic Content ID: {content_id}")
-            
+                    self.log(f"⚠ WARNING: Generated Content ID - will likely cause CE-34707-1 error!")
+                    self.log(f"⚠ Provide official Content ID with --content-id parameter or add to mapping file")
+
             self.log(f"Content ID: {content_id}")
             
             # Copy PS4 psarc to output (rename with proper naming)
