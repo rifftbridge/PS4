@@ -23,3 +23,7 @@ test_conversion/
 poison_extracted/
 poison.gp4
 config.ini
+
+# Additional tool repositories
+GameArchives/
+PSFSKKey/
