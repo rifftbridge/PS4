@@ -1,0 +1,119 @@
+================================================================================
+                    RIFFBRIDGE BUILD FILES CHECKLIST
+================================================================================
+
+ESSENTIAL FILES TO BUILD THE APPLICATION
+================================================================================
+
+PYTHON SOURCE FILES (5 files - REQUIRED)
+----------------------------------------
+[ ] rocksmith_gui.py              - Main GUI application (entry point)
+[ ] enhanced_converter.py         - Enhanced PC→PS4 converter
+[ ] rocksmith_pc_to_ps4.py        - Base converter module
+[ ] steam_dlc_database.py         - Steam DLC metadata fetcher
+[ ] ps4_pkg_builder.py            - Python PKG builder
+
+CONFIGURATION FILES (4 files - REQUIRED)
+----------------------------------------
+[ ] RiffBridge.spec               - PyInstaller build configuration
+[ ] requirements-dev.txt          - Build dependencies (includes PyInstaller)
+[ ] requirements.txt              - Runtime dependencies
+[ ] ps4_content_id_mapping.json   - Official Content ID mappings (NEW!)
+
+ASSET FILES (2 files - REQUIRED)
+---------------------------------
+[ ] RiffBridge_icon.ico           - Application icon
+[ ] Riff_Bridge_cover_art.jpg     - GUI artwork
+
+OPTIONAL BUT RECOMMENDED
+------------------------
+[ ] PKGTool.exe                   - Windows PKG builder (better compatibility)
+[ ] README_CONTENT_ID_FIX.md      - User guide for Content ID errors
+
+================================================================================
+                            BUILD PROCESS
+================================================================================
+
+STEP 1: INSTALL DEPENDENCIES
+-----------------------------
+pip install -r requirements-dev.txt
+
+This installs:
+  - tkinterdnd2 >=0.4.3
+  - pillow >=12.1.0
+  - requests >=2.32.5
+  - pyinstaller >=6.17.0
+
+
+STEP 2: BUILD EXECUTABLE
+-------------------------
+pyinstaller RiffBridge.spec
+
+Output location: dist/RiffBridge.exe
+
+
+STEP 3: CREATE DISTRIBUTION PACKAGE
+------------------------------------
+Copy these files to a release folder:
+
+  RiffBridge.exe                 (from dist/ folder)
+  ps4_content_id_mapping.json    (required for Content ID fix)
+  PKGTool.exe                    (optional)
+  README_CONTENT_ID_FIX.md       (optional but helpful)
+  QUICK_SETUP.txt                (optional)
+
+================================================================================
+                         QUICK BUILD COMMANDS
+================================================================================
+
+Windows:
+--------
+pip install -r requirements-dev.txt
+pyinstaller RiffBridge.spec
+mkdir RiffBridge-Release
+copy dist\RiffBridge.exe RiffBridge-Release\
+copy ps4_content_id_mapping.json RiffBridge-Release\
+copy README_CONTENT_ID_FIX.md RiffBridge-Release\
+
+
+Linux/Mac:
+----------
+pip install -r requirements-dev.txt
+pyinstaller RiffBridge.spec
+mkdir RiffBridge-Release
+cp dist/RiffBridge RiffBridge-Release/
+cp ps4_content_id_mapping.json RiffBridge-Release/
+cp README_CONTENT_ID_FIX.md RiffBridge-Release/
+
+================================================================================
+                              IMPORTANT NOTES
+================================================================================
+
+NEW FEATURE - Content ID Mapping:
+----------------------------------
+The ps4_content_id_mapping.json file is ESSENTIAL for fixing CE-34707-1 errors!
+Users need this file next to RiffBridge.exe to convert DLCs properly.
+
+Add official Content IDs from: https://serialstation.com/titles/CUSA/00745
+
+
+What's Bundled in the .exe:
+----------------------------
+✓ All Python source files
+✓ tkinterdnd2, Pillow, requests libraries
+✓ RiffBridge_icon.ico
+✓ Riff_Bridge_cover_art.jpg
+
+What's NOT Bundled (external files):
+-------------------------------------
+✗ ps4_content_id_mapping.json  (must be next to .exe)
+✗ PKGTool.exe                  (optional, if included)
+
+================================================================================
+                          MINIMUM FILE COUNT
+================================================================================
+
+TO BUILD:     11 files (5 .py + 4 configs + 2 assets)
+TO DISTRIBUTE: 2 files (RiffBridge.exe + ps4_content_id_mapping.json)
+
+================================================================================
