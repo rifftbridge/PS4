@@ -1,0 +1,15 @@
+# Development and Build Requirements for RiffBridge
+# Last updated: 2026-01-07
+
+# Include runtime dependencies
+-r requirements.txt
+
+# Build dependencies
+pyinstaller>=6.17.0
+
+# Development tools (optional but recommended)
+# Uncomment to use:
+# pytest>=8.0.0          # Testing framework
+# black>=24.0.0          # Code formatter
+# mypy>=1.8.0            # Type checker
+# pip-audit>=2.10.0      # Security vulnerability scanner

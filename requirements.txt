@@ -1,0 +1,12 @@
+# Requirements for Rocksmith PC to PS4 Converter (RiffBridge)
+# Runtime dependencies only
+# Last updated: 2026-01-07
+
+# Core GUI framework - drag and drop support
+tkinterdnd2>=0.4.3
+
+# Image processing for artwork display and icon generation
+pillow>=12.1.0
+
+# HTTP library for Steam API integration
+requests>=2.32.5
