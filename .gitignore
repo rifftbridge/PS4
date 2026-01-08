@@ -20,6 +20,7 @@ pkg_pfs_tool/
 
 # Test/build directories
 test_conversion/
+test_fixed/
 poison_extracted/
 poison.gp4
 config.ini
