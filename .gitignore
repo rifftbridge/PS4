@@ -22,9 +22,11 @@ pkg_pfs_tool/
 test_conversion/
 test_fixed/
 test_fixed2/
+test_arczi_replica/
 poison_extracted/
 poison.gp4
 config.ini
+__pycache__/
 
 # Additional tool repositories
 GameArchives/
