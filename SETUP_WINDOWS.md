@@ -33,10 +33,25 @@ Replace with the actual path you found earlier.
 
 ## Step 4: Test It
 
+**Option A - Using the batch script:**
 ```batch
 cd C:\test
-convert_song.bat cooppois_p.psarc "Poison by Alice Cooper"
+.\convert_song.bat cooppois_p.psarc "Poison by Alice Cooper"
 ```
+
+**Option B - Manual steps (if you prefer):**
+```powershell
+# Step 1: Create GP4 project
+python rocksmith_pc_to_ps4_complete.py cooppois_p.psarc poison_output "Poison by Alice Cooper"
+
+# Step 2: Build PKG (note the .\ prefix and . at the end!)
+.\PkgTool.Core.exe pkg_build poison_output\cooppois_p.gp4 poison_output
+```
+
+**Important PowerShell Notes:**
+- Always use `.\` prefix for local executables (e.g., `.\convert_song.bat`)
+- The `.` at the end of PkgTool command is the output directory
+- If you see "command not found", you forgot the `.\` prefix
 
 ## Troubleshooting
 
