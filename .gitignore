@@ -23,10 +23,12 @@ test_conversion/
 test_fixed/
 test_fixed2/
 test_arczi_replica/
+test_pc_format/
 poison_extracted/
 poison.gp4
 config.ini
 __pycache__/
+test_*.psarc
 
 # Additional tool repositories
 GameArchives/
