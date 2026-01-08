@@ -17,12 +17,12 @@ def create_param_sfo(content_id: str, title: str, title_id: str = "CUSA00745", v
     """Create param.sfo file in little-endian format"""
     entries = [
         ("ATTRIBUTE", 0, 4, 0x0404),
-        ("CATEGORY", "ac", 4, 0x0402),
-        ("CONTENT_ID", content_id, 48, 0x0402),
-        ("FORMAT", "obs", 4, 0x0402),
-        ("TITLE", title, 128, 0x0402),
-        ("TITLE_ID", title_id, 12, 0x0402),
-        ("VERSION", version, 8, 0x0402),
+        ("CATEGORY", "ac", 4, 0x0204),
+        ("CONTENT_ID", content_id, 48, 0x0204),
+        ("FORMAT", "obs", 4, 0x0204),
+        ("TITLE", title, 128, 0x0204),
+        ("TITLE_ID", title_id, 12, 0x0204),
+        ("VERSION", version, 8, 0x0204),
     ]
 
     sfo = bytearray()
@@ -89,10 +89,11 @@ def create_icon_png() -> bytes:
 
 def generate_content_id(psarc_name: str, title_id: str = "CUSA00745", region: str = "EP0001") -> str:
     """Generate a unique Content ID based on PSARC filename"""
-    # Hash the filename to create unique ID
+    # Hash the filename to create unique ID (12 chars to make total 16 with RS00 prefix)
     hash_obj = hashlib.md5(psarc_name.encode())
-    unique_id = hash_obj.hexdigest()[:16].upper()
+    unique_id = hash_obj.hexdigest()[:12].upper()
 
+    # Format: EP0001-CUSA00745_00-RS00XXXXXXXXXXXX (total 36 chars)
     return f"{region}-{title_id}_00-RS00{unique_id}"
 
 
