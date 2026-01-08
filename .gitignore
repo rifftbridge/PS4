@@ -24,11 +24,14 @@ test_fixed/
 test_fixed2/
 test_arczi_replica/
 test_pc_format/
+test_steam_official/
 poison_extracted/
 poison.gp4
 config.ini
 __pycache__/
 test_*.psarc
+*_pc.psarc
+dlc_*.psarc
 
 # Additional tool repositories
 GameArchives/
