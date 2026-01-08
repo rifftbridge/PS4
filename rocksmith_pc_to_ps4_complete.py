@@ -15,11 +15,16 @@ import hashlib
 
 def create_param_sfo(content_id: str, title: str, title_id: str = "CUSA00745", version: str = "01.00") -> bytes:
     """Create param.sfo file in little-endian format"""
+    # PUBTOOLINFO contains PFS image metadata - required for DLC to load properly
+    pubtoolinfo = "c_date=20250317,img0_l0_size=6,img0_l1_size=0,img0_sc_ksize=512,img0_pc_ksize=576"
+
     entries = [
         ("ATTRIBUTE", 0, 4, 0x0404),
         ("CATEGORY", "ac", 4, 0x0204),
         ("CONTENT_ID", content_id, 48, 0x0204),
         ("FORMAT", "obs", 4, 0x0204),
+        ("PUBTOOLINFO", pubtoolinfo, 512, 0x0204),
+        ("PUBTOOLVER", 0x03870000, 4, 0x0404),
         ("TITLE", title, 128, 0x0204),
         ("TITLE_ID", title_id, 12, 0x0204),
         ("VERSION", version, 8, 0x0204),
