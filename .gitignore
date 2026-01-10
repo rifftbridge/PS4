@@ -18,7 +18,7 @@ rocksmith-custom-song-toolkit/
 MakePFS/
 pkg_pfs_tool/
 
-# Test/build directories
+# Test/build directories (but NOT final_test/)
 test_conversion/
 test_fixed/
 test_fixed2/
@@ -32,6 +32,12 @@ __pycache__/
 test_*.psarc
 *_pc.psarc
 dlc_*.psarc
+
+# Build outputs within final_test
+final_test/build_dir/
+final_test/*.gp4
+final_test/*.pkg
+final_test/*_pc.psarc
 
 # Additional tool repositories
 GameArchives/
