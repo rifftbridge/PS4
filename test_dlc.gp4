@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<psproject fmt="gp4" version="1000">
+  <volume>
+    <volume_type>pkg_ps4_ac_data</volume_type>
+    <volume_id>PS4VOLUME</volume_id>
+    <volume_ts>2026-01-07 00:00:00</volume_ts>
+    <package content_id="EP0001-CUSA00745_00-RS002SONG0001059" passcode="00000000000000000000000000000000" entitlement_key="00000000000000000000000000000000" storage_type="digital50" app_type="full" c_date="2026-01-07" />
+  </volume>
+  <files img_no="0">
+    <file targ_path="sce_sys/param.sfo" orig_path="test_build/CUSA00745-app/sce_sys/param.sfo" />
+    <file targ_path="sce_sys/icon0.png" orig_path="test_build/CUSA00745-app/sce_sys/icon0.png" />
+    <file targ_path="cooppois.psarc" orig_path="test_build/CUSA00745-app/cooppois.psarc" />
+  </files>
+  <rootdir>
+    <dir targ_name="sce_sys" />
+  </rootdir>
+</psproject>

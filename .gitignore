@@ -1,0 +1,44 @@
+
+# Cloned tool repositories
+FPKGi/
+LibOrbisPkg/
+fpkg-tools/
+pkgtoolbox/
+PS4_Tools/
+
+# Extracted analysis data
+poison_entries/
+poison_pfs.img
+
+# Test build directories
+test_build/
+rocksmith-custom-song-toolkit/
+
+# New tool repositories
+MakePFS/
+pkg_pfs_tool/
+
+# Test/build directories (but NOT final_test/)
+test_conversion/
+test_fixed/
+test_fixed2/
+test_arczi_replica/
+test_pc_format/
+test_steam_official/
+poison_extracted/
+poison.gp4
+config.ini
+__pycache__/
+test_*.psarc
+*_pc.psarc
+dlc_*.psarc
+
+# Build outputs within final_test
+final_test/build_dir/
+final_test/*.gp4
+final_test/*.pkg
+final_test/*_pc.psarc
+
+# Additional tool repositories
+GameArchives/
+PSFSKKey/

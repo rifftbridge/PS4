@@ -1,0 +1,31 @@
+CHECKLIST - Files Needed for Arczi Replica Test
+================================================
+
+✅ FILES INCLUDED (in final_test folder):
+  ✓ rocksmith_pc_to_ps4_complete.py
+  ✓ rebuild_arczi_replica.bat
+  ✓ CoopPois_from_working_pkg.psarc (4.8 MB - from working Arczi PKG)
+  ✓ icon0_from_working_pkg.png (474 KB - optional)
+  ✓ README.md
+  ✓ CHECKLIST.txt (this file)
+
+❌ FILES YOU NEED TO ADD:
+  ☐ PkgTool.Core.exe (from C:\test)
+  ☐ PkgTool.Core.dll (from C:\test)
+  ☐ All other .dll files from C:\test
+
+HOW TO ADD THEM:
+  1. Open C:\test folder
+  2. Copy PkgTool.Core.exe to this folder
+  3. Copy all .dll files to this folder
+
+THEN RUN:
+  .\rebuild_arczi_replica.bat
+
+RESULT:
+  PKG file named: EP0001-CUSA00745_00-RS00XXXXXXXX.pkg
+
+TEST IT:
+  1. Copy PKG to USB (FAT32): PS4\PACKAGES\
+  2. Install on PS4
+  3. Report results!
