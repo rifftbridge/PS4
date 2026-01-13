@@ -80,7 +80,17 @@ def convert_single_dlc(psarc_file: Path, output_dir: Path, pkgtool_path: Path, c
     pkg_file = max(pkg_files, key=lambda p: p.stat().st_mtime)
     pkg_size = pkg_file.stat().st_size / (1024 * 1024)
 
-    print(f"\n✅ Success: {pkg_file.name} ({pkg_size:.1f} MB)")
+    # Rename PKG to human-readable format
+    # Convert "Song Name by Artist" to "Artist-Song_Name_(PS4).pkg"
+    clean_name = song_name.replace(' by ', '-').replace(' ', '_').replace('/', '_').replace('\\', '_')
+    clean_name = ''.join(c for c in clean_name if c.isalnum() or c in '-_')
+    new_pkg_name = f"{clean_name}_(PS4).pkg"
+    new_pkg_path = output_dir / new_pkg_name
+
+    # Rename the PKG
+    pkg_file.rename(new_pkg_path)
+
+    print(f"\n✅ Success: {new_pkg_name} ({pkg_size:.1f} MB)")
 
     # Clean up GP4 file
     gp4_file.unlink()
