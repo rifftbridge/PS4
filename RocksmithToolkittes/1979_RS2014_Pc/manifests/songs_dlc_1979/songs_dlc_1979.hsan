@@ -1,0 +1,112 @@
+{
+    "Entries" : {
+        "661FF57EF67032EABC90D9026F6A687E" : {
+            "Attributes" : {
+                "AlbumArt" : "urn:image:dds:album_1979", 
+                "AlbumName" : "Mellon Collie and the Infinite Sadness", 
+                "AlbumNameSort" : "Mellon Collie and the Infinite Sadness", 
+                "ArrangementName" : "Lead", 
+                "ArtistName" : "The Smashing Pumpkins", 
+                "ArtistNameSort" : "Smashing Pumpkins", 
+                "CentOffset" : 0.0, 
+                "DLC" : true, 
+                "DLCKey" : "1979", 
+                "DNA_Chords" : 219.887, 
+                "DNA_Riffs" : 250.148, 
+                "DNA_Solo" : 0.0, 
+                "EasyMastery" : 0.154942125, 
+                "LeaderboardChallengeRating" : 0, 
+                "ManifestUrn" : "urn:database:json-db:1979_lead", 
+                "MasterID_RDV" : 30058, 
+                "MediumMastery" : 0.347284049, 
+                "NotesEasy" : 174.0, 
+                "NotesHard" : 1123.0, 
+                "NotesMedium" : 390.0, 
+                "PersistentID" : "661FF57EF67032EABC90D9026F6A687E", 
+                "Representative" : 1, 
+                "RouteMask" : 1, 
+                "SKU" : "RS2", 
+                "Shipping" : true, 
+                "SongDiffEasy" : 0.7178257, 
+                "SongDiffHard" : 0.344541252, 
+                "SongDiffMed" : 0.482134134, 
+                "SongDifficulty" : 0.344541252, 
+                "SongKey" : "1979", 
+                "SongLength" : 276.662, 
+                "SongName" : "1979", 
+                "SongNameSort" : "1979", 
+                "SongYear" : 1995, 
+                "Tuning" : {
+                    "string0" : -1, 
+                    "string1" : -1, 
+                    "string2" : -1, 
+                    "string3" : -1, 
+                    "string4" : -1, 
+                    "string5" : -1
+                }
+            }
+        }, 
+        "7E8E1187F3F47645DE6B9B6425168427" : {
+            "Attributes" : {
+                "AlbumArt" : "urn:image:dds:album_1979", 
+                "ArrangementName" : "Vocals", 
+                "DLC" : true, 
+                "DLCKey" : "1979", 
+                "LeaderboardChallengeRating" : 0, 
+                "ManifestUrn" : "urn:database:json-db:1979_vocals", 
+                "MasterID_RDV" : 30059, 
+                "PersistentID" : "7E8E1187F3F47645DE6B9B6425168427", 
+                "SKU" : "RS2", 
+                "Shipping" : true, 
+                "SongKey" : "1979"
+            }
+        }, 
+        "8719051FCEE5E6142C6F97F1BC705DAB" : {
+            "Attributes" : {
+                "AlbumArt" : "urn:image:dds:album_1979", 
+                "AlbumName" : "Mellon Collie and the Infinite Sadness", 
+                "AlbumNameSort" : "Mellon Collie and the Infinite Sadness", 
+                "ArrangementName" : "Bass", 
+                "ArtistName" : "The Smashing Pumpkins", 
+                "ArtistNameSort" : "Smashing Pumpkins", 
+                "CentOffset" : 0.0, 
+                "DLC" : true, 
+                "DLCKey" : "1979", 
+                "DNA_Chords" : 0.0, 
+                "DNA_Riffs" : 0.0, 
+                "DNA_Solo" : 0.0, 
+                "EasyMastery" : 0.185243323, 
+                "LeaderboardChallengeRating" : 0, 
+                "ManifestUrn" : "urn:database:json-db:1979_bass", 
+                "MasterID_RDV" : 30057, 
+                "MediumMastery" : 0.48037678, 
+                "NotesEasy" : 118.0, 
+                "NotesHard" : 637.0, 
+                "NotesMedium" : 306.0, 
+                "PersistentID" : "8719051FCEE5E6142C6F97F1BC705DAB", 
+                "Representative" : 1, 
+                "RouteMask" : 4, 
+                "SKU" : "RS2", 
+                "Shipping" : true, 
+                "SongDiffEasy" : 0.4795024, 
+                "SongDiffHard" : 0.243458062, 
+                "SongDiffMed" : 0.156405255, 
+                "SongDifficulty" : 0.243458062, 
+                "SongKey" : "1979", 
+                "SongLength" : 276.662, 
+                "SongName" : "1979", 
+                "SongNameSort" : "1979", 
+                "SongYear" : 1995, 
+                "Tuning" : {
+                    "string0" : -1, 
+                    "string1" : -1, 
+                    "string2" : -1, 
+                    "string3" : -1, 
+                    "string4" : -1, 
+                    "string5" : -1
+                }
+            }
+        }
+    }, 
+    "InsertRoot" : "Static.Songs.Headers"
+}

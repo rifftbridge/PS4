@@ -1,0 +1,1696 @@
+{
+  "Entries": {
+    "40F73181AE308F484C8DDCC16D35DC9C": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_cooppois", 
+        "AlbumName": "Trash", 
+        "AlbumNameSort": "Trash", 
+        "ArrangementName": "Bass", 
+        "ArrangementProperties": {
+          "barreChords": 0, 
+          "bassPick": 0, 
+          "bends": 0, 
+          "bonusArr": 0, 
+          "doubleStops": 0, 
+          "dropDPower": 0, 
+          "fifthsAndOctaves": 0, 
+          "fingerPicking": 0, 
+          "fretHandMutes": 0, 
+          "harmonics": 0, 
+          "hopo": 0, 
+          "nonStandardChords": 0, 
+          "openChords": 0, 
+          "palmMutes": 0, 
+          "pathBass": 1, 
+          "pathLead": 0, 
+          "pathRhythm": 0, 
+          "pickDirection": 0, 
+          "pinchHarmonics": 0, 
+          "powerChords": 0, 
+          "represent": 1, 
+          "routeMask": 4, 
+          "slapPop": 0, 
+          "slides": 1, 
+          "standardTuning": 0, 
+          "sustain": 1, 
+          "syncopation": 0, 
+          "tapping": 0, 
+          "tremolo": 0, 
+          "twoFingerPicking": 0, 
+          "unpitchedSlides": 1, 
+          "vibrato": 0
+        }, 
+        "ArrangementSort": 0, 
+        "ArrangementType": 3, 
+        "ArtistName": "Alice Cooper", 
+        "ArtistNameSort": "Alice cooper", 
+        "BlockAsset": "urn:emergent-world:cooppois", 
+        "CentOffset": 0.0, 
+        "ChordTemplates": [], 
+        "Chords": {}, 
+        "DLC": true, 
+        "DLCKey": "CoopPois", 
+        "DNA_Chords": 0.0, 
+        "DNA_Riffs": 0.0, 
+        "DNA_Solo": 0.0, 
+        "DynamicVisualDensity": [
+          5.0, 
+          4.7, 
+          4.4, 
+          4.1, 
+          3.8, 
+          3.5, 
+          3.3, 
+          3.1, 
+          2.8, 
+          2.6, 
+          2.4, 
+          2.1, 
+          1.9, 
+          1.7, 
+          1.6, 
+          1.5, 
+          1.4, 
+          1.3, 
+          1.3, 
+          1.3
+        ], 
+        "EasyMastery": 0.194304858, 
+        "FullName": "CoopPois_Bass", 
+        "LastConversionDateTime": "10-22-18 10:10", 
+        "LeaderboardChallengeRating": 0, 
+        "ManifestUrn": "urn:database:json-db:cooppois_bass", 
+        "MasterID_PS3": -1, 
+        "MasterID_RDV": 34563, 
+        "MasterID_XBox360": -1, 
+        "MaxPhraseDifficulty": 19, 
+        "MediumMastery": 0.408710218, 
+        "NotesEasy": 116.0, 
+        "NotesHard": 597.0, 
+        "NotesMedium": 244.0, 
+        "PersistentID": "40F73181AE308F484C8DDCC16D35DC9C", 
+        "PhraseIterations": [
+          {
+            "EndTime": 20.374, 
+            "MaxDifficulty": 0, 
+            "Name": "default", 
+            "PhraseIndex": 0, 
+            "StartTime": 10.0
+          }, 
+          {
+            "EndTime": 28.661, 
+            "MaxDifficulty": 5, 
+            "Name": "int", 
+            "PhraseIndex": 1, 
+            "StartTime": 20.374
+          }, 
+          {
+            "EndTime": 45.612, 
+            "MaxDifficulty": 5, 
+            "Name": "int", 
+            "PhraseIndex": 1, 
+            "StartTime": 28.661
+          }, 
+          {
+            "EndTime": 58.259, 
+            "MaxDifficulty": 5, 
+            "Name": "int", 
+            "PhraseIndex": 1, 
+            "StartTime": 45.612
+          }, 
+          {
+            "EndTime": 68.447, 
+            "MaxDifficulty": 13, 
+            "Name": "B1", 
+            "PhraseIndex": 7, 
+            "StartTime": 58.259
+          }, 
+          {
+            "EndTime": 76.706, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre", 
+            "PhraseIndex": 4, 
+            "StartTime": 68.447
+          }, 
+          {
+            "EndTime": 84.892, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre1ig", 
+            "PhraseIndex": 10, 
+            "StartTime": 76.706
+          }, 
+          {
+            "EndTime": 92.937, 
+            "MaxDifficulty": 19, 
+            "Name": "chorus", 
+            "PhraseIndex": 2, 
+            "StartTime": 84.892
+          }, 
+          {
+            "EndTime": 100.926, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 92.937
+          }, 
+          {
+            "EndTime": 113.416, 
+            "MaxDifficulty": 5, 
+            "Name": "B", 
+            "PhraseIndex": 3, 
+            "StartTime": 100.926
+          }, 
+          {
+            "EndTime": 123.494, 
+            "MaxDifficulty": 13, 
+            "Name": "int1", 
+            "PhraseIndex": 6, 
+            "StartTime": 113.416
+          }, 
+          {
+            "EndTime": 131.686, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre", 
+            "PhraseIndex": 4, 
+            "StartTime": 123.494
+          }, 
+          {
+            "EndTime": 139.708, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre1ig", 
+            "PhraseIndex": 10, 
+            "StartTime": 131.686
+          }, 
+          {
+            "EndTime": 147.687, 
+            "MaxDifficulty": 19, 
+            "Name": "chorus", 
+            "PhraseIndex": 2, 
+            "StartTime": 139.708
+          }, 
+          {
+            "EndTime": 155.669, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 147.687
+          }, 
+          {
+            "EndTime": 168.069, 
+            "MaxDifficulty": 5, 
+            "Name": "int", 
+            "PhraseIndex": 1, 
+            "StartTime": 155.669
+          }, 
+          {
+            "EndTime": 186.286, 
+            "MaxDifficulty": 13, 
+            "Name": "int1", 
+            "PhraseIndex": 6, 
+            "StartTime": 168.069
+          }, 
+          {
+            "EndTime": 194.327, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre", 
+            "PhraseIndex": 4, 
+            "StartTime": 186.286
+          }, 
+          {
+            "EndTime": 202.297, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre1", 
+            "PhraseIndex": 9, 
+            "StartTime": 194.327
+          }, 
+          {
+            "EndTime": 210.178, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 202.297
+          }, 
+          {
+            "EndTime": 222.076, 
+            "MaxDifficulty": 19, 
+            "Name": "chorus", 
+            "PhraseIndex": 2, 
+            "StartTime": 210.178
+          }, 
+          {
+            "EndTime": 230.0, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 222.076
+          }, 
+          {
+            "EndTime": 237.856, 
+            "MaxDifficulty": 19, 
+            "Name": "chorus", 
+            "PhraseIndex": 2, 
+            "StartTime": 230.0
+          }, 
+          {
+            "EndTime": 245.688, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 237.856
+          }, 
+          {
+            "EndTime": 253.568, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 245.688
+          }, 
+          {
+            "EndTime": 261.378, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 253.568
+          }, 
+          {
+            "EndTime": 274.981, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig", 
+            "PhraseIndex": 8, 
+            "StartTime": 261.378
+          }, 
+          {
+            "EndTime": 280.346, 
+            "MaxDifficulty": 0, 
+            "Name": "end", 
+            "PhraseIndex": 5, 
+            "StartTime": 274.981
+          }
+        ], 
+        "Phrases": [
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 0, 
+            "Name": "default"
+          }, 
+          {
+            "IterationCount": 4, 
+            "MaxDifficulty": 5, 
+            "Name": "int"
+          }, 
+          {
+            "IterationCount": 4, 
+            "MaxDifficulty": 19, 
+            "Name": "chorus"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 5, 
+            "Name": "B"
+          }, 
+          {
+            "IterationCount": 3, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 0, 
+            "Name": "end"
+          }, 
+          {
+            "IterationCount": 2, 
+            "MaxDifficulty": 13, 
+            "Name": "int1"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 13, 
+            "Name": "B1"
+          }, 
+          {
+            "IterationCount": 8, 
+            "MaxDifficulty": 19, 
+            "Name": "chorusig"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre1"
+          }, 
+          {
+            "IterationCount": 2, 
+            "MaxDifficulty": 15, 
+            "Name": "Pre1ig"
+          }
+        ], 
+        "PreviewBankPath": "song_cooppois_preview.bnk", 
+        "RelativeDifficulty": 0, 
+        "SKU": "RS2", 
+        "Score_MaxNotes": 597.0, 
+        "Score_PNV": 167.504188, 
+        "Sections": [
+          {
+            "EndPhraseIterationIndex": 1, 
+            "EndTime": 28.661, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 1, 
+            "StartTime": 20.374, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 2, 
+            "EndTime": 45.612, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 2, 
+            "StartTime": 28.661, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 3, 
+            "EndTime": 58.259, 
+            "IsSolo": false, 
+            "Name": "verse", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 3, 
+            "StartTime": 45.612, 
+            "UIName": "$[34304] Verse [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 4, 
+            "EndTime": 68.447, 
+            "IsSolo": false, 
+            "Name": "verse", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 4, 
+            "StartTime": 58.259, 
+            "UIName": "$[34304] Verse [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 5, 
+            "EndTime": 76.706, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 5, 
+            "StartTime": 68.447, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 6, 
+            "EndTime": 84.892, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 6, 
+            "StartTime": 76.706, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 7, 
+            "EndTime": 92.937, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 7, 
+            "StartTime": 84.892, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 8, 
+            "EndTime": 100.926, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 8, 
+            "StartTime": 92.937, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 9, 
+            "EndTime": 113.416, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 9, 
+            "StartTime": 100.926, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 10, 
+            "EndTime": 123.494, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 10, 
+            "StartTime": 113.416, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 11, 
+            "EndTime": 131.686, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 11, 
+            "StartTime": 123.494, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 12, 
+            "EndTime": 139.708, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 12, 
+            "StartTime": 131.686, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 13, 
+            "EndTime": 147.687, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 13, 
+            "StartTime": 139.708, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 14, 
+            "EndTime": 155.669, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 14, 
+            "StartTime": 147.687, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 15, 
+            "EndTime": 168.069, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 5, 
+            "StartPhraseIterationIndex": 15, 
+            "StartTime": 155.669, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 16, 
+            "EndTime": 186.286, 
+            "IsSolo": false, 
+            "Name": "riff", 
+            "Number": 6, 
+            "StartPhraseIterationIndex": 16, 
+            "StartTime": 168.069, 
+            "UIName": "$[34298] Riff [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 17, 
+            "EndTime": 194.327, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 17, 
+            "StartTime": 186.286, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 18, 
+            "EndTime": 202.297, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 18, 
+            "StartTime": 194.327, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 19, 
+            "EndTime": 210.178, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 5, 
+            "StartPhraseIterationIndex": 19, 
+            "StartTime": 202.297, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 20, 
+            "EndTime": 222.076, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 6, 
+            "StartPhraseIterationIndex": 20, 
+            "StartTime": 210.178, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 21, 
+            "EndTime": 230.0, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 7, 
+            "StartPhraseIterationIndex": 21, 
+            "StartTime": 222.076, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 22, 
+            "EndTime": 237.856, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 8, 
+            "StartPhraseIterationIndex": 22, 
+            "StartTime": 230.0, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 23, 
+            "EndTime": 245.688, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 9, 
+            "StartPhraseIterationIndex": 23, 
+            "StartTime": 237.856, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 24, 
+            "EndTime": 253.568, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 10, 
+            "StartPhraseIterationIndex": 24, 
+            "StartTime": 245.688, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 25, 
+            "EndTime": 261.378, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 11, 
+            "StartPhraseIterationIndex": 25, 
+            "StartTime": 253.568, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 26, 
+            "EndTime": 274.981, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 12, 
+            "StartPhraseIterationIndex": 26, 
+            "StartTime": 261.378, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 27, 
+            "EndTime": 280.346, 
+            "IsSolo": false, 
+            "Name": "noguitar", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 27, 
+            "StartTime": 274.981, 
+            "UIName": "$[6091] No Guitar [1]"
+          }
+        ], 
+        "Shipping": true, 
+        "ShowlightsXML": "urn:application:xml:cooppois_showlights", 
+        "SongAsset": "urn:application:musicgame-song:cooppois_bass", 
+        "SongAverageTempo": 120.0, 
+        "SongBank": "song_cooppois.bnk", 
+        "SongDiffEasy": 0.594022169, 
+        "SongDiffHard": 0.379522508, 
+        "SongDiffMed": 0.246804409, 
+        "SongDifficulty": 0.379522508, 
+        "SongEvent": "Play_CoopPois", 
+        "SongKey": "CoopPois", 
+        "SongLength": 280.346, 
+        "SongName": "Poison", 
+        "SongNameSort": "Poison", 
+        "SongOffset": -10.0, 
+        "SongPartition": 1, 
+        "SongXml": "urn:application:xml:cooppois_bass", 
+        "SongYear": 1989, 
+        "TargetScore": 100000, 
+        "Techniques": {
+          "4": {
+            "0": [
+              0
+            ], 
+            "1": [
+              0, 
+              13
+            ], 
+            "2": [
+              13
+            ], 
+            "3": [
+              13
+            ], 
+            "4": [
+              13
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "15": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ]
+          }, 
+          "5": {
+            "0": [
+              0
+            ], 
+            "1": [
+              0, 
+              13, 
+              12
+            ], 
+            "2": [
+              13, 
+              12
+            ], 
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "15": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "6": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "7": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "8": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "9": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "10": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "11": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "12": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "13": {
+            "3": [
+              13
+            ], 
+            "4": [
+              13, 
+              12
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "9": [
+              13
+            ], 
+            "10": [
+              13, 
+              12
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "14": {
+            "4": [
+              13
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "10": [
+              13
+            ], 
+            "11": [
+              13
+            ], 
+            "12": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "15": {
+            "4": [
+              13
+            ], 
+            "5": [
+              13
+            ], 
+            "6": [
+              13, 
+              11
+            ], 
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "10": [
+              13
+            ], 
+            "11": [
+              13, 
+              0
+            ], 
+            "12": [
+              13, 
+              12, 
+              11
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "16": [
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "18": [
+              13, 
+              12, 
+              11
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "16": {
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13, 
+              11
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "17": {
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "13": [
+              13
+            ], 
+            "14": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13, 
+              11
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "18": {
+            "7": [
+              13
+            ], 
+            "8": [
+              13
+            ], 
+            "13": [
+              13, 
+              11
+            ], 
+            "14": [
+              13
+            ], 
+            "19": [
+              13
+            ], 
+            "20": [
+              13, 
+              11
+            ], 
+            "21": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "19": {
+            "7": [
+              13, 
+              11
+            ], 
+            "8": [
+              13, 
+              11, 
+              12
+            ], 
+            "13": [
+              13, 
+              11
+            ], 
+            "14": [
+              13, 
+              11
+            ], 
+            "19": [
+              13, 
+              11
+            ], 
+            "20": [
+              13, 
+              11, 
+              12
+            ], 
+            "21": [
+              13, 
+              11
+            ], 
+            "22": [
+              13, 
+              11
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13, 
+              11
+            ], 
+            "25": [
+              13, 
+              11
+            ]
+          }
+        }, 
+        "Tone_A": "", 
+        "Tone_B": "", 
+        "Tone_Base": "cooppois_bass", 
+        "Tone_C": "", 
+        "Tone_D": "", 
+        "Tone_Multiplayer": "", 
+        "Tones": [
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Bass_Amp_CH350B", 
+                "KnobValues": {
+                  "Bass_Amp_CH350B_15000": 1, 
+                  "Bass_Amp_CH350B_250": -2.5, 
+                  "Bass_Amp_CH350B_2500": 2, 
+                  "Bass_Amp_CH350B_30": 1, 
+                  "Bass_Amp_CH350B_7500": -1, 
+                  "Bass_Amp_CH350B_800": 0, 
+                  "Bass_Amp_CH350B_90": 0, 
+                  "Bass_Amp_CH350B_Bass": 94, 
+                  "Bass_Amp_CH350B_Gain": 22, 
+                  "Bass_Amp_CH350B_Treble": 77
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Bass_Cab_CH410BC_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PostPedal1": {
+                "Category": "30781", 
+                "Key": "Bass_Pedal_MBComp", 
+                "KnobValues": {
+                  "Bass_Pedal_MBComp_Compress": 66, 
+                  "Bass_Pedal_MBComp_Filter": 280, 
+                  "Bass_Pedal_MBComp_Rate": 77
+                }, 
+                "Type": "Pedals"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_bass", 
+            "Name": "cooppois_bass", 
+            "NameSeparator": " - ", 
+            "SortOrder": 12, 
+            "ToneDescriptors": [
+              "$[35715]BASS"
+            ], 
+            "Volume": "-16.500"
+          }
+        ], 
+        "Tuning": {
+          "string0": -2, 
+          "string1": 0, 
+          "string2": 0, 
+          "string3": 0, 
+          "string4": 0, 
+          "string5": 0
+        }
+      }
+    }
+  }, 
+  "InsertRoot": "Static.Songs.Entries", 
+  "IterationVersion": 3, 
+  "ModelName": "RSEnumerable_Song"
+}

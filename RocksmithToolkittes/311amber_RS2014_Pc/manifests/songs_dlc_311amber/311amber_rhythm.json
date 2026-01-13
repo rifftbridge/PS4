@@ -1,0 +1,1547 @@
+{
+  "Entries": {
+    "9778AA3A761864FF9CFBFFCCEFF154A2": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_311amber",
+        "AlbumName": "From Chaos",
+        "AlbumNameSort": "From Chaos",
+        "ArrangementName": "Rhythm",
+        "ArrangementProperties": {
+          "represent": 1,
+          "bonusArr": 0,
+          "standardTuning": 1,
+          "nonStandardChords": 0,
+          "barreChords": 1,
+          "powerChords": 1,
+          "dropDPower": 0,
+          "openChords": 1,
+          "fingerPicking": 0,
+          "pickDirection": 0,
+          "doubleStops": 1,
+          "palmMutes": 0,
+          "harmonics": 0,
+          "pinchHarmonics": 0,
+          "hopo": 1,
+          "tremolo": 0,
+          "slides": 1,
+          "unpitchedSlides": 1,
+          "bends": 0,
+          "tapping": 0,
+          "vibrato": 0,
+          "fretHandMutes": 0,
+          "slapPop": 0,
+          "twoFingerPicking": 0,
+          "fifthsAndOctaves": 0,
+          "syncopation": 0,
+          "bassPick": 0,
+          "sustain": 1,
+          "pathLead": 0,
+          "pathRhythm": 1,
+          "pathBass": 0,
+          "routeMask": 2
+        },
+        "ArrangementSort": 0,
+        "ArrangementType": 1,
+        "ArtistName": "311",
+        "ArtistNameSort": "311",
+        "BlockAsset": "urn:emergent-world:311amber",
+        "CentOffset": 0.0,
+        "Chords": {
+          "6": {
+            "11": []
+          },
+          "7": {
+            "11": []
+          },
+          "8": {
+            "5": [
+              10
+            ],
+            "6": [
+              10
+            ],
+            "7": [
+              10
+            ],
+            "9": [
+              10
+            ],
+            "11": [
+              10
+            ],
+            "14": [
+              10
+            ]
+          },
+          "9": {
+            "5": [
+              8,
+              10
+            ],
+            "6": [
+              8,
+              10
+            ],
+            "7": [
+              8,
+              10
+            ],
+            "9": [
+              8,
+              10
+            ],
+            "11": [
+              8,
+              10
+            ],
+            "14": [
+              8,
+              10
+            ]
+          },
+          "10": {
+            "5": [
+              8,
+              10,
+              12
+            ],
+            "6": [
+              8,
+              10,
+              12
+            ],
+            "7": [
+              8,
+              10,
+              12
+            ],
+            "9": [
+              8,
+              10,
+              12
+            ],
+            "10": [
+              8,
+              10,
+              12
+            ],
+            "11": [
+              8,
+              10,
+              12
+            ],
+            "13": [
+              8,
+              10,
+              12
+            ],
+            "14": [
+              8,
+              10,
+              12
+            ]
+          },
+          "11": {
+            "5": [
+              8,
+              10,
+              12
+            ],
+            "6": [
+              8,
+              10,
+              12
+            ],
+            "7": [
+              8,
+              10,
+              12
+            ],
+            "9": [
+              8,
+              10,
+              12
+            ],
+            "12": [
+              8,
+              10,
+              12
+            ],
+            "13": [
+              8,
+              10,
+              12
+            ],
+            "14": [
+              8,
+              10,
+              12
+            ]
+          },
+          "12": {
+            "5": [
+              2,
+              4,
+              6,
+              14
+            ],
+            "7": [
+              2,
+              4,
+              6,
+              14
+            ],
+            "9": [
+              2,
+              4,
+              6,
+              14
+            ],
+            "12": [
+              2,
+              4,
+              6,
+              14
+            ],
+            "13": [
+              2,
+              4,
+              6,
+              14
+            ]
+          }
+        },
+        "ChordTemplates": [
+          {
+            "ChordId": 2,
+            "ChordName": "C",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              2,
+              1,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              9,
+              8,
+              8
+            ]
+          },
+          {
+            "ChordId": 4,
+            "ChordName": "Am",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              1,
+              1,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              5,
+              5,
+              5
+            ]
+          },
+          {
+            "ChordId": 6,
+            "ChordName": "Em",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              3,
+              2,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              9,
+              8,
+              7
+            ]
+          },
+          {
+            "ChordId": 8,
+            "ChordName": "Dm",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              3,
+              2,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              7,
+              6,
+              5
+            ]
+          },
+          {
+            "ChordId": 10,
+            "ChordName": "G",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              2,
+              1,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              4,
+              3,
+              3
+            ]
+          },
+          {
+            "ChordId": 12,
+            "ChordName": "G7",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              2,
+              4,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              4,
+              6,
+              3
+            ]
+          },
+          {
+            "ChordId": 14,
+            "ChordName": "Em7",
+            "Fingers": [
+              -1,
+              -1,
+              -1,
+              3,
+              2,
+              4
+            ],
+            "Frets": [
+              -1,
+              -1,
+              -1,
+              9,
+              8,
+              10
+            ]
+          },
+          {
+            "ChordId": 16,
+            "ChordName": "Am",
+            "Fingers": [
+              -1,
+              -1,
+              2,
+              3,
+              1,
+              -1
+            ],
+            "Frets": [
+              -1,
+              0,
+              2,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "ChordId": 18,
+            "ChordName": "Em",
+            "Fingers": [
+              -1,
+              2,
+              3,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "ChordId": 20,
+            "ChordName": "Em7",
+            "Fingers": [
+              -1,
+              -1,
+              1,
+              -1,
+              3,
+              4
+            ],
+            "Frets": [
+              -1,
+              -1,
+              2,
+              0,
+              3,
+              3
+            ]
+          },
+          {
+            "ChordId": 24,
+            "ChordName": "G",
+            "Fingers": [
+              -1,
+              -1,
+              3,
+              2,
+              1,
+              1
+            ],
+            "Frets": [
+              -1,
+              -1,
+              5,
+              4,
+              3,
+              3
+            ]
+          },
+          {
+            "ChordId": 26,
+            "ChordName": "CMaj7",
+            "Fingers": [
+              -1,
+              1,
+              3,
+              2,
+              4,
+              1
+            ],
+            "Frets": [
+              -1,
+              3,
+              5,
+              4,
+              5,
+              3
+            ]
+          },
+          {
+            "ChordId": 36,
+            "ChordName": "E5",
+            "Fingers": [
+              -1,
+              2,
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              0,
+              2,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "ChordId": 38,
+            "ChordName": "A5",
+            "Fingers": [
+              -1,
+              -1,
+              2,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              -1,
+              0,
+              2,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "ChordId": 39,
+            "ChordName": "E5",
+            "Fingers": [
+              -1,
+              2,
+              3,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              0,
+              2,
+              2,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "ChordId": 40,
+            "ChordName": "A5",
+            "Fingers": [
+              -1,
+              -1,
+              2,
+              3,
+              -1,
+              -1
+            ],
+            "Frets": [
+              -1,
+              0,
+              2,
+              2,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "DLC": true,
+        "DLCKey": "311Amber",
+        "DNA_Chords": 98.215,
+        "DNA_Riffs": 121.33,
+        "DNA_Solo": 0.0,
+        "DynamicVisualDensity": [
+          5.0,
+          4.7,
+          4.4,
+          4.1,
+          3.8,
+          3.5,
+          3.3,
+          3.1,
+          2.8,
+          2.6,
+          2.4,
+          2.1,
+          1.9,
+          1.7,
+          1.6,
+          1.5,
+          1.4,
+          1.3,
+          1.3,
+          1.3
+        ],
+        "EasyMastery": 0.334821433,
+        "FullName": "311Amber_Rhythm",
+        "LastConversionDateTime": "02-27-14 16:26",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:311amber_rhythm",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30589,
+        "MasterID_XBox360": -1,
+        "MaxPhraseDifficulty": 14,
+        "MediumMastery": 0.5535714,
+        "NotesEasy": 75.0,
+        "NotesHard": 224.0,
+        "NotesMedium": 124.0,
+        "PhraseIterations": [
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "StartTime": 10.0,
+            "EndTime": 24.446
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 7,
+            "Name": "X",
+            "StartTime": 24.446,
+            "EndTime": 36.003
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 14,
+            "Name": "A",
+            "StartTime": 36.003,
+            "EndTime": 41.781
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 14,
+            "Name": "A",
+            "StartTime": 41.781,
+            "EndTime": 47.559
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 14,
+            "Name": "A",
+            "StartTime": 47.559,
+            "EndTime": 59.116
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 12,
+            "Name": "B",
+            "StartTime": 59.116,
+            "EndTime": 70.672
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 70.672,
+            "EndTime": 82.229
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 12,
+            "Name": "B",
+            "StartTime": 82.229,
+            "EndTime": 93.785
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "StartTime": 93.785,
+            "EndTime": 128.455
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 12,
+            "Name": "B",
+            "StartTime": 128.455,
+            "EndTime": 140.01
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 13,
+            "Name": "D",
+            "StartTime": 140.01,
+            "EndTime": 145.787
+          },
+          {
+            "PhraseIndex": 7,
+            "MaxDifficulty": 10,
+            "Name": "E",
+            "StartTime": 145.787,
+            "EndTime": 157.341
+          },
+          {
+            "PhraseIndex": 9,
+            "MaxDifficulty": 14,
+            "Name": "F",
+            "StartTime": 157.341,
+            "EndTime": 171.784
+          },
+          {
+            "PhraseIndex": 8,
+            "MaxDifficulty": 12,
+            "Name": "Ba",
+            "StartTime": 171.784,
+            "EndTime": 174.672
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 12,
+            "Name": "B",
+            "StartTime": 174.672,
+            "EndTime": 180.448
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 180.448,
+            "EndTime": 192.001
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "StartTime": 192.001,
+            "EndTime": 218.092
+          },
+          {
+            "PhraseIndex": 10,
+            "MaxDifficulty": 0,
+            "Name": "END",
+            "StartTime": 218.092,
+            "EndTime": 221.064
+          }
+        ],
+        "Phrases": [
+          {
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 7,
+            "Name": "X",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 14,
+            "Name": "A",
+            "IterationCount": 3
+          },
+          {
+            "MaxDifficulty": 12,
+            "Name": "B",
+            "IterationCount": 4
+          },
+          {
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 13,
+            "Name": "D",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 10,
+            "Name": "E",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 12,
+            "Name": "Ba",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 14,
+            "Name": "F",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "END",
+            "IterationCount": 1
+          }
+        ],
+        "PreviewBankPath": "song_311amber_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Score_MaxNotes": 224.0,
+        "Score_PNV": 446.428558,
+        "Sections": [
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 1,
+            "StartTime": 24.446,
+            "EndTime": 36.003,
+            "StartPhraseIterationIndex": 1,
+            "EndPhraseIterationIndex": 1,
+            "IsSolo": false
+          },
+          {
+            "Name": "riff",
+            "UIName": "$[34298] Riff [1]",
+            "Number": 1,
+            "StartTime": 36.003,
+            "EndTime": 41.781,
+            "StartPhraseIterationIndex": 2,
+            "EndPhraseIterationIndex": 2,
+            "IsSolo": false
+          },
+          {
+            "Name": "riff",
+            "UIName": "$[34298] Riff [1]",
+            "Number": 2,
+            "StartTime": 41.781,
+            "EndTime": 47.559,
+            "StartPhraseIterationIndex": 3,
+            "EndPhraseIterationIndex": 3,
+            "IsSolo": false
+          },
+          {
+            "Name": "riff",
+            "UIName": "$[34298] Riff [1]",
+            "Number": 3,
+            "StartTime": 47.559,
+            "EndTime": 59.116,
+            "StartPhraseIterationIndex": 4,
+            "EndPhraseIterationIndex": 4,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 1,
+            "StartTime": 59.116,
+            "EndTime": 70.672,
+            "StartPhraseIterationIndex": 5,
+            "EndPhraseIterationIndex": 5,
+            "IsSolo": false
+          },
+          {
+            "Name": "prechorus",
+            "UIName": "$[34296] Pre Chorus [1]",
+            "Number": 1,
+            "StartTime": 70.672,
+            "EndTime": 82.229,
+            "StartPhraseIterationIndex": 6,
+            "EndPhraseIterationIndex": 6,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 2,
+            "StartTime": 82.229,
+            "EndTime": 93.785,
+            "StartPhraseIterationIndex": 7,
+            "EndPhraseIterationIndex": 7,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 1,
+            "StartTime": 93.785,
+            "EndTime": 128.455,
+            "StartPhraseIterationIndex": 8,
+            "EndPhraseIterationIndex": 8,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 3,
+            "StartTime": 128.455,
+            "EndTime": 140.01,
+            "StartPhraseIterationIndex": 9,
+            "EndPhraseIterationIndex": 9,
+            "IsSolo": false
+          },
+          {
+            "Name": "transition",
+            "UIName": "$[34301] Transition [1]",
+            "Number": 1,
+            "StartTime": 140.01,
+            "EndTime": 145.787,
+            "StartPhraseIterationIndex": 10,
+            "EndPhraseIterationIndex": 10,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 1,
+            "StartTime": 145.787,
+            "EndTime": 157.341,
+            "StartPhraseIterationIndex": 11,
+            "EndPhraseIterationIndex": 11,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 2,
+            "StartTime": 157.341,
+            "EndTime": 171.784,
+            "StartPhraseIterationIndex": 12,
+            "EndPhraseIterationIndex": 12,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 4,
+            "StartTime": 171.784,
+            "EndTime": 174.672,
+            "StartPhraseIterationIndex": 13,
+            "EndPhraseIterationIndex": 13,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 5,
+            "StartTime": 174.672,
+            "EndTime": 180.448,
+            "StartPhraseIterationIndex": 14,
+            "EndPhraseIterationIndex": 14,
+            "IsSolo": false
+          },
+          {
+            "Name": "prechorus",
+            "UIName": "$[34296] Pre Chorus [1]",
+            "Number": 2,
+            "StartTime": 180.448,
+            "EndTime": 192.001,
+            "StartPhraseIterationIndex": 15,
+            "EndPhraseIterationIndex": 15,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 2,
+            "StartTime": 192.001,
+            "EndTime": 218.092,
+            "StartPhraseIterationIndex": 16,
+            "EndPhraseIterationIndex": 16,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 3,
+            "StartTime": 218.092,
+            "EndTime": 221.064,
+            "StartPhraseIterationIndex": 17,
+            "EndPhraseIterationIndex": 17,
+            "IsSolo": false
+          }
+        ],
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:311amber_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:311amber_rhythm",
+        "SongAverageTempo": 120.0,
+        "SongBank": "song_311amber.bnk",
+        "SongDiffEasy": 0.313703716,
+        "SongDiffHard": 0.325125217,
+        "SongDifficulty": 0.325125217,
+        "SongDiffMed": 0.3317323,
+        "SongEvent": "Play_311Amber",
+        "SongKey": "311Amber",
+        "SongLength": 221.064,
+        "SongName": "Amber",
+        "SongNameSort": "Amber",
+        "SongOffset": -10.0,
+        "SongPartition": 1,
+        "SongXml": "urn:application:xml:311amber_rhythm",
+        "SongYear": 2002,
+        "TargetScore": 100000,
+        "Techniques": {
+          "4": {
+            "9": [
+              11,
+              13
+            ]
+          },
+          "5": {
+            "9": [
+              11,
+              13
+            ],
+            "10": [
+              11,
+              13
+            ]
+          },
+          "6": {
+            "9": [
+              11,
+              13
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "0": [
+              13
+            ],
+            "11": [
+              35
+            ]
+          },
+          "7": {
+            "1": [
+              12,
+              13
+            ],
+            "9": [
+              11,
+              13
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "0": [
+              13
+            ],
+            "11": [
+              38,
+              35
+            ]
+          },
+          "8": {
+            "9": [
+              11,
+              13,
+              38
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "5": [
+              38
+            ],
+            "6": [
+              38
+            ],
+            "7": [
+              38
+            ],
+            "11": [
+              38
+            ],
+            "14": [
+              38
+            ]
+          },
+          "9": {
+            "9": [
+              11,
+              13,
+              38,
+              37
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "5": [
+              38,
+              37
+            ],
+            "6": [
+              38
+            ],
+            "7": [
+              38,
+              37
+            ],
+            "11": [
+              38
+            ],
+            "14": [
+              38,
+              37
+            ]
+          },
+          "10": {
+            "9": [
+              11,
+              13,
+              38,
+              37
+            ],
+            "10": [
+              11,
+              13,
+              38
+            ],
+            "5": [
+              38,
+              37
+            ],
+            "6": [
+              38
+            ],
+            "7": [
+              38,
+              37
+            ],
+            "11": [
+              38
+            ],
+            "13": [
+              38
+            ],
+            "14": [
+              38,
+              37
+            ]
+          },
+          "11": {
+            "9": [
+              11,
+              13,
+              38,
+              37
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "5": [
+              38,
+              37
+            ],
+            "6": [
+              38
+            ],
+            "7": [
+              38,
+              37
+            ],
+            "12": [
+              38
+            ],
+            "13": [
+              38
+            ],
+            "14": [
+              38,
+              37
+            ]
+          },
+          "12": {
+            "2": [
+              11,
+              13
+            ],
+            "3": [
+              11,
+              13
+            ],
+            "4": [
+              11,
+              13
+            ],
+            "9": [
+              11,
+              13,
+              38,
+              37
+            ],
+            "10": [
+              11,
+              13
+            ],
+            "5": [
+              38,
+              37
+            ],
+            "7": [
+              38,
+              37
+            ],
+            "12": [
+              38
+            ],
+            "13": [
+              38
+            ]
+          },
+          "13": {
+            "2": [
+              3,
+              6,
+              11,
+              13
+            ],
+            "3": [
+              3,
+              6,
+              11,
+              13
+            ],
+            "4": [
+              3,
+              6,
+              11,
+              13
+            ],
+            "9": [
+              11,
+              13
+            ],
+            "10": [
+              11,
+              13
+            ]
+          },
+          "14": {
+            "2": [
+              3,
+              6,
+              11,
+              13
+            ],
+            "3": [
+              3,
+              6,
+              11,
+              13
+            ],
+            "4": [
+              3,
+              6,
+              11,
+              13
+            ]
+          }
+        },
+        "Tone_A": "311Amber_dub",
+        "Tone_B": "311Amber_intro",
+        "Tone_Base": "311Amber_dub",
+        "Tone_C": "311Amber_clean",
+        "Tone_D": "",
+        "Tone_Multiplayer": "",
+        "Tones": [
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 320,
+                  "Rack_StudioEQ_HiMidFreq": 1.4,
+                  "Rack_StudioEQ_TrebleFreq": 11,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": 0,
+                  "Rack_StudioEQ_LoMidQ": 0,
+                  "Rack_StudioEQ_Bass": 0,
+                  "Rack_StudioEQ_HiMid": 0,
+                  "Rack_StudioEQ_LoMid": 0,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_CA38_Treble": 69,
+                  "Amp_CA38_Mid": 70,
+                  "Amp_CA38_Gain": 42,
+                  "Amp_CA38_Bass": 32
+                },
+                "Key": "Amp_CA38"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_CA215C_57_Edge"
+              },
+              "PostPedal3": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_SpringReverb_Time": 86,
+                  "Pedal_SpringReverb_Mix": 40,
+                  "Pedal_SpringReverb_Depth": 77
+                },
+                "Key": "Pedal_SpringReverb",
+                "Category": "30792"
+              },
+              "PostPedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_OilCanEcho_Feedback": 91,
+                  "Pedal_OilCanEcho_Time": 230,
+                  "Pedal_OilCanEcho_Mix": 61
+                },
+                "Key": "Pedal_OilCanEcho",
+                "Category": "30779"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 1,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 2,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": -4
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35729]FILTER",
+              "$[35753]DELAY"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-24.000",
+            "Key": "311Amber_dub",
+            "Name": "311Amber_dub",
+            "SortOrder": 2
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 320,
+                  "Rack_StudioEQ_HiMidFreq": 1.4,
+                  "Rack_StudioEQ_TrebleFreq": 11,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": 0,
+                  "Rack_StudioEQ_LoMidQ": 0,
+                  "Rack_StudioEQ_Bass": 0,
+                  "Rack_StudioEQ_HiMid": 0,
+                  "Rack_StudioEQ_LoMid": 0,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_CA38_Treble": 69,
+                  "Amp_CA38_Mid": 70,
+                  "Amp_CA38_Gain": 42,
+                  "Amp_CA38_Bass": 32
+                },
+                "Key": "Amp_CA38"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_CA215C_57_Edge"
+              },
+              "PostPedal3": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_SpringReverb_Time": 86,
+                  "Pedal_SpringReverb_Mix": 40,
+                  "Pedal_SpringReverb_Depth": 77
+                },
+                "Key": "Pedal_SpringReverb",
+                "Category": "30792"
+              },
+              "PostPedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_OilCanEcho_Feedback": 91,
+                  "Pedal_OilCanEcho_Time": 230,
+                  "Pedal_OilCanEcho_Mix": 61
+                },
+                "Key": "Pedal_OilCanEcho",
+                "Category": "30779"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 1,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 2,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": -4
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35729]FILTER",
+              "$[35753]DELAY"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-24.000",
+            "Key": "311Amber_dub",
+            "Name": "311Amber_dub",
+            "SortOrder": 2
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 320,
+                  "Rack_StudioEQ_HiMidFreq": 1.4,
+                  "Rack_StudioEQ_TrebleFreq": 11,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": 0,
+                  "Rack_StudioEQ_LoMidQ": 0,
+                  "Rack_StudioEQ_Bass": 0,
+                  "Rack_StudioEQ_HiMid": 0,
+                  "Rack_StudioEQ_LoMid": 0,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_CA38_Treble": 69,
+                  "Amp_CA38_Mid": 80,
+                  "Amp_CA38_Gain": 17,
+                  "Amp_CA38_Bass": 34
+                },
+                "Key": "Amp_CA38"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_CA215C_57_Edge"
+              },
+              "PostPedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_SpringReverb_Time": 72,
+                  "Pedal_SpringReverb_Mix": 14,
+                  "Pedal_SpringReverb_Depth": 64
+                },
+                "Key": "Pedal_SpringReverb",
+                "Category": "30792"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 1,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 2,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": -4
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_BobFilter_Sens": 75,
+                  "Pedal_BobFilter_Release": 30,
+                  "Pedal_BobFilter_Mix": 66,
+                  "Pedal_BobFilter_Filter": 1,
+                  "Pedal_BobFilter_Attack": 55
+                },
+                "Key": "Pedal_BobFilter",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35720]CLEAN",
+              "$[35729]FILTER"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-14.000",
+            "Key": "311Amber_intro",
+            "Name": "311Amber_intro",
+            "SortOrder": 2
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 320,
+                  "Rack_StudioEQ_HiMidFreq": 1.4,
+                  "Rack_StudioEQ_TrebleFreq": 11,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": 0,
+                  "Rack_StudioEQ_LoMidQ": 0,
+                  "Rack_StudioEQ_Bass": 0,
+                  "Rack_StudioEQ_HiMid": 0,
+                  "Rack_StudioEQ_LoMid": 0,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_CA38_Treble": 69,
+                  "Amp_CA38_Mid": 70,
+                  "Amp_CA38_Gain": 42,
+                  "Amp_CA38_Bass": 32
+                },
+                "Key": "Amp_CA38"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_CA215C_57_Edge"
+              },
+              "PostPedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_SpringReverb_Time": 72,
+                  "Pedal_SpringReverb_Mix": 20,
+                  "Pedal_SpringReverb_Depth": 64
+                },
+                "Key": "Pedal_SpringReverb",
+                "Category": "30792"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 1,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 2,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": -4
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35720]CLEAN"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-19.000",
+            "Key": "311Amber_clean",
+            "Name": "311Amber_clean",
+            "SortOrder": 2
+          }
+        ],
+        "Tuning": {
+          "string0": 0,
+          "string1": 0,
+          "string2": 0,
+          "string3": 0,
+          "string4": 0,
+          "string5": 0
+        },
+        "PersistentID": "9778AA3A761864FF9CFBFFCCEFF154A2"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

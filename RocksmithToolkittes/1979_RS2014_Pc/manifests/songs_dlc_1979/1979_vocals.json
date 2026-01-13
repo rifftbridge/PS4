@@ -1,0 +1,57 @@
+{
+  "Entries": {
+    "7E8E1187F3F47645DE6B9B6425168427": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_1979",
+        "ArrangementName": "Vocals",
+        "ArrangementSort": 0,
+        "BlockAsset": "urn:emergent-world:1979",
+        "DLC": true,
+        "DLCKey": "1979",
+        "DynamicVisualDensity": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "FullName": "1979_Vocals",
+        "InputEvent": "Play_Tone_Standard_Mic",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:1979_vocals",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30059,
+        "MasterID_XBox360": -1,
+        "PreviewBankPath": "song_1979_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:1979_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:1979_vocals",
+        "SongBank": "song_1979.bnk",
+        "SongEvent": "Play_1979",
+        "SongKey": "1979",
+        "SongXml": "urn:application:xml:1979_vocals",
+        "PersistentID": "7E8E1187F3F47645DE6B9B6425168427"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

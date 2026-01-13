@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game>
+  <entitySet>
+    <entity id="40f73181ae308f484c8ddcc16d35dc9c" modelName="RSEnumerable_Song" name="CoopPois_Bass" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_cooppois" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:cooppois_bass" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:cooppois_bass" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_cooppois_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_cooppois_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_cooppois_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:cooppois_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="39a9f7652103cff71f4661022ef38ad9" modelName="RSEnumerable_Song" name="CoopPois_Vocals" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_cooppois" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:cooppois_vocals" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:cooppois_vocals" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_cooppois_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_cooppois_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_cooppois_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:cooppois_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="923fbf6d8b5fa36d56ae6446b45f42f7" modelName="RSEnumerable_Song" name="CoopPois_Rhythm" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_cooppois" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:cooppois_rhythm" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:cooppois_rhythm" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_cooppois_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_cooppois_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_cooppois_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:cooppois_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="db2fa52b68984c4c77bc2f77a44b7170" modelName="RSEnumerable_Song" name="CoopPois_Lead" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_cooppois" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:cooppois_lead" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:cooppois_lead" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_cooppois_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_cooppois_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_cooppois_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:cooppois_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_cooppois_preview" />
+        </property>
+      </properties>
+    </entity>
+  </entitySet>
+</game>

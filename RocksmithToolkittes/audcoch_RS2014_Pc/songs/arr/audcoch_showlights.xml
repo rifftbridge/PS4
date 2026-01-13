@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<showlights count="17">
+  <showlight time="10.000" note="28"/>
+  <showlight time="12.966" note="52"/>
+  <showlight time="94.883" note="50"/>
+  <showlight time="95.628" note="51"/>
+  <showlight time="96.373" note="52"/>
+  <showlight time="142.606" note="50"/>
+  <showlight time="143.353" note="51"/>
+  <showlight time="144.099" note="52"/>
+  <showlight time="144.846" note="67"/>
+  <showlight time="167.867" note="35"/>
+  <showlight time="167.867" note="59"/>
+  <showlight time="179.894" note="33"/>
+  <showlight time="179.894" note="52"/>
+  <showlight time="190.379" note="28"/>
+  <showlight time="190.379" note="50"/>
+  <showlight time="193.390" note="52"/>
+  <showlight time="229.499" note="66"/>
+</showlights>

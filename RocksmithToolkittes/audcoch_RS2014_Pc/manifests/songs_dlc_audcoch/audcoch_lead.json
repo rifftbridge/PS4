@@ -1,0 +1,1680 @@
+{
+  "Entries": {
+    "E346ABEBA519EF8AA54FC1447A60842F": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_audcoch",
+        "AlbumName": "Audioslave",
+        "AlbumNameSort": "Audioslave",
+        "ArrangementName": "Lead",
+        "ArrangementProperties": {
+          "represent": 1,
+          "bonusArr": 0,
+          "standardTuning": 1,
+          "nonStandardChords": 0,
+          "barreChords": 0,
+          "powerChords": 1,
+          "dropDPower": 0,
+          "openChords": 0,
+          "fingerPicking": 0,
+          "pickDirection": 0,
+          "doubleStops": 1,
+          "palmMutes": 0,
+          "harmonics": 0,
+          "pinchHarmonics": 0,
+          "hopo": 1,
+          "tremolo": 1,
+          "slides": 1,
+          "unpitchedSlides": 1,
+          "bends": 1,
+          "tapping": 0,
+          "vibrato": 1,
+          "fretHandMutes": 1,
+          "slapPop": 0,
+          "twoFingerPicking": 0,
+          "fifthsAndOctaves": 0,
+          "syncopation": 0,
+          "bassPick": 0,
+          "sustain": 1,
+          "pathLead": 1,
+          "pathRhythm": 0,
+          "pathBass": 0,
+          "routeMask": 1
+        },
+        "ArrangementSort": 0,
+        "ArrangementType": 0,
+        "ArtistName": "Audioslave",
+        "ArtistNameSort": "Audioslave",
+        "BlockAsset": "urn:emergent-world:audcoch",
+        "CentOffset": 0.0,
+        "Chords": {
+          "14": {
+            "14": []
+          },
+          "15": {
+            "7": [],
+            "12": [],
+            "14": []
+          },
+          "16": {
+            "7": [],
+            "12": [],
+            "14": []
+          },
+          "17": {
+            "7": [],
+            "12": [],
+            "14": []
+          },
+          "18": {
+            "7": [],
+            "12": [],
+            "14": []
+          },
+          "19": {
+            "7": [
+              11,
+              12
+            ]
+          },
+          "20": {
+            "7": [
+              11,
+              12
+            ]
+          },
+          "21": {
+            "7": [
+              11,
+              12
+            ]
+          },
+          "22": {
+            "7": [
+              11,
+              12
+            ]
+          }
+        },
+        "ChordTemplates": [
+          {
+            "ChordId": 8,
+            "ChordName": "E5",
+            "Fingers": [
+              -1,
+              1,
+              3,
+              4,
+              -1,
+              -1
+            ],
+            "Frets": [
+              -1,
+              7,
+              9,
+              9,
+              0,
+              0
+            ]
+          },
+          {
+            "ChordId": 11,
+            "ChordName": "D5/A",
+            "Fingers": [
+              1,
+              1,
+              3,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              5,
+              5,
+              7,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "ChordId": 12,
+            "ChordName": "Eb5/Bb",
+            "Fingers": [
+              1,
+              1,
+              3,
+              -1,
+              -1,
+              -1
+            ],
+            "Frets": [
+              6,
+              6,
+              8,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "ChordId": 17,
+            "ChordName": "E5",
+            "Fingers": [
+              -1,
+              1,
+              3,
+              4,
+              -1,
+              -1
+            ],
+            "Frets": [
+              -1,
+              7,
+              9,
+              9,
+              -1,
+              -1
+            ]
+          }
+        ],
+        "DLC": true,
+        "DLCKey": "AudCoch",
+        "DNA_Chords": 0.0,
+        "DNA_Riffs": 47.672,
+        "DNA_Solo": 59.59,
+        "DynamicVisualDensity": [
+          5.0,
+          4.7,
+          4.4,
+          4.1,
+          3.8,
+          3.5,
+          3.3,
+          3.1,
+          2.8,
+          2.6,
+          2.4,
+          2.1,
+          1.9,
+          1.7,
+          1.6,
+          1.5,
+          1.4,
+          1.3,
+          1.3,
+          1.3
+        ],
+        "EasyMastery": 0.194563657,
+        "FullName": "AudCoch_Lead",
+        "LastConversionDateTime": "08-18-14 20:14",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:audcoch_lead",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30951,
+        "MasterID_XBox360": -1,
+        "MaxPhraseDifficulty": 22,
+        "MediumMastery": 0.5193133,
+        "NotesEasy": 136.0,
+        "NotesHard": 699.0,
+        "NotesMedium": 363.0,
+        "PhraseIterations": [
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "StartTime": 10.0,
+            "EndTime": 12.966
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 12.966,
+            "EndTime": 24.906
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 24.906,
+            "EndTime": 36.797
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 36.797,
+            "EndTime": 48.789
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 48.789,
+            "EndTime": 60.673
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "StartTime": 60.673,
+            "EndTime": 72.482
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "StartTime": 72.482,
+            "EndTime": 84.455
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "StartTime": 84.455,
+            "EndTime": 96.373
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "StartTime": 96.373,
+            "EndTime": 108.277
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 9,
+            "Name": "Solo",
+            "StartTime": 108.277,
+            "EndTime": 114.236
+          },
+          {
+            "PhraseIndex": 7,
+            "MaxDifficulty": 13,
+            "Name": "Solo2",
+            "StartTime": 114.236,
+            "EndTime": 120.195
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "StartTime": 120.195,
+            "EndTime": 132.154
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "StartTime": 132.154,
+            "EndTime": 144.099
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "StartTime": 144.099,
+            "EndTime": 156.044
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "StartTime": 156.044,
+            "EndTime": 167.867
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 167.867,
+            "EndTime": 179.894
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 179.894,
+            "EndTime": 193.39
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "StartTime": 193.39,
+            "EndTime": 205.213
+          },
+          {
+            "PhraseIndex": 8,
+            "MaxDifficulty": 18,
+            "Name": "BI",
+            "StartTime": 205.213,
+            "EndTime": 217.199
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "StartTime": 217.199,
+            "EndTime": 230.657
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "End",
+            "StartTime": 230.657,
+            "EndTime": 232.2
+          }
+        ],
+        "Phrases": [
+          {
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 22,
+            "Name": "A",
+            "IterationCount": 5
+          },
+          {
+            "MaxDifficulty": 18,
+            "Name": "B",
+            "IterationCount": 5
+          },
+          {
+            "MaxDifficulty": 9,
+            "Name": "Solo",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "End",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "IterationCount": 4
+          },
+          {
+            "MaxDifficulty": 13,
+            "Name": "Solo2",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 18,
+            "Name": "BI",
+            "IterationCount": 1
+          }
+        ],
+        "PreviewBankPath": "song_audcoch_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Score_MaxNotes": 699.0,
+        "Score_PNV": 143.061523,
+        "Sections": [
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 1,
+            "StartTime": 12.966,
+            "EndTime": 24.906,
+            "StartPhraseIterationIndex": 1,
+            "EndPhraseIterationIndex": 1,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 2,
+            "StartTime": 24.906,
+            "EndTime": 36.797,
+            "StartPhraseIterationIndex": 2,
+            "EndPhraseIterationIndex": 2,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 3,
+            "StartTime": 36.797,
+            "EndTime": 48.789,
+            "StartPhraseIterationIndex": 3,
+            "EndPhraseIterationIndex": 3,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 4,
+            "StartTime": 48.789,
+            "EndTime": 60.673,
+            "StartPhraseIterationIndex": 4,
+            "EndPhraseIterationIndex": 4,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 1,
+            "StartTime": 60.673,
+            "EndTime": 72.482,
+            "StartPhraseIterationIndex": 5,
+            "EndPhraseIterationIndex": 5,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 2,
+            "StartTime": 72.482,
+            "EndTime": 84.455,
+            "StartPhraseIterationIndex": 6,
+            "EndPhraseIterationIndex": 6,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 3,
+            "StartTime": 84.455,
+            "EndTime": 96.373,
+            "StartPhraseIterationIndex": 7,
+            "EndPhraseIterationIndex": 7,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 1,
+            "StartTime": 96.373,
+            "EndTime": 108.277,
+            "StartPhraseIterationIndex": 8,
+            "EndPhraseIterationIndex": 8,
+            "IsSolo": false
+          },
+          {
+            "Name": "solo",
+            "UIName": "$[34300] Solo [1]",
+            "Number": 1,
+            "StartTime": 108.277,
+            "EndTime": 114.236,
+            "StartPhraseIterationIndex": 9,
+            "EndPhraseIterationIndex": 9,
+            "IsSolo": true
+          },
+          {
+            "Name": "solo2",
+            "UIName": "$[34300] Solo [1]|2",
+            "Number": 1,
+            "StartTime": 114.236,
+            "EndTime": 120.195,
+            "StartPhraseIterationIndex": 10,
+            "EndPhraseIterationIndex": 10,
+            "IsSolo": true
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 4,
+            "StartTime": 120.195,
+            "EndTime": 132.154,
+            "StartPhraseIterationIndex": 11,
+            "EndPhraseIterationIndex": 11,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 5,
+            "StartTime": 132.154,
+            "EndTime": 144.099,
+            "StartPhraseIterationIndex": 12,
+            "EndPhraseIterationIndex": 12,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 2,
+            "StartTime": 144.099,
+            "EndTime": 156.044,
+            "StartPhraseIterationIndex": 13,
+            "EndPhraseIterationIndex": 13,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 3,
+            "StartTime": 156.044,
+            "EndTime": 167.867,
+            "StartPhraseIterationIndex": 14,
+            "EndPhraseIterationIndex": 14,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 1,
+            "StartTime": 167.867,
+            "EndTime": 179.894,
+            "StartPhraseIterationIndex": 15,
+            "EndPhraseIterationIndex": 15,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 2,
+            "StartTime": 179.894,
+            "EndTime": 193.39,
+            "StartPhraseIterationIndex": 16,
+            "EndPhraseIterationIndex": 16,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 4,
+            "StartTime": 193.39,
+            "EndTime": 205.213,
+            "StartPhraseIterationIndex": 17,
+            "EndPhraseIterationIndex": 17,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 5,
+            "StartTime": 205.213,
+            "EndTime": 217.199,
+            "StartPhraseIterationIndex": 18,
+            "EndPhraseIterationIndex": 18,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 6,
+            "StartTime": 217.199,
+            "EndTime": 230.657,
+            "StartPhraseIterationIndex": 19,
+            "EndPhraseIterationIndex": 19,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 1,
+            "StartTime": 230.657,
+            "EndTime": 232.2,
+            "StartPhraseIterationIndex": 20,
+            "EndPhraseIterationIndex": 20,
+            "IsSolo": false
+          }
+        ],
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:audcoch_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:audcoch_lead",
+        "SongAverageTempo": 81.0,
+        "SongBank": "song_audcoch.bnk",
+        "SongDiffEasy": 0.151362091,
+        "SongDiffHard": 0.386522621,
+        "SongDifficulty": 0.386522621,
+        "SongDiffMed": 0.2878172,
+        "SongEvent": "Play_AudCoch",
+        "SongKey": "AudCoch",
+        "SongLength": 232.2,
+        "SongName": "Cochise",
+        "SongNameSort": "Cochise",
+        "SongOffset": -10.0,
+        "SongPartition": 1,
+        "SongXml": "urn:application:xml:audcoch_lead",
+        "SongYear": 2002,
+        "TargetScore": 100000,
+        "Techniques": {
+          "5": {
+            "8": [
+              13,
+              15
+            ],
+            "9": [
+              13,
+              15
+            ],
+            "0": [
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "6": {
+            "8": [
+              1,
+              13,
+              15,
+              26
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "0": [
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "7": {
+            "8": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "14": [
+              13
+            ],
+            "15": [
+              13
+            ],
+            "16": [
+              13
+            ],
+            "0": [
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "8": {
+            "8": [
+              13,
+              1,
+              15,
+              26,
+              31
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "15": [
+              13
+            ],
+            "16": [
+              13
+            ],
+            "17": [
+              13
+            ],
+            "18": [
+              13
+            ],
+            "0": [
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "9": {
+            "8": [
+              13,
+              1,
+              15,
+              26,
+              31
+            ],
+            "9": [
+              11,
+              13,
+              15,
+              27,
+              1,
+              26,
+              31
+            ],
+            "10": [
+              13,
+              16
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "15": [
+              13
+            ],
+            "16": [
+              13
+            ],
+            "17": [
+              13
+            ],
+            "18": [
+              13
+            ],
+            "0": [
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "10": {
+            "8": [
+              13
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "10": [
+              13,
+              16
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "15": [
+              13
+            ],
+            "16": [
+              13
+            ],
+            "17": [
+              13
+            ],
+            "18": [
+              13
+            ],
+            "0": [
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "11": {
+            "8": [
+              13
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "10": [
+              13,
+              16
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13
+            ],
+            "15": [
+              13
+            ],
+            "16": [
+              13
+            ],
+            "17": [
+              13
+            ],
+            "18": [
+              13
+            ],
+            "0": [
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "12": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "10": [
+              13,
+              16,
+              12
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "13": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "9": [
+              1,
+              13,
+              15,
+              26,
+              31
+            ],
+            "10": [
+              13,
+              16,
+              12
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              2
+            ],
+            "1": [
+              2
+            ],
+            "2": [
+              2
+            ],
+            "3": [
+              2
+            ],
+            "4": [
+              2
+            ]
+          },
+          "14": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13,
+              35
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "15": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13,
+              35
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              38
+            ],
+            "12": [
+              38
+            ]
+          },
+          "16": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13,
+              35
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              38
+            ],
+            "12": [
+              38
+            ]
+          },
+          "17": {
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13,
+              35
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              12
+            ],
+            "7": [
+              38
+            ],
+            "12": [
+              38
+            ]
+          },
+          "18": {
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "12": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "13": [
+              3,
+              6,
+              13
+            ],
+            "14": [
+              3,
+              6,
+              13,
+              35
+            ],
+            "17": [
+              3,
+              6,
+              13
+            ],
+            "18": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              12
+            ]
+          },
+          "19": {
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "20": {
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "21": {
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "22": {
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13,
+              38
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          }
+        },
+        "Tone_A": "AudCoch_octave",
+        "Tone_B": "AudCoch_dist",
+        "Tone_Base": "AudCoch_octave",
+        "Tone_C": "AudCoch_breakdowndrive",
+        "Tone_D": "",
+        "Tone_Multiplayer": "",
+        "Tones": [
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 1.1,
+                  "Rack_StudioEQ_TrebleFreq": 10.2,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -2.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1.5,
+                  "Rack_StudioEQ_HiMid": 1.5,
+                  "Rack_StudioEQ_LoMid": -2.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Mid": 75,
+                  "Amp_MarshallJCM800_Gain": 15,
+                  "Amp_MarshallJCM800_Bass": 80,
+                  "Amp_MarshallJCM800_Treble": 100,
+                  "Amp_MarshallJCM800_Pres": 34
+                },
+                "Key": "Amp_MarshallJCM800"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_Marshall1960a_57_Edge"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_ValveEcho_Time": 210,
+                  "Pedal_ValveEcho_Feedback": 0,
+                  "Pedal_ValveEcho_Mix": 46
+                },
+                "Key": "Pedal_ValveEcho",
+                "Category": "30779"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 0,
+                  "Pedal_EQ5_2200": 3,
+                  "Pedal_EQ5_63": -3,
+                  "Pedal_EQ5_250": -2,
+                  "Pedal_EQ5_750": 2
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              },
+              "PrePedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_Octavius_Tone": 50,
+                  "": -12,
+                  "Pedal_Octavius_Mix": 85
+                },
+                "Key": "Pedal_Octavius",
+                "Category": "30791"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35719]OCTAVE"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-19.000",
+            "Key": "AudCoch_octave",
+            "Name": "AudCoch_octave",
+            "SortOrder": 36
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 1.1,
+                  "Rack_StudioEQ_TrebleFreq": 10.2,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -2.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1.5,
+                  "Rack_StudioEQ_HiMid": 1.5,
+                  "Rack_StudioEQ_LoMid": -2.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Mid": 75,
+                  "Amp_MarshallJCM800_Gain": 15,
+                  "Amp_MarshallJCM800_Bass": 80,
+                  "Amp_MarshallJCM800_Treble": 100,
+                  "Amp_MarshallJCM800_Pres": 34
+                },
+                "Key": "Amp_MarshallJCM800"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_Marshall1960a_57_Edge"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_ValveEcho_Time": 210,
+                  "Pedal_ValveEcho_Feedback": 0,
+                  "Pedal_ValveEcho_Mix": 46
+                },
+                "Key": "Pedal_ValveEcho",
+                "Category": "30779"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 0,
+                  "Pedal_EQ5_2200": 3,
+                  "Pedal_EQ5_63": -3,
+                  "Pedal_EQ5_250": -2,
+                  "Pedal_EQ5_750": 2
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              },
+              "PrePedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_Octavius_Tone": 50,
+                  "": -12,
+                  "Pedal_Octavius_Mix": 85
+                },
+                "Key": "Pedal_Octavius",
+                "Category": "30791"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35719]OCTAVE"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-19.000",
+            "Key": "AudCoch_octave",
+            "Name": "AudCoch_octave",
+            "SortOrder": 36
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 1.1,
+                  "Rack_StudioEQ_TrebleFreq": 10.2,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -2.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1.5,
+                  "Rack_StudioEQ_HiMid": 1.5,
+                  "Rack_StudioEQ_LoMid": -2.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Mid": 100,
+                  "Amp_MarshallJCM800_Gain": 58,
+                  "Amp_MarshallJCM800_Bass": 100,
+                  "Amp_MarshallJCM800_Treble": 100,
+                  "Amp_MarshallJCM800_Pres": 1
+                },
+                "Key": "Amp_MarshallJCM800"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_Marshall1960a_57_Edge"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 0,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 0,
+                  "Pedal_EQ5_250": -2,
+                  "Pedal_EQ5_750": 1
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35722]DISTORTION"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-28.000",
+            "Key": "AudCoch_dist",
+            "Name": "AudCoch_dist",
+            "SortOrder": 28
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 360,
+                  "Rack_StudioEQ_HiMidFreq": 4.2,
+                  "Rack_StudioEQ_TrebleFreq": 10.2,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -2.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1,
+                  "Rack_StudioEQ_HiMid": 1.5,
+                  "Rack_StudioEQ_LoMid": -2.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Mid": 32,
+                  "Amp_MarshallJCM800_Gain": 32,
+                  "Amp_MarshallJCM800_Bass": 75,
+                  "Amp_MarshallJCM800_Treble": 100,
+                  "Amp_MarshallJCM800_Pres": 20
+                },
+                "Key": "Amp_MarshallJCM800"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Cab_Marshall1960a_57_Edge"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": 1,
+                  "Pedal_EQ5_2200": 2,
+                  "Pedal_EQ5_63": 0,
+                  "Pedal_EQ5_250": -3,
+                  "Pedal_EQ5_750": -2
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35716]OVERDRIVE"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-26.500",
+            "Key": "AudCoch_breakdowndrive",
+            "Name": "AudCoch_breakdowndrive",
+            "SortOrder": 36
+          }
+        ],
+        "Tuning": {
+          "string0": 0,
+          "string1": 0,
+          "string2": 0,
+          "string3": 0,
+          "string4": 0,
+          "string5": 0
+        },
+        "PersistentID": "E346ABEBA519EF8AA54FC1447A60842F"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

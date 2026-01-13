@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game>
+  <entitySet>
+    <entity id="9778aa3a761864ff9cfbffcceff154a2" modelName="RSEnumerable_Song" name="311Amber_Rhythm" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_311amber" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:311amber_rhythm" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:311amber_rhythm" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_311amber_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_311amber_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_311amber_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:311amber_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="83d85eefbc0fff5cbb379e374c9bccdf" modelName="RSEnumerable_Song" name="311Amber_Lead" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_311amber" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:311amber_lead" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:311amber_lead" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_311amber_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_311amber_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_311amber_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:311amber_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="a729e13915851d3f264a109759ce650b" modelName="RSEnumerable_Song" name="311Amber_Vocals" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_311amber" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:311amber_vocals" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:311amber_vocals" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_311amber_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_311amber_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_311amber_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:311amber_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="ed9ff55fa6b3ceae37bab66a351ec4a9" modelName="RSEnumerable_Song" name="311Amber_Bass" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_311amber" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:311amber_bass" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:311amber_bass" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_311amber_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_311amber_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_311amber_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:311amber_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_311amber_preview" />
+        </property>
+      </properties>
+    </entity>
+  </entitySet>
+</game>
