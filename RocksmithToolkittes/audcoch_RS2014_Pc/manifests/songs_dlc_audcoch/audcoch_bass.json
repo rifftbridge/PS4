@@ -1,0 +1,1112 @@
+{
+  "Entries": {
+    "20E979CF3F19A8CC3ADF48430450A881": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_audcoch",
+        "AlbumName": "Audioslave",
+        "AlbumNameSort": "Audioslave",
+        "ArrangementName": "Bass",
+        "ArrangementProperties": {
+          "represent": 1,
+          "bonusArr": 0,
+          "standardTuning": 1,
+          "nonStandardChords": 0,
+          "barreChords": 0,
+          "powerChords": 1,
+          "dropDPower": 0,
+          "openChords": 0,
+          "fingerPicking": 0,
+          "pickDirection": 0,
+          "doubleStops": 1,
+          "palmMutes": 0,
+          "harmonics": 0,
+          "pinchHarmonics": 0,
+          "hopo": 1,
+          "tremolo": 0,
+          "slides": 0,
+          "unpitchedSlides": 1,
+          "bends": 0,
+          "tapping": 0,
+          "vibrato": 0,
+          "fretHandMutes": 0,
+          "slapPop": 0,
+          "twoFingerPicking": 1,
+          "fifthsAndOctaves": 0,
+          "syncopation": 0,
+          "bassPick": 0,
+          "sustain": 1,
+          "pathLead": 0,
+          "pathRhythm": 0,
+          "pathBass": 1,
+          "routeMask": 4
+        },
+        "ArrangementSort": 0,
+        "ArrangementType": 3,
+        "ArtistName": "Audioslave",
+        "ArtistNameSort": "Audioslave",
+        "BlockAsset": "urn:emergent-world:audcoch",
+        "CentOffset": 0.0,
+        "Chords": {},
+        "ChordTemplates": [],
+        "DLC": true,
+        "DLCKey": "AudCoch",
+        "DNA_Chords": 0.0,
+        "DNA_Riffs": 0.0,
+        "DNA_Solo": 0.0,
+        "DynamicVisualDensity": [
+          5.0,
+          4.7,
+          4.4,
+          4.1,
+          3.8,
+          3.5,
+          3.3,
+          3.1,
+          2.8,
+          2.6,
+          2.4,
+          2.1,
+          1.9,
+          1.7,
+          1.6,
+          1.5,
+          1.4,
+          1.3,
+          1.3,
+          1.3
+        ],
+        "EasyMastery": 0.143958867,
+        "FullName": "AudCoch_Bass",
+        "LastConversionDateTime": "08-15-14 19:59",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:audcoch_bass",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30950,
+        "MasterID_XBox360": -1,
+        "MaxPhraseDifficulty": 23,
+        "MediumMastery": 0.419023126,
+        "NotesEasy": 112.0,
+        "NotesHard": 778.0,
+        "NotesMedium": 326.0,
+        "PhraseIterations": [
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 0,
+            "Name": "noguitar",
+            "StartTime": 10.0,
+            "EndTime": 24.906
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 24.906,
+            "EndTime": 36.797
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 36.797,
+            "EndTime": 48.789
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "StartTime": 48.789,
+            "EndTime": 60.673
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 60.673,
+            "EndTime": 72.482
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 72.482,
+            "EndTime": 84.455
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 84.455,
+            "EndTime": 96.373
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "StartTime": 96.373,
+            "EndTime": 108.277
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 108.277,
+            "EndTime": 120.195
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 120.195,
+            "EndTime": 132.154
+          },
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "StartTime": 132.154,
+            "EndTime": 144.099
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "StartTime": 144.099,
+            "EndTime": 156.044
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "StartTime": 156.044,
+            "EndTime": 167.867
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 167.867,
+            "EndTime": 179.894
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "StartTime": 179.894,
+            "EndTime": 193.39
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 0,
+            "Name": "noguitar",
+            "StartTime": 193.39,
+            "EndTime": 205.213
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "StartTime": 205.213,
+            "EndTime": 217.199
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "StartTime": 217.199,
+            "EndTime": 230.657
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "End",
+            "StartTime": 230.657,
+            "EndTime": 232.2
+          }
+        ],
+        "Phrases": [
+          {
+            "MaxDifficulty": 23,
+            "Name": "A",
+            "IterationCount": 6
+          },
+          {
+            "MaxDifficulty": 20,
+            "Name": "B",
+            "IterationCount": 5
+          },
+          {
+            "MaxDifficulty": 11,
+            "Name": "C",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "noguitar",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 13,
+            "Name": "Intro",
+            "IterationCount": 3
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "End",
+            "IterationCount": 1
+          }
+        ],
+        "PreviewBankPath": "song_audcoch_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Score_MaxNotes": 778.0,
+        "Score_PNV": 128.5347,
+        "Sections": [
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 1,
+            "StartTime": 10.0,
+            "EndTime": 24.906,
+            "StartPhraseIterationIndex": 0,
+            "EndPhraseIterationIndex": 0,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 1,
+            "StartTime": 24.906,
+            "EndTime": 36.797,
+            "StartPhraseIterationIndex": 1,
+            "EndPhraseIterationIndex": 1,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 2,
+            "StartTime": 36.797,
+            "EndTime": 48.789,
+            "StartPhraseIterationIndex": 2,
+            "EndPhraseIterationIndex": 2,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 3,
+            "StartTime": 48.789,
+            "EndTime": 60.673,
+            "StartPhraseIterationIndex": 3,
+            "EndPhraseIterationIndex": 3,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 1,
+            "StartTime": 60.673,
+            "EndTime": 72.482,
+            "StartPhraseIterationIndex": 4,
+            "EndPhraseIterationIndex": 4,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 2,
+            "StartTime": 72.482,
+            "EndTime": 84.455,
+            "StartPhraseIterationIndex": 5,
+            "EndPhraseIterationIndex": 5,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 3,
+            "StartTime": 84.455,
+            "EndTime": 96.373,
+            "StartPhraseIterationIndex": 6,
+            "EndPhraseIterationIndex": 6,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 1,
+            "StartTime": 96.373,
+            "EndTime": 108.277,
+            "StartPhraseIterationIndex": 7,
+            "EndPhraseIterationIndex": 7,
+            "IsSolo": false
+          },
+          {
+            "Name": "solo",
+            "UIName": "$[34300] Solo [1]",
+            "Number": 1,
+            "StartTime": 108.277,
+            "EndTime": 120.195,
+            "StartPhraseIterationIndex": 8,
+            "EndPhraseIterationIndex": 8,
+            "IsSolo": true
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 4,
+            "StartTime": 120.195,
+            "EndTime": 132.154,
+            "StartPhraseIterationIndex": 9,
+            "EndPhraseIterationIndex": 9,
+            "IsSolo": false
+          },
+          {
+            "Name": "verse",
+            "UIName": "$[34304] Verse [1]",
+            "Number": 5,
+            "StartTime": 132.154,
+            "EndTime": 144.099,
+            "StartPhraseIterationIndex": 10,
+            "EndPhraseIterationIndex": 10,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 2,
+            "StartTime": 144.099,
+            "EndTime": 156.044,
+            "StartPhraseIterationIndex": 11,
+            "EndPhraseIterationIndex": 11,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 3,
+            "StartTime": 156.044,
+            "EndTime": 167.867,
+            "StartPhraseIterationIndex": 12,
+            "EndPhraseIterationIndex": 12,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 1,
+            "StartTime": 167.867,
+            "EndTime": 179.894,
+            "StartPhraseIterationIndex": 13,
+            "EndPhraseIterationIndex": 13,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 2,
+            "StartTime": 179.894,
+            "EndTime": 193.39,
+            "StartPhraseIterationIndex": 14,
+            "EndPhraseIterationIndex": 14,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 2,
+            "StartTime": 193.39,
+            "EndTime": 205.213,
+            "StartPhraseIterationIndex": 15,
+            "EndPhraseIterationIndex": 15,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 4,
+            "StartTime": 205.213,
+            "EndTime": 217.199,
+            "StartPhraseIterationIndex": 16,
+            "EndPhraseIterationIndex": 16,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 5,
+            "StartTime": 217.199,
+            "EndTime": 230.657,
+            "StartPhraseIterationIndex": 17,
+            "EndPhraseIterationIndex": 17,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 3,
+            "StartTime": 230.657,
+            "EndTime": 232.2,
+            "StartPhraseIterationIndex": 18,
+            "EndPhraseIterationIndex": 18,
+            "IsSolo": false
+          }
+        ],
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:audcoch_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:audcoch_bass",
+        "SongAverageTempo": 81.0,
+        "SongBank": "song_audcoch.bnk",
+        "SongDiffEasy": 0.206951782,
+        "SongDiffHard": 0.36982733,
+        "SongDifficulty": 0.36982733,
+        "SongDiffMed": 0.3191455,
+        "SongEvent": "Play_AudCoch",
+        "SongKey": "AudCoch",
+        "SongLength": 232.2,
+        "SongName": "Cochise",
+        "SongNameSort": "Cochise",
+        "SongOffset": -10.0,
+        "SongPartition": 1,
+        "SongXml": "urn:application:xml:audcoch_bass",
+        "SongYear": 2002,
+        "TargetScore": 100000,
+        "Techniques": {
+          "7": {
+            "12": [
+              13
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ]
+          },
+          "8": {
+            "12": [
+              13
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ]
+          },
+          "9": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "10": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "11": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "13": [
+              13
+            ],
+            "14": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "12": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "13": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "14": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "15": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "16": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "17": {
+            "7": [
+              13
+            ],
+            "11": [
+              13
+            ],
+            "12": [
+              13
+            ],
+            "16": [
+              13
+            ]
+          },
+          "18": {
+            "7": [
+              3,
+              6,
+              13
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "12": [
+              3,
+              6,
+              13
+            ],
+            "16": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              12
+            ]
+          },
+          "19": {
+            "7": [
+              3,
+              6,
+              13
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "12": [
+              3,
+              6,
+              13
+            ],
+            "16": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              12
+            ]
+          },
+          "20": {
+            "4": [
+              13
+            ],
+            "5": [
+              13
+            ],
+            "6": [
+              13
+            ],
+            "7": [
+              3,
+              6,
+              13
+            ],
+            "8": [
+              13
+            ],
+            "9": [
+              13
+            ],
+            "10": [
+              13
+            ],
+            "11": [
+              3,
+              6,
+              13
+            ],
+            "12": [
+              3,
+              6,
+              13
+            ],
+            "16": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13,
+              12
+            ]
+          },
+          "21": {
+            "4": [
+              3,
+              6,
+              13
+            ],
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "9": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "22": {
+            "4": [
+              3,
+              6,
+              13
+            ],
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "9": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          },
+          "23": {
+            "4": [
+              3,
+              6,
+              13
+            ],
+            "5": [
+              3,
+              6,
+              13
+            ],
+            "6": [
+              3,
+              6,
+              13
+            ],
+            "8": [
+              3,
+              6,
+              13
+            ],
+            "9": [
+              3,
+              6,
+              13
+            ],
+            "0": [
+              3,
+              6,
+              13
+            ]
+          }
+        },
+        "Tone_A": "AudCoch_bassfilter",
+        "Tone_B": "AudCoch_bass",
+        "Tone_Base": "AudCoch_bassfilter",
+        "Tone_C": "",
+        "Tone_D": "",
+        "Tone_Multiplayer": "",
+        "Tones": [
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 0.800003,
+                  "Rack_StudioEQ_TrebleFreq": 7.6,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -1.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1,
+                  "Rack_StudioEQ_HiMid": 3,
+                  "Rack_StudioEQ_LoMid": -3.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Bass_Amp_BT600B_2600": -1.5,
+                  "Bass_Amp_BT600B_180": -5.5,
+                  "Bass_Amp_BT600B_340": -1.5,
+                  "Bass_Amp_BT600B_Gain": 38,
+                  "Bass_Amp_BT600B_Compression": 5,
+                  "Bass_Amp_BT600B_Treble": 57,
+                  "Bass_Amp_BT600B_1200": 2,
+                  "Bass_Amp_BT600B_Mid": 87,
+                  "Bass_Amp_BT600B_Bass": 68
+                },
+                "Key": "Bass_Amp_BT600B"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Bass_Cab_BT212BC_57_Edge"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Bass_Pedal_MBComp_Filter": 270,
+                  "Bass_Pedal_MBComp_Compress": 85,
+                  "Bass_Pedal_MBComp_Rate": 68
+                },
+                "Key": "Bass_Pedal_MBComp"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_BobFilter_Sens": 75,
+                  "Pedal_BobFilter_Release": 180,
+                  "Pedal_BobFilter_Mix": 80,
+                  "Pedal_BobFilter_Filter": 1,
+                  "Pedal_BobFilter_Attack": 65
+                },
+                "Key": "Pedal_BobFilter",
+                "Category": "30785"
+              },
+              "PrePedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": -1,
+                  "Pedal_EQ5_2200": 3,
+                  "Pedal_EQ5_63": -3,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": 2
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35715]BASS",
+              "$[35729]FILTER"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-15.000",
+            "Key": "AudCoch_bassfilter",
+            "Name": "AudCoch_bassfilter",
+            "SortOrder": 37
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 0.800003,
+                  "Rack_StudioEQ_TrebleFreq": 7.6,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -1.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1,
+                  "Rack_StudioEQ_HiMid": 3,
+                  "Rack_StudioEQ_LoMid": -3.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Bass_Amp_BT600B_2600": -1.5,
+                  "Bass_Amp_BT600B_180": -5.5,
+                  "Bass_Amp_BT600B_340": -1.5,
+                  "Bass_Amp_BT600B_Gain": 38,
+                  "Bass_Amp_BT600B_Compression": 5,
+                  "Bass_Amp_BT600B_Treble": 57,
+                  "Bass_Amp_BT600B_1200": 2,
+                  "Bass_Amp_BT600B_Mid": 87,
+                  "Bass_Amp_BT600B_Bass": 68
+                },
+                "Key": "Bass_Amp_BT600B"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Bass_Cab_BT212BC_57_Edge"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Bass_Pedal_MBComp_Filter": 270,
+                  "Bass_Pedal_MBComp_Compress": 85,
+                  "Bass_Pedal_MBComp_Rate": 68
+                },
+                "Key": "Bass_Pedal_MBComp"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_BobFilter_Sens": 75,
+                  "Pedal_BobFilter_Release": 180,
+                  "Pedal_BobFilter_Mix": 80,
+                  "Pedal_BobFilter_Filter": 1,
+                  "Pedal_BobFilter_Attack": 65
+                },
+                "Key": "Pedal_BobFilter",
+                "Category": "30785"
+              },
+              "PrePedal2": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": -1,
+                  "Pedal_EQ5_2200": 3,
+                  "Pedal_EQ5_63": -3,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": 2
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35715]BASS",
+              "$[35729]FILTER"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-15.000",
+            "Key": "AudCoch_bassfilter",
+            "Name": "AudCoch_bassfilter",
+            "SortOrder": 37
+          },
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 420,
+                  "Rack_StudioEQ_HiMidFreq": 0.800003,
+                  "Rack_StudioEQ_TrebleFreq": 7.6,
+                  "Rack_StudioEQ_LoMidFreq": 120,
+                  "Rack_StudioEQ_Treble": -1.5,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 1,
+                  "Rack_StudioEQ_HiMid": 3,
+                  "Rack_StudioEQ_LoMid": -3.5,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Rack2": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioCompressor_Attack": 45,
+                  "Rack_StudioCompressor_Threshold": -13,
+                  "Rack_StudioCompressor_Release": 150,
+                  "Rack_StudioCompressor_Ratio": 2
+                },
+                "Key": "Rack_StudioCompressor"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Bass_Amp_BT600B_2600": -1.5,
+                  "Bass_Amp_BT600B_180": -5.5,
+                  "Bass_Amp_BT600B_340": -1.5,
+                  "Bass_Amp_BT600B_Gain": 38,
+                  "Bass_Amp_BT600B_Compression": 5,
+                  "Bass_Amp_BT600B_Treble": 57,
+                  "Bass_Amp_BT600B_1200": 2,
+                  "Bass_Amp_BT600B_Mid": 87,
+                  "Bass_Amp_BT600B_Bass": 68
+                },
+                "Key": "Bass_Amp_BT600B"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Bass_Cab_BT212BC_57_Edge"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Bass_Pedal_MBComp_Filter": 270,
+                  "Bass_Pedal_MBComp_Compress": 85,
+                  "Bass_Pedal_MBComp_Rate": 68
+                },
+                "Key": "Bass_Pedal_MBComp"
+              },
+              "PrePedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Pedal_EQ5_5700": -1,
+                  "Pedal_EQ5_2200": 3,
+                  "Pedal_EQ5_63": -4,
+                  "Pedal_EQ5_250": -8,
+                  "Pedal_EQ5_750": 3
+                },
+                "Key": "Pedal_EQ5",
+                "Category": "30785"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35715]BASS"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-18.500",
+            "Key": "AudCoch_bass",
+            "Name": "AudCoch_bass",
+            "SortOrder": 30
+          }
+        ],
+        "Tuning": {
+          "string0": 0,
+          "string1": 0,
+          "string2": 0,
+          "string3": 0,
+          "string4": 0,
+          "string5": 0
+        },
+        "PersistentID": "20E979CF3F19A8CC3ADF48430450A881"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

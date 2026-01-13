@@ -1,0 +1,57 @@
+{
+  "Entries": {
+    "39A9F7652103CFF71F4661022EF38AD9": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_cooppois", 
+        "ArrangementName": "Vocals", 
+        "ArrangementSort": 0, 
+        "BlockAsset": "urn:emergent-world:cooppois", 
+        "DLC": true, 
+        "DLCKey": "CoopPois", 
+        "DynamicVisualDensity": [
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0, 
+          2.0
+        ], 
+        "FullName": "CoopPois_Vocals", 
+        "InputEvent": "Play_Tone_Standard_Mic", 
+        "LeaderboardChallengeRating": 0, 
+        "ManifestUrn": "urn:database:json-db:cooppois_vocals", 
+        "MasterID_PS3": -1, 
+        "MasterID_RDV": 34564, 
+        "MasterID_XBox360": -1, 
+        "PersistentID": "39A9F7652103CFF71F4661022EF38AD9", 
+        "PreviewBankPath": "song_cooppois_preview.bnk", 
+        "RelativeDifficulty": 0, 
+        "SKU": "RS2", 
+        "Shipping": true, 
+        "ShowlightsXML": "urn:application:xml:cooppois_showlights", 
+        "SongAsset": "urn:application:musicgame-song:cooppois_vocals", 
+        "SongBank": "song_cooppois.bnk", 
+        "SongEvent": "Play_CoopPois", 
+        "SongKey": "CoopPois", 
+        "SongXml": "urn:application:xml:cooppois_vocals"
+      }
+    }
+  }, 
+  "InsertRoot": "Static.Songs.Entries", 
+  "IterationVersion": 3, 
+  "ModelName": "RSEnumerable_Song"
+}

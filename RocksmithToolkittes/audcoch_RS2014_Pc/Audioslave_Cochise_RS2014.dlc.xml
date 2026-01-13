@@ -1,0 +1,1209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DLCPackageData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage">
+  <AlbumArtPath>gfxassets\album_art\album_audcoch_256.dds</AlbumArtPath>
+  <AppId>295021</AppId>
+  <Arrangements>
+    <Arrangement>
+      <ArrangementName>Bass</ArrangementName>
+      <ArrangementPropeties xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:BarreChords>0</d4p1:BarreChords>
+        <d4p1:BassPick>0</d4p1:BassPick>
+        <d4p1:Bends>0</d4p1:Bends>
+        <d4p1:DoubleStops>1</d4p1:DoubleStops>
+        <d4p1:DropDPower>0</d4p1:DropDPower>
+        <d4p1:FifthsAndOctaves>0</d4p1:FifthsAndOctaves>
+        <d4p1:FingerPicking>0</d4p1:FingerPicking>
+        <d4p1:FretHandMutes>0</d4p1:FretHandMutes>
+        <d4p1:Harmonics>0</d4p1:Harmonics>
+        <d4p1:Hopo>1</d4p1:Hopo>
+        <d4p1:NonStandardChords>0</d4p1:NonStandardChords>
+        <d4p1:OpenChords>0</d4p1:OpenChords>
+        <d4p1:PalmMutes>0</d4p1:PalmMutes>
+        <d4p1:PickDirection>0</d4p1:PickDirection>
+        <d4p1:PinchHarmonics>0</d4p1:PinchHarmonics>
+        <d4p1:PowerChords>1</d4p1:PowerChords>
+        <d4p1:Represent>1</d4p1:Represent>
+        <d4p1:SlapPop>0</d4p1:SlapPop>
+        <d4p1:Slides>0</d4p1:Slides>
+        <d4p1:StandardTuning>1</d4p1:StandardTuning>
+        <d4p1:Sustain>1</d4p1:Sustain>
+        <d4p1:Syncopation>0</d4p1:Syncopation>
+        <d4p1:Tapping>0</d4p1:Tapping>
+        <d4p1:Tremolo>0</d4p1:Tremolo>
+        <d4p1:TwoFingerPicking>1</d4p1:TwoFingerPicking>
+        <d4p1:UnpitchedSlides>1</d4p1:UnpitchedSlides>
+        <d4p1:Vibrato>0</d4p1:Vibrato>
+        <d4p1:BonusArr>0</d4p1:BonusArr>
+        <d4p1:Metronome>0</d4p1:Metronome>
+        <d4p1:PathBass>1</d4p1:PathBass>
+        <d4p1:PathLead>0</d4p1:PathLead>
+        <d4p1:PathRhythm>0</d4p1:PathRhythm>
+        <d4p1:RouteMask>4</d4p1:RouteMask>
+      </ArrangementPropeties>
+      <ArrangementSort>0</ArrangementSort>
+      <ArrangementType>Bass</ArrangementType>
+      <BonusArr>false</BonusArr>
+      <CapoFret>0</CapoFret>
+      <GlyphsXmlPath i:nil="true" />
+      <Id>20e979cf-3f19-a8cc-3adf-48430450a881</Id>
+      <LyricsArtPath i:nil="true" />
+      <MasterId>30950</MasterId>
+      <Metronome>None</Metronome>
+      <PluckedType>NotPicked</PluckedType>
+      <Represent>true</Represent>
+      <RouteMask>Bass</RouteMask>
+      <ScrollSpeed>13</ScrollSpeed>
+      <Sng2014 xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.Sng2014HSL" i:nil="true" />
+      <SongFile xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>c5fb4dc8-3b9c-4108-bf5c-36677769a93b</d4p1:UUID>
+        <d4p1:File></d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongFile>
+      <SongXml xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>c4401af1-ef23-4a72-b0c3-8e21981d65cf</d4p1:UUID>
+        <d4p1:File>songs\arr\audcoch_bass.xml</d4p1:File>
+        <d4p1:Version>7</d4p1:Version>
+      </SongXml>
+      <ToneA>AudCoch_bassfilter</ToneA>
+      <ToneB>AudCoch_bass</ToneB>
+      <ToneBase>AudCoch_bassfilter</ToneBase>
+      <ToneC i:nil="true" />
+      <ToneD i:nil="true" />
+      <ToneMultiplayer></ToneMultiplayer>
+      <Tuning>E Standard</Tuning>
+      <TuningPitch>440</TuningPitch>
+      <TuningStrings xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:String0>0</d4p1:String0>
+        <d4p1:String1>0</d4p1:String1>
+        <d4p1:String2>0</d4p1:String2>
+        <d4p1:String3>0</d4p1:String3>
+        <d4p1:String4>0</d4p1:String4>
+        <d4p1:String5>0</d4p1:String5>
+      </TuningStrings>
+    </Arrangement>
+    <Arrangement>
+      <ArrangementName>Lead</ArrangementName>
+      <ArrangementPropeties xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:BarreChords>0</d4p1:BarreChords>
+        <d4p1:BassPick>0</d4p1:BassPick>
+        <d4p1:Bends>1</d4p1:Bends>
+        <d4p1:DoubleStops>1</d4p1:DoubleStops>
+        <d4p1:DropDPower>0</d4p1:DropDPower>
+        <d4p1:FifthsAndOctaves>0</d4p1:FifthsAndOctaves>
+        <d4p1:FingerPicking>0</d4p1:FingerPicking>
+        <d4p1:FretHandMutes>1</d4p1:FretHandMutes>
+        <d4p1:Harmonics>0</d4p1:Harmonics>
+        <d4p1:Hopo>1</d4p1:Hopo>
+        <d4p1:NonStandardChords>0</d4p1:NonStandardChords>
+        <d4p1:OpenChords>0</d4p1:OpenChords>
+        <d4p1:PalmMutes>0</d4p1:PalmMutes>
+        <d4p1:PickDirection>0</d4p1:PickDirection>
+        <d4p1:PinchHarmonics>0</d4p1:PinchHarmonics>
+        <d4p1:PowerChords>1</d4p1:PowerChords>
+        <d4p1:Represent>1</d4p1:Represent>
+        <d4p1:SlapPop>0</d4p1:SlapPop>
+        <d4p1:Slides>1</d4p1:Slides>
+        <d4p1:StandardTuning>1</d4p1:StandardTuning>
+        <d4p1:Sustain>1</d4p1:Sustain>
+        <d4p1:Syncopation>0</d4p1:Syncopation>
+        <d4p1:Tapping>0</d4p1:Tapping>
+        <d4p1:Tremolo>1</d4p1:Tremolo>
+        <d4p1:TwoFingerPicking>0</d4p1:TwoFingerPicking>
+        <d4p1:UnpitchedSlides>1</d4p1:UnpitchedSlides>
+        <d4p1:Vibrato>1</d4p1:Vibrato>
+        <d4p1:BonusArr>0</d4p1:BonusArr>
+        <d4p1:Metronome>0</d4p1:Metronome>
+        <d4p1:PathBass>0</d4p1:PathBass>
+        <d4p1:PathLead>1</d4p1:PathLead>
+        <d4p1:PathRhythm>0</d4p1:PathRhythm>
+        <d4p1:RouteMask>1</d4p1:RouteMask>
+      </ArrangementPropeties>
+      <ArrangementSort>0</ArrangementSort>
+      <ArrangementType>Guitar</ArrangementType>
+      <BonusArr>false</BonusArr>
+      <CapoFret>0</CapoFret>
+      <GlyphsXmlPath i:nil="true" />
+      <Id>e346abeb-a519-ef8a-a54f-c1447a60842f</Id>
+      <LyricsArtPath i:nil="true" />
+      <MasterId>30951</MasterId>
+      <Metronome>None</Metronome>
+      <PluckedType>NotPicked</PluckedType>
+      <Represent>true</Represent>
+      <RouteMask>Lead</RouteMask>
+      <ScrollSpeed>13</ScrollSpeed>
+      <Sng2014 xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.Sng2014HSL" i:nil="true" />
+      <SongFile xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>4043f63b-af5c-4eac-b855-f9b8ab20a2fb</d4p1:UUID>
+        <d4p1:File></d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongFile>
+      <SongXml xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>c5fe1cb9-72be-4ba8-bf80-ba228cac7805</d4p1:UUID>
+        <d4p1:File>songs\arr\audcoch_lead.xml</d4p1:File>
+        <d4p1:Version>7</d4p1:Version>
+      </SongXml>
+      <ToneA>AudCoch_octave</ToneA>
+      <ToneB>AudCoch_dist</ToneB>
+      <ToneBase>AudCoch_octave</ToneBase>
+      <ToneC>AudCoch_breakdowndrive</ToneC>
+      <ToneD i:nil="true" />
+      <ToneMultiplayer></ToneMultiplayer>
+      <Tuning>E Standard</Tuning>
+      <TuningPitch>440</TuningPitch>
+      <TuningStrings xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:String0>0</d4p1:String0>
+        <d4p1:String1>0</d4p1:String1>
+        <d4p1:String2>0</d4p1:String2>
+        <d4p1:String3>0</d4p1:String3>
+        <d4p1:String4>0</d4p1:String4>
+        <d4p1:String5>0</d4p1:String5>
+      </TuningStrings>
+    </Arrangement>
+    <Arrangement>
+      <ArrangementName>Rhythm</ArrangementName>
+      <ArrangementPropeties xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:BarreChords>0</d4p1:BarreChords>
+        <d4p1:BassPick>0</d4p1:BassPick>
+        <d4p1:Bends>1</d4p1:Bends>
+        <d4p1:DoubleStops>1</d4p1:DoubleStops>
+        <d4p1:DropDPower>0</d4p1:DropDPower>
+        <d4p1:FifthsAndOctaves>0</d4p1:FifthsAndOctaves>
+        <d4p1:FingerPicking>0</d4p1:FingerPicking>
+        <d4p1:FretHandMutes>1</d4p1:FretHandMutes>
+        <d4p1:Harmonics>0</d4p1:Harmonics>
+        <d4p1:Hopo>1</d4p1:Hopo>
+        <d4p1:NonStandardChords>0</d4p1:NonStandardChords>
+        <d4p1:OpenChords>0</d4p1:OpenChords>
+        <d4p1:PalmMutes>0</d4p1:PalmMutes>
+        <d4p1:PickDirection>0</d4p1:PickDirection>
+        <d4p1:PinchHarmonics>0</d4p1:PinchHarmonics>
+        <d4p1:PowerChords>1</d4p1:PowerChords>
+        <d4p1:Represent>1</d4p1:Represent>
+        <d4p1:SlapPop>0</d4p1:SlapPop>
+        <d4p1:Slides>1</d4p1:Slides>
+        <d4p1:StandardTuning>1</d4p1:StandardTuning>
+        <d4p1:Sustain>1</d4p1:Sustain>
+        <d4p1:Syncopation>0</d4p1:Syncopation>
+        <d4p1:Tapping>0</d4p1:Tapping>
+        <d4p1:Tremolo>1</d4p1:Tremolo>
+        <d4p1:TwoFingerPicking>0</d4p1:TwoFingerPicking>
+        <d4p1:UnpitchedSlides>1</d4p1:UnpitchedSlides>
+        <d4p1:Vibrato>1</d4p1:Vibrato>
+        <d4p1:BonusArr>0</d4p1:BonusArr>
+        <d4p1:Metronome>0</d4p1:Metronome>
+        <d4p1:PathBass>0</d4p1:PathBass>
+        <d4p1:PathLead>0</d4p1:PathLead>
+        <d4p1:PathRhythm>1</d4p1:PathRhythm>
+        <d4p1:RouteMask>2</d4p1:RouteMask>
+      </ArrangementPropeties>
+      <ArrangementSort>0</ArrangementSort>
+      <ArrangementType>Guitar</ArrangementType>
+      <BonusArr>false</BonusArr>
+      <CapoFret>0</CapoFret>
+      <GlyphsXmlPath i:nil="true" />
+      <Id>52209405-2761-d12f-c60c-57b896e860f9</Id>
+      <LyricsArtPath i:nil="true" />
+      <MasterId>30949</MasterId>
+      <Metronome>None</Metronome>
+      <PluckedType>NotPicked</PluckedType>
+      <Represent>true</Represent>
+      <RouteMask>Rhythm</RouteMask>
+      <ScrollSpeed>13</ScrollSpeed>
+      <Sng2014 xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.Sng2014HSL" i:nil="true" />
+      <SongFile xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>0d5656fd-6948-42c9-ad99-d7e34a7faf26</d4p1:UUID>
+        <d4p1:File></d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongFile>
+      <SongXml xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>268b767a-4ab7-4b63-8e1c-6a02d3b2af5a</d4p1:UUID>
+        <d4p1:File>songs\arr\audcoch_rhythm.xml</d4p1:File>
+        <d4p1:Version>7</d4p1:Version>
+      </SongXml>
+      <ToneA>AudCoch_octave</ToneA>
+      <ToneB>AudCoch_dist</ToneB>
+      <ToneBase>AudCoch_octave</ToneBase>
+      <ToneC>AudCoch_breakdowndrive</ToneC>
+      <ToneD i:nil="true" />
+      <ToneMultiplayer></ToneMultiplayer>
+      <Tuning>E Standard</Tuning>
+      <TuningPitch>440</TuningPitch>
+      <TuningStrings xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML">
+        <d4p1:String0>0</d4p1:String0>
+        <d4p1:String1>0</d4p1:String1>
+        <d4p1:String2>0</d4p1:String2>
+        <d4p1:String3>0</d4p1:String3>
+        <d4p1:String4>0</d4p1:String4>
+        <d4p1:String5>0</d4p1:String5>
+      </TuningStrings>
+    </Arrangement>
+    <Arrangement>
+      <ArrangementName>Vocals</ArrangementName>
+      <ArrangementPropeties xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML" i:nil="true" />
+      <ArrangementSort>0</ArrangementSort>
+      <ArrangementType>Vocal</ArrangementType>
+      <BonusArr>false</BonusArr>
+      <CapoFret>0</CapoFret>
+      <GlyphsXmlPath i:nil="true" />
+      <Id>00478199-07e0-4226-8b91-1a8ab2bef780</Id>
+      <LyricsArtPath i:nil="true" />
+      <MasterId>980998150</MasterId>
+      <Metronome>None</Metronome>
+      <PluckedType>NotPicked</PluckedType>
+      <Represent>false</Represent>
+      <RouteMask>None</RouteMask>
+      <ScrollSpeed>20</ScrollSpeed>
+      <Sng2014 xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.Sng2014HSL" i:nil="true" />
+      <SongFile xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>e261d518-22c8-4b85-9c5a-29f40c3465ee</d4p1:UUID>
+        <d4p1:File></d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongFile>
+      <SongXml xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>91f8fc64-3b97-4f87-b629-85af0a629423</d4p1:UUID>
+        <d4p1:File>songs\arr\audcoch_vocals.xml</d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongXml>
+      <ToneA i:nil="true" />
+      <ToneB i:nil="true" />
+      <ToneBase>AudCoch_bassfilter</ToneBase>
+      <ToneC i:nil="true" />
+      <ToneD i:nil="true" />
+      <ToneMultiplayer i:nil="true" />
+      <Tuning i:nil="true" />
+      <TuningPitch>0</TuningPitch>
+      <TuningStrings xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML" i:nil="true" />
+    </Arrangement>
+    <Arrangement>
+      <ArrangementName>ShowLights</ArrangementName>
+      <ArrangementPropeties xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML" i:nil="true" />
+      <ArrangementSort>0</ArrangementSort>
+      <ArrangementType>ShowLight</ArrangementType>
+      <BonusArr>false</BonusArr>
+      <CapoFret>0</CapoFret>
+      <GlyphsXmlPath i:nil="true" />
+      <Id>14d9012d-3b97-4f15-91a1-37a7ff57567e</Id>
+      <LyricsArtPath i:nil="true" />
+      <MasterId>200856278</MasterId>
+      <Metronome>None</Metronome>
+      <PluckedType>NotPicked</PluckedType>
+      <Represent>false</Represent>
+      <RouteMask>None</RouteMask>
+      <ScrollSpeed>0</ScrollSpeed>
+      <Sng2014 xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.Sng2014HSL" i:nil="true" />
+      <SongFile xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>a1672e53-059f-4d79-a6e9-79b26d1ce1bf</d4p1:UUID>
+        <d4p1:File></d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongFile>
+      <SongXml xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.AggregateGraph">
+        <d4p1:UUID>2a27d2fd-a426-496a-a5b9-b0e3b68f3e88</d4p1:UUID>
+        <d4p1:File>songs\arr\audcoch_showlights.xml</d4p1:File>
+        <d4p1:Version i:nil="true" />
+      </SongXml>
+      <ToneA i:nil="true" />
+      <ToneB i:nil="true" />
+      <ToneBase>AudCoch_bassfilter</ToneBase>
+      <ToneC i:nil="true" />
+      <ToneD i:nil="true" />
+      <ToneMultiplayer i:nil="true" />
+      <Tuning i:nil="true" />
+      <TuningPitch>0</TuningPitch>
+      <TuningStrings xmlns:d4p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.XML" i:nil="true" />
+    </Arrangement>
+  </Arrangements>
+  <ArtFiles i:nil="true" />
+  <DefaultShowlights>false</DefaultShowlights>
+  <GameVersion>RS2014</GameVersion>
+  <Inlay i:nil="true" />
+  <Mac>false</Mac>
+  <Name>AudCoch</Name>
+  <OggPath>audio\windows\song_audcoch.wem</OggPath>
+  <OggPreviewPath></OggPreviewPath>
+  <OggQuality>4</OggQuality>
+  <PS3>false</PS3>
+  <Pc>true</Pc>
+  <PreviewVolume>-8</PreviewVolume>
+  <SignatureType>CON</SignatureType>
+  <SongInfo>
+    <Album>Audioslave</Album>
+    <AlbumSort>Audioslave</AlbumSort>
+    <Artist>Audioslave</Artist>
+    <ArtistSort>Audioslave</ArtistSort>
+    <AverageTempo>81</AverageTempo>
+    <JapaneseArtistName></JapaneseArtistName>
+    <JapaneseSongName></JapaneseSongName>
+    <SongDisplayName>Cochise</SongDisplayName>
+    <SongDisplayNameSort>Cochise</SongDisplayNameSort>
+    <SongYear>2002</SongYear>
+  </SongInfo>
+  <Tones xmlns:d2p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.Manifest.Tone" />
+  <TonesRS2014 xmlns:d2p1="http://schemas.datacontract.org/2004/07/RocksmithToolkitLib.DLCPackage.Manifest2014.Tone">
+    <d2p1:Tone2014>
+      <d2p1:GearList>
+        <d2p1:Amp>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_2600</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_180</d6p1:Key>
+              <d6p1:Value>-5.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_340</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Gain</d6p1:Key>
+              <d6p1:Value>38</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Compression</d6p1:Key>
+              <d6p1:Value>5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Treble</d6p1:Key>
+              <d6p1:Value>57</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_1200</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Mid</d6p1:Key>
+              <d6p1:Value>87</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Bass</d6p1:Key>
+              <d6p1:Value>68</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Bass_Amp_BT600B</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Amps</d2p1:Type>
+        </d2p1:Amp>
+        <d2p1:Cabinet>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:PedalKey>Bass_Cab_BT212BC_57_Edge</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Cabinets</d2p1:Type>
+        </d2p1:Cabinet>
+        <d2p1:PostPedal1>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Filter</d6p1:Key>
+              <d6p1:Value>270</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Compress</d6p1:Key>
+              <d6p1:Value>85</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Rate</d6p1:Key>
+              <d6p1:Value>68</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Bass_Pedal_MBComp</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PostPedal1>
+        <d2p1:PostPedal2 i:nil="true" />
+        <d2p1:PostPedal3 i:nil="true" />
+        <d2p1:PostPedal4 i:nil="true" />
+        <d2p1:PrePedal1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_BobFilter_Sens</d6p1:Key>
+              <d6p1:Value>75</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_BobFilter_Release</d6p1:Key>
+              <d6p1:Value>180</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_BobFilter_Mix</d6p1:Key>
+              <d6p1:Value>80</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_BobFilter_Filter</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_BobFilter_Attack</d6p1:Key>
+              <d6p1:Value>65</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_BobFilter</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal1>
+        <d2p1:PrePedal2>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_5700</d6p1:Key>
+              <d6p1:Value>-1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_2200</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_63</d6p1:Key>
+              <d6p1:Value>-3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_250</d6p1:Key>
+              <d6p1:Value>-8</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_750</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_EQ5</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal2>
+        <d2p1:PrePedal3 i:nil="true" />
+        <d2p1:PrePedal4 i:nil="true" />
+        <d2p1:Rack1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_BassFreq</d6p1:Key>
+              <d6p1:Value>420</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidFreq</d6p1:Key>
+              <d6p1:Value>0.800003</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_TrebleFreq</d6p1:Key>
+              <d6p1:Value>7.6</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidFreq</d6p1:Key>
+              <d6p1:Value>120</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Treble</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidQ</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Bass</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMid</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMid</d6p1:Key>
+              <d6p1:Value>-3.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidQ</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioEQ</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack1>
+        <d2p1:Rack2 i:nil="true" />
+        <d2p1:Rack3 i:nil="true" />
+        <d2p1:Rack4 i:nil="true" />
+      </d2p1:GearList>
+      <d2p1:IsCustom>true</d2p1:IsCustom>
+      <d2p1:Key>AudCoch_bassfilter</d2p1:Key>
+      <d2p1:Name>AudCoch_bassfilter</d2p1:Name>
+      <d2p1:NameSeparator> - </d2p1:NameSeparator>
+      <d2p1:SortOrder>37</d2p1:SortOrder>
+      <d2p1:ToneDescriptors xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>$[35715]BASS</d4p1:string>
+        <d4p1:string>$[35729]FILTER</d4p1:string>
+      </d2p1:ToneDescriptors>
+      <d2p1:Volume>-15</d2p1:Volume>
+    </d2p1:Tone2014>
+    <d2p1:Tone2014>
+      <d2p1:GearList>
+        <d2p1:Amp>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_2600</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_180</d6p1:Key>
+              <d6p1:Value>-5.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_340</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Gain</d6p1:Key>
+              <d6p1:Value>38</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Compression</d6p1:Key>
+              <d6p1:Value>5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Treble</d6p1:Key>
+              <d6p1:Value>57</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_1200</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Mid</d6p1:Key>
+              <d6p1:Value>87</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Amp_BT600B_Bass</d6p1:Key>
+              <d6p1:Value>68</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Bass_Amp_BT600B</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Amps</d2p1:Type>
+        </d2p1:Amp>
+        <d2p1:Cabinet>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:PedalKey>Bass_Cab_BT212BC_57_Edge</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Cabinets</d2p1:Type>
+        </d2p1:Cabinet>
+        <d2p1:PostPedal1>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Filter</d6p1:Key>
+              <d6p1:Value>270</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Compress</d6p1:Key>
+              <d6p1:Value>85</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Bass_Pedal_MBComp_Rate</d6p1:Key>
+              <d6p1:Value>68</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Bass_Pedal_MBComp</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PostPedal1>
+        <d2p1:PostPedal2 i:nil="true" />
+        <d2p1:PostPedal3 i:nil="true" />
+        <d2p1:PostPedal4 i:nil="true" />
+        <d2p1:PrePedal1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_5700</d6p1:Key>
+              <d6p1:Value>-1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_2200</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_63</d6p1:Key>
+              <d6p1:Value>-4</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_250</d6p1:Key>
+              <d6p1:Value>-8</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_750</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_EQ5</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal1>
+        <d2p1:PrePedal2 i:nil="true" />
+        <d2p1:PrePedal3 i:nil="true" />
+        <d2p1:PrePedal4 i:nil="true" />
+        <d2p1:Rack1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_BassFreq</d6p1:Key>
+              <d6p1:Value>420</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidFreq</d6p1:Key>
+              <d6p1:Value>0.800003</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_TrebleFreq</d6p1:Key>
+              <d6p1:Value>7.6</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidFreq</d6p1:Key>
+              <d6p1:Value>120</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Treble</d6p1:Key>
+              <d6p1:Value>-1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidQ</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Bass</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMid</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMid</d6p1:Key>
+              <d6p1:Value>-3.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidQ</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioEQ</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack1>
+        <d2p1:Rack2>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioCompressor_Attack</d6p1:Key>
+              <d6p1:Value>45</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioCompressor_Threshold</d6p1:Key>
+              <d6p1:Value>-13</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioCompressor_Release</d6p1:Key>
+              <d6p1:Value>150</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioCompressor_Ratio</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioCompressor</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack2>
+        <d2p1:Rack3 i:nil="true" />
+        <d2p1:Rack4 i:nil="true" />
+      </d2p1:GearList>
+      <d2p1:IsCustom>true</d2p1:IsCustom>
+      <d2p1:Key>AudCoch_bass</d2p1:Key>
+      <d2p1:Name>AudCoch_bass</d2p1:Name>
+      <d2p1:NameSeparator> - </d2p1:NameSeparator>
+      <d2p1:SortOrder>30</d2p1:SortOrder>
+      <d2p1:ToneDescriptors xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>$[35715]BASS</d4p1:string>
+      </d2p1:ToneDescriptors>
+      <d2p1:Volume>-18.5</d2p1:Volume>
+    </d2p1:Tone2014>
+    <d2p1:Tone2014>
+      <d2p1:GearList>
+        <d2p1:Amp>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Mid</d6p1:Key>
+              <d6p1:Value>75</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Gain</d6p1:Key>
+              <d6p1:Value>15</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Bass</d6p1:Key>
+              <d6p1:Value>80</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Treble</d6p1:Key>
+              <d6p1:Value>100</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Pres</d6p1:Key>
+              <d6p1:Value>34</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Amp_MarshallJCM800</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Amps</d2p1:Type>
+        </d2p1:Amp>
+        <d2p1:Cabinet>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:PedalKey>Cab_Marshall1960a_57_Edge</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Cabinets</d2p1:Type>
+        </d2p1:Cabinet>
+        <d2p1:PostPedal1>
+          <d2p1:Category>30779</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_ValveEcho_Time</d6p1:Key>
+              <d6p1:Value>210</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_ValveEcho_Feedback</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_ValveEcho_Mix</d6p1:Key>
+              <d6p1:Value>46</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_ValveEcho</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PostPedal1>
+        <d2p1:PostPedal2 i:nil="true" />
+        <d2p1:PostPedal3 i:nil="true" />
+        <d2p1:PostPedal4 i:nil="true" />
+        <d2p1:PrePedal1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_5700</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_2200</d6p1:Key>
+              <d6p1:Value>3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_63</d6p1:Key>
+              <d6p1:Value>-3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_250</d6p1:Key>
+              <d6p1:Value>-2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_750</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_EQ5</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal1>
+        <d2p1:PrePedal2>
+          <d2p1:Category>30791</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_Octavius_Tone</d6p1:Key>
+              <d6p1:Value>50</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key></d6p1:Key>
+              <d6p1:Value>-12</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_Octavius_Mix</d6p1:Key>
+              <d6p1:Value>85</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_Octavius</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal2>
+        <d2p1:PrePedal3 i:nil="true" />
+        <d2p1:PrePedal4 i:nil="true" />
+        <d2p1:Rack1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_BassFreq</d6p1:Key>
+              <d6p1:Value>420</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidFreq</d6p1:Key>
+              <d6p1:Value>1.1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_TrebleFreq</d6p1:Key>
+              <d6p1:Value>10.2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidFreq</d6p1:Key>
+              <d6p1:Value>120</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Treble</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidQ</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Bass</d6p1:Key>
+              <d6p1:Value>1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMid</d6p1:Key>
+              <d6p1:Value>1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMid</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidQ</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioEQ</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack1>
+        <d2p1:Rack2 i:nil="true" />
+        <d2p1:Rack3 i:nil="true" />
+        <d2p1:Rack4 i:nil="true" />
+      </d2p1:GearList>
+      <d2p1:IsCustom>true</d2p1:IsCustom>
+      <d2p1:Key>AudCoch_octave</d2p1:Key>
+      <d2p1:Name>AudCoch_octave</d2p1:Name>
+      <d2p1:NameSeparator> - </d2p1:NameSeparator>
+      <d2p1:SortOrder>36</d2p1:SortOrder>
+      <d2p1:ToneDescriptors xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>$[35719]OCTAVE</d4p1:string>
+      </d2p1:ToneDescriptors>
+      <d2p1:Volume>-19</d2p1:Volume>
+    </d2p1:Tone2014>
+    <d2p1:Tone2014>
+      <d2p1:GearList>
+        <d2p1:Amp>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Mid</d6p1:Key>
+              <d6p1:Value>100</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Gain</d6p1:Key>
+              <d6p1:Value>58</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Bass</d6p1:Key>
+              <d6p1:Value>100</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Treble</d6p1:Key>
+              <d6p1:Value>100</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Pres</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Amp_MarshallJCM800</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Amps</d2p1:Type>
+        </d2p1:Amp>
+        <d2p1:Cabinet>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:PedalKey>Cab_Marshall1960a_57_Edge</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Cabinets</d2p1:Type>
+        </d2p1:Cabinet>
+        <d2p1:PostPedal1 i:nil="true" />
+        <d2p1:PostPedal2 i:nil="true" />
+        <d2p1:PostPedal3 i:nil="true" />
+        <d2p1:PostPedal4 i:nil="true" />
+        <d2p1:PrePedal1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_5700</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_2200</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_63</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_250</d6p1:Key>
+              <d6p1:Value>-2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_750</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_EQ5</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal1>
+        <d2p1:PrePedal2 i:nil="true" />
+        <d2p1:PrePedal3 i:nil="true" />
+        <d2p1:PrePedal4 i:nil="true" />
+        <d2p1:Rack1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_BassFreq</d6p1:Key>
+              <d6p1:Value>420</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidFreq</d6p1:Key>
+              <d6p1:Value>1.1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_TrebleFreq</d6p1:Key>
+              <d6p1:Value>10.2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidFreq</d6p1:Key>
+              <d6p1:Value>120</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Treble</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidQ</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Bass</d6p1:Key>
+              <d6p1:Value>1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMid</d6p1:Key>
+              <d6p1:Value>1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMid</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidQ</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioEQ</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack1>
+        <d2p1:Rack2 i:nil="true" />
+        <d2p1:Rack3 i:nil="true" />
+        <d2p1:Rack4 i:nil="true" />
+      </d2p1:GearList>
+      <d2p1:IsCustom>true</d2p1:IsCustom>
+      <d2p1:Key>AudCoch_dist</d2p1:Key>
+      <d2p1:Name>AudCoch_dist</d2p1:Name>
+      <d2p1:NameSeparator> - </d2p1:NameSeparator>
+      <d2p1:SortOrder>28</d2p1:SortOrder>
+      <d2p1:ToneDescriptors xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>$[35722]DISTORTION</d4p1:string>
+      </d2p1:ToneDescriptors>
+      <d2p1:Volume>-28</d2p1:Volume>
+    </d2p1:Tone2014>
+    <d2p1:Tone2014>
+      <d2p1:GearList>
+        <d2p1:Amp>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Mid</d6p1:Key>
+              <d6p1:Value>32</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Gain</d6p1:Key>
+              <d6p1:Value>32</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Bass</d6p1:Key>
+              <d6p1:Value>75</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Treble</d6p1:Key>
+              <d6p1:Value>100</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Amp_MarshallJCM800_Pres</d6p1:Key>
+              <d6p1:Value>20</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Amp_MarshallJCM800</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Amps</d2p1:Type>
+        </d2p1:Amp>
+        <d2p1:Cabinet>
+          <d2p1:Category i:nil="true" />
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d2p1:PedalKey>Cab_Marshall1960a_57_Edge</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Cabinets</d2p1:Type>
+        </d2p1:Cabinet>
+        <d2p1:PostPedal1 i:nil="true" />
+        <d2p1:PostPedal2 i:nil="true" />
+        <d2p1:PostPedal3 i:nil="true" />
+        <d2p1:PostPedal4 i:nil="true" />
+        <d2p1:PrePedal1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_5700</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_2200</d6p1:Key>
+              <d6p1:Value>2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_63</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_250</d6p1:Key>
+              <d6p1:Value>-3</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Pedal_EQ5_750</d6p1:Key>
+              <d6p1:Value>-2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Pedal_EQ5</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Pedals</d2p1:Type>
+        </d2p1:PrePedal1>
+        <d2p1:PrePedal2 i:nil="true" />
+        <d2p1:PrePedal3 i:nil="true" />
+        <d2p1:PrePedal4 i:nil="true" />
+        <d2p1:Rack1>
+          <d2p1:Category>30785</d2p1:Category>
+          <d2p1:KnobValues xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_BassFreq</d6p1:Key>
+              <d6p1:Value>360</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidFreq</d6p1:Key>
+              <d6p1:Value>4.2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_TrebleFreq</d6p1:Key>
+              <d6p1:Value>10.2</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidFreq</d6p1:Key>
+              <d6p1:Value>120</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Treble</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMidQ</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_Bass</d6p1:Key>
+              <d6p1:Value>1</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMid</d6p1:Key>
+              <d6p1:Value>1.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_LoMid</d6p1:Key>
+              <d6p1:Value>-2.5</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+            <d6p1:KeyValueOfstringfloat>
+              <d6p1:Key>Rack_StudioEQ_HiMidQ</d6p1:Key>
+              <d6p1:Value>0</d6p1:Value>
+            </d6p1:KeyValueOfstringfloat>
+          </d2p1:KnobValues>
+          <d2p1:PedalKey>Rack_StudioEQ</d2p1:PedalKey>
+          <d2p1:Skin i:nil="true" />
+          <d2p1:SkinIndex i:nil="true" />
+          <d2p1:Type>Racks</d2p1:Type>
+        </d2p1:Rack1>
+        <d2p1:Rack2 i:nil="true" />
+        <d2p1:Rack3 i:nil="true" />
+        <d2p1:Rack4 i:nil="true" />
+      </d2p1:GearList>
+      <d2p1:IsCustom>true</d2p1:IsCustom>
+      <d2p1:Key>AudCoch_breakdowndrive</d2p1:Key>
+      <d2p1:Name>AudCoch_breakdowndrive</d2p1:Name>
+      <d2p1:NameSeparator> - </d2p1:NameSeparator>
+      <d2p1:SortOrder>36</d2p1:SortOrder>
+      <d2p1:ToneDescriptors xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>$[35716]OVERDRIVE</d4p1:string>
+      </d2p1:ToneDescriptors>
+      <d2p1:Volume>-26.5</d2p1:Volume>
+    </d2p1:Tone2014>
+  </TonesRS2014>
+  <ToolkitInfo>
+    <PackageAuthor>Ubisoft</PackageAuthor>
+    <PackageComment>(Remastered by CDLC Creator)</PackageComment>
+    <PackageRating>5</PackageRating>
+    <PackageVersion>0</PackageVersion>
+    <ToolkitVersion i:nil="true" />
+  </ToolkitInfo>
+  <Version>Toolkit Version 2.9.2.1-5df928a5</Version>
+  <Volume>-9</Volume>
+  <XBox360>false</XBox360>
+  <XBox360Licenses />
+</DLCPackageData>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game>
+  <entitySet>
+    <entity id="522094052761d12fc60c57b896e860f9" modelName="RSEnumerable_Song" name="AudCoch_Rhythm" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_audcoch" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:audcoch_rhythm" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:audcoch_rhythm" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_audcoch_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_audcoch_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_audcoch_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:audcoch_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="20e979cf3f19a8cc3adf48430450a881" modelName="RSEnumerable_Song" name="AudCoch_Bass" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_audcoch" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:audcoch_bass" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:audcoch_bass" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_audcoch_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_audcoch_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_audcoch_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:audcoch_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="e346abeba519ef8aa54fc1447a60842f" modelName="RSEnumerable_Song" name="AudCoch_Lead" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_audcoch" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:audcoch_lead" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:audcoch_lead" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_audcoch_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_audcoch_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_audcoch_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:audcoch_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch_preview" />
+        </property>
+      </properties>
+    </entity>
+    <entity id="799beeba4402b90e3defbb46bb898d31" modelName="RSEnumerable_Song" name="AudCoch_Vocals" iterations="0">
+      <properties>
+        <property name="Header">
+          <set value="urn:database:hsan-db:songs_dlc_audcoch" />
+        </property>
+        <property name="Manifest">
+          <set value="urn:database:json-db:audcoch_vocals" />
+        </property>
+        <property name="SngAsset">
+          <set value="urn:application:musicgame-song:audcoch_vocals" />
+        </property>
+        <property name="AlbumArtSmall">
+          <set value="urn:image:dds:album_audcoch_64" />
+        </property>
+        <property name="AlbumArtMedium">
+          <set value="urn:image:dds:album_audcoch_128" />
+        </property>
+        <property name="AlbumArtLarge">
+          <set value="urn:image:dds:album_audcoch_256" />
+        </property>
+        <property name="LyricArt">
+          <set value="" />
+        </property>
+        <property name="ShowLightsXMLAsset">
+          <set value="urn:application:xml:audcoch_showlights" />
+        </property>
+        <property name="SoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch" />
+        </property>
+        <property name="PreviewSoundBank">
+          <set value="urn:audio:wwise-sound-bank:song_audcoch_preview" />
+        </property>
+      </properties>
+    </entity>
+  </entitySet>
+</game>

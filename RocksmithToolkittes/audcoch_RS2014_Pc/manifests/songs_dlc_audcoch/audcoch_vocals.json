@@ -1,0 +1,57 @@
+{
+  "Entries": {
+    "799BEEBA4402B90E3DEFBB46BB898D31": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_audcoch",
+        "ArrangementName": "Vocals",
+        "ArrangementSort": 0,
+        "BlockAsset": "urn:emergent-world:audcoch",
+        "DLC": true,
+        "DLCKey": "AudCoch",
+        "DynamicVisualDensity": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "FullName": "AudCoch_Vocals",
+        "InputEvent": "Play_Tone_Standard_Mic",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:audcoch_vocals",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30952,
+        "MasterID_XBox360": -1,
+        "PreviewBankPath": "song_audcoch_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:audcoch_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:audcoch_vocals",
+        "SongBank": "song_audcoch.bnk",
+        "SongEvent": "Play_AudCoch",
+        "SongKey": "AudCoch",
+        "SongXml": "urn:application:xml:audcoch_vocals",
+        "PersistentID": "799BEEBA4402B90E3DEFBB46BB898D31"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

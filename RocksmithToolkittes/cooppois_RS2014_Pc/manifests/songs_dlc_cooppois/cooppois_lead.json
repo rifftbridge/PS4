@@ -1,0 +1,3419 @@
+{
+  "Entries": {
+    "DB2FA52B68984C4C77BC2F77A44B7170": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_cooppois", 
+        "AlbumName": "Trash", 
+        "AlbumNameSort": "Trash", 
+        "ArrangementName": "Lead", 
+        "ArrangementProperties": {
+          "barreChords": 0, 
+          "bassPick": 0, 
+          "bends": 1, 
+          "bonusArr": 0, 
+          "doubleStops": 1, 
+          "dropDPower": 0, 
+          "fifthsAndOctaves": 0, 
+          "fingerPicking": 0, 
+          "fretHandMutes": 0, 
+          "harmonics": 0, 
+          "hopo": 1, 
+          "nonStandardChords": 0, 
+          "openChords": 0, 
+          "palmMutes": 1, 
+          "pathBass": 0, 
+          "pathLead": 1, 
+          "pathRhythm": 0, 
+          "pickDirection": 0, 
+          "pinchHarmonics": 1, 
+          "powerChords": 1, 
+          "represent": 1, 
+          "routeMask": 1, 
+          "slapPop": 0, 
+          "slides": 1, 
+          "standardTuning": 1, 
+          "sustain": 1, 
+          "syncopation": 0, 
+          "tapping": 0, 
+          "tremolo": 0, 
+          "twoFingerPicking": 0, 
+          "unpitchedSlides": 1, 
+          "vibrato": 1
+        }, 
+        "ArrangementSort": 0, 
+        "ArrangementType": 0, 
+        "ArtistName": "Alice Cooper", 
+        "ArtistNameSort": "Alice cooper", 
+        "BlockAsset": "urn:emergent-world:cooppois", 
+        "CentOffset": 0.0, 
+        "ChordTemplates": [
+          {
+            "ChordId": 0, 
+            "ChordName": "C5", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              3, 
+              5, 
+              5, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 1, 
+            "ChordName": "D5", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              5, 
+              7, 
+              7, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 2, 
+            "ChordName": "Eb5(add 9)", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              6, 
+              8, 
+              10, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 3, 
+            "ChordName": "Eb5   ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              3, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              6, 
+              8, 
+              8, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 4, 
+            "ChordName": "Eb5", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              6, 
+              8, 
+              8, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 5, 
+            "ChordName": "D5(add 9)", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              5, 
+              7, 
+              9, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 6, 
+            "ChordName": "Bb5(add9)", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              6, 
+              8, 
+              10, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 7, 
+            "ChordName": "Bb5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              6, 
+              8, 
+              8, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 8, 
+            "ChordName": "D5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              10, 
+              12, 
+              12, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 9, 
+            "ChordName": "G5  ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              10, 
+              12, 
+              12, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 10, 
+            "ChordName": "Eb", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              11, 
+              13, 
+              13, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 11, 
+            "ChordName": "F5 ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              8, 
+              10, 
+              10, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 12, 
+            "ChordName": "Ab5", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              4, 
+              6, 
+              6, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 13, 
+            "ChordName": "Bb5  ", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              6, 
+              8, 
+              8, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 14, 
+            "ChordName": "A5", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              5, 
+              7, 
+              7, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 15, 
+            "ChordName": "F5  ", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              1, 
+              3, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 16, 
+            "ChordName": "G5", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              3, 
+              5, 
+              5, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 17, 
+            "ChordName": "Bb5   ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              1, 
+              3, 
+              3, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 18, 
+            "ChordName": "Bb5(add9) ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              1, 
+              3, 
+              5, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 19, 
+            "ChordName": "C5  ", 
+            "Fingers": [
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              8, 
+              10, 
+              10, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 20, 
+            "ChordName": "F5", 
+            "Fingers": [
+              1, 
+              1, 
+              3, 
+              4, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              8, 
+              8, 
+              10, 
+              10, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 21, 
+            "ChordName": "G5   ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              10, 
+              12, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 22, 
+            "ChordName": "C 5", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              3, 
+              5, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 23, 
+            "ChordName": "Bb5", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              6, 
+              8, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 24, 
+            "ChordName": "Eb5  ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              6, 
+              8, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 25, 
+            "ChordName": "F5   ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              8, 
+              10, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 26, 
+            "ChordName": "Ab5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              4, 
+              6, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 27, 
+            "ChordName": "D5  ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              5, 
+              7, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 28, 
+            "ChordName": "C5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              8, 
+              10, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 29, 
+            "ChordName": "G5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              10, 
+              12, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 30, 
+            "ChordName": "A5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              5, 
+              7, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 31, 
+            "ChordName": "F5    ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 32, 
+            "ChordName": "G5    ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              3, 
+              5, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 33, 
+            "ChordName": "Bb5    ", 
+            "Fingers": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              -1, 
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }, 
+          {
+            "ChordId": 34, 
+            "ChordName": "Eb5 ", 
+            "Fingers": [
+              1, 
+              3, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ], 
+            "Frets": [
+              11, 
+              13, 
+              -1, 
+              -1, 
+              -1, 
+              -1
+            ]
+          }
+        ], 
+        "Chords": {
+          "4": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              21
+            ], 
+            "7": [
+              22
+            ], 
+            "9": [
+              27
+            ], 
+            "11": [
+              21
+            ], 
+            "12": [
+              22
+            ], 
+            "17": [
+              21
+            ]
+          }, 
+          "5": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              21
+            ], 
+            "7": [
+              22, 
+              24, 
+              27, 
+              25
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              22
+            ], 
+            "11": [
+              21
+            ], 
+            "12": [
+              22, 
+              24, 
+              27, 
+              25
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "6": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              21
+            ], 
+            "7": [
+              23, 
+              22, 
+              24, 
+              30, 
+              27, 
+              25
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              31, 
+              22
+            ], 
+            "11": [
+              21
+            ], 
+            "12": [
+              23, 
+              22, 
+              24, 
+              30, 
+              27, 
+              25
+            ], 
+            "13": [
+              33
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "7": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              21
+            ], 
+            "7": [
+              24, 
+              23, 
+              22, 
+              30, 
+              31, 
+              27, 
+              25
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              31, 
+              22
+            ], 
+            "11": [
+              27, 
+              21
+            ], 
+            "12": [
+              24, 
+              23, 
+              22, 
+              30, 
+              31, 
+              27, 
+              25
+            ], 
+            "13": [
+              33
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "8": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              29, 
+              21
+            ], 
+            "7": [
+              24, 
+              23, 
+              25, 
+              22, 
+              30, 
+              31, 
+              32, 
+              27
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              31, 
+              22
+            ], 
+            "11": [
+              27, 
+              21
+            ], 
+            "12": [
+              24, 
+              23, 
+              31, 
+              22, 
+              30, 
+              32, 
+              27, 
+              25
+            ], 
+            "13": [
+              33
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              24, 
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "9": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              29, 
+              21
+            ], 
+            "7": [
+              24, 
+              23, 
+              25, 
+              22, 
+              26, 
+              30, 
+              31, 
+              32, 
+              27
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              31, 
+              22
+            ], 
+            "11": [
+              27, 
+              21
+            ], 
+            "12": [
+              24, 
+              23, 
+              31, 
+              22, 
+              26, 
+              30, 
+              32, 
+              27, 
+              25
+            ], 
+            "13": [
+              33
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              24, 
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "10": {
+            "0": [
+              27
+            ], 
+            "4": [
+              27
+            ], 
+            "6": [
+              29, 
+              21
+            ], 
+            "7": [
+              24, 
+              23, 
+              25, 
+              22, 
+              26, 
+              30, 
+              31, 
+              32, 
+              27, 
+              28
+            ], 
+            "9": [
+              27
+            ], 
+            "10": [
+              33, 
+              31, 
+              22
+            ], 
+            "11": [
+              27, 
+              21
+            ], 
+            "12": [
+              24, 
+              23, 
+              31, 
+              22, 
+              26, 
+              30, 
+              32, 
+              27, 
+              25, 
+              28
+            ], 
+            "13": [
+              33
+            ], 
+            "16": [
+              24
+            ], 
+            "17": [
+              24, 
+              33, 
+              27, 
+              21
+            ]
+          }, 
+          "11": {
+            "0": [
+              1
+            ], 
+            "4": [
+              1
+            ], 
+            "6": [
+              8, 
+              9
+            ], 
+            "7": [
+              4, 
+              13, 
+              11, 
+              0, 
+              12, 
+              14, 
+              15, 
+              16, 
+              1, 
+              19
+            ], 
+            "9": [
+              1
+            ], 
+            "10": [
+              17, 
+              15, 
+              0
+            ], 
+            "11": [
+              1, 
+              9
+            ], 
+            "12": [
+              4, 
+              13, 
+              15, 
+              0, 
+              12, 
+              14, 
+              16, 
+              1, 
+              11, 
+              19
+            ], 
+            "13": [
+              17
+            ], 
+            "16": [
+              4
+            ], 
+            "17": [
+              4, 
+              17, 
+              1, 
+              9
+            ]
+          }, 
+          "12": {
+            "0": [
+              1
+            ], 
+            "4": [
+              1
+            ], 
+            "6": [
+              8, 
+              9
+            ], 
+            "7": [
+              4, 
+              13, 
+              11, 
+              0, 
+              12, 
+              14, 
+              15, 
+              16, 
+              1, 
+              19
+            ], 
+            "11": [
+              1, 
+              9
+            ], 
+            "12": [
+              4, 
+              13, 
+              15, 
+              0, 
+              12, 
+              14, 
+              16, 
+              1, 
+              11, 
+              19
+            ], 
+            "13": [
+              17
+            ], 
+            "16": [
+              4
+            ], 
+            "17": [
+              4, 
+              17, 
+              1, 
+              9
+            ]
+          }, 
+          "13": {
+            "0": [
+              1
+            ], 
+            "4": [
+              0
+            ], 
+            "6": [
+              8, 
+              9
+            ], 
+            "7": [
+              4, 
+              13, 
+              11, 
+              0, 
+              12, 
+              14, 
+              15, 
+              16, 
+              1, 
+              19
+            ], 
+            "11": [
+              1, 
+              9
+            ], 
+            "12": [
+              4, 
+              13, 
+              15, 
+              0, 
+              12, 
+              14, 
+              16, 
+              1, 
+              11, 
+              19
+            ], 
+            "13": [
+              17
+            ], 
+            "16": [
+              4
+            ], 
+            "17": [
+              4, 
+              17, 
+              1, 
+              9
+            ]
+          }, 
+          "14": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ], 
+            "11": [
+              1
+            ], 
+            "13": [
+              17
+            ], 
+            "16": [
+              4
+            ]
+          }, 
+          "15": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ], 
+            "11": [
+              1
+            ], 
+            "13": [
+              17
+            ], 
+            "16": [
+              4
+            ]
+          }, 
+          "16": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ], 
+            "11": [
+              1
+            ]
+          }, 
+          "17": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ], 
+            "11": [
+              1
+            ]
+          }, 
+          "18": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ], 
+            "11": [
+              1
+            ]
+          }, 
+          "19": {
+            "4": [
+              0
+            ], 
+            "6": [
+              8
+            ]
+          }, 
+          "20": {
+            "6": [
+              8
+            ]
+          }, 
+          "21": {
+            "6": [
+              8
+            ]
+          }
+        }, 
+        "DLC": true, 
+        "DLCKey": "CoopPois", 
+        "DNA_Chords": 0.0, 
+        "DNA_Riffs": 184.963, 
+        "DNA_Solo": 76.172, 
+        "DynamicVisualDensity": [
+          5.0, 
+          4.7, 
+          4.4, 
+          4.1, 
+          3.8, 
+          3.5, 
+          3.3, 
+          3.1, 
+          2.8, 
+          2.6, 
+          2.4, 
+          2.1, 
+          1.9, 
+          1.7, 
+          1.6, 
+          1.5, 
+          1.4, 
+          1.3, 
+          1.3, 
+          1.3
+        ], 
+        "EasyMastery": 0.240310078, 
+        "FullName": "CoopPois_Lead", 
+        "LastConversionDateTime": "10-16-18 15:52", 
+        "LeaderboardChallengeRating": 0, 
+        "ManifestUrn": "urn:database:json-db:cooppois_lead", 
+        "MasterID_PS3": -1, 
+        "MasterID_RDV": 34569, 
+        "MasterID_XBox360": -1, 
+        "MaxPhraseDifficulty": 25, 
+        "MediumMastery": 0.429457364, 
+        "NotesEasy": 155.0, 
+        "NotesHard": 645.0, 
+        "NotesMedium": 277.0, 
+        "PersistentID": "DB2FA52B68984C4C77BC2F77A44B7170", 
+        "PhraseIterations": [
+          {
+            "EndTime": 12.113, 
+            "MaxDifficulty": 0, 
+            "Name": "default", 
+            "PhraseIndex": 0, 
+            "StartTime": 10.0
+          }, 
+          {
+            "EndTime": 20.374, 
+            "MaxDifficulty": 13, 
+            "Name": "P", 
+            "PhraseIndex": 1, 
+            "StartTime": 12.113
+          }, 
+          {
+            "EndTime": 28.661, 
+            "MaxDifficulty": 18, 
+            "Name": "riff", 
+            "PhraseIndex": 8, 
+            "StartTime": 20.374
+          }, 
+          {
+            "EndTime": 36.818, 
+            "MaxDifficulty": 19, 
+            "Name": "riffig1", 
+            "PhraseIndex": 21, 
+            "StartTime": 28.661
+          }, 
+          {
+            "EndTime": 51.949, 
+            "MaxDifficulty": 19, 
+            "Name": "riff1", 
+            "PhraseIndex": 20, 
+            "StartTime": 36.818
+          }, 
+          {
+            "EndTime": 58.259, 
+            "MaxDifficulty": 0, 
+            "Name": "ng", 
+            "PhraseIndex": 10, 
+            "StartTime": 51.949
+          }, 
+          {
+            "EndTime": 68.447, 
+            "MaxDifficulty": 21, 
+            "Name": "A", 
+            "PhraseIndex": 2, 
+            "StartTime": 58.259
+          }, 
+          {
+            "EndTime": 84.892, 
+            "MaxDifficulty": 13, 
+            "Name": "B", 
+            "PhraseIndex": 3, 
+            "StartTime": 68.447
+          }, 
+          {
+            "EndTime": 96.938, 
+            "MaxDifficulty": 18, 
+            "Name": "riff", 
+            "PhraseIndex": 8, 
+            "StartTime": 84.892
+          }, 
+          {
+            "EndTime": 105.047, 
+            "MaxDifficulty": 18, 
+            "Name": "riffig", 
+            "PhraseIndex": 19, 
+            "StartTime": 96.938
+          }, 
+          {
+            "EndTime": 113.416, 
+            "MaxDifficulty": 11, 
+            "Name": "D", 
+            "PhraseIndex": 6, 
+            "StartTime": 105.047
+          }, 
+          {
+            "EndTime": 123.494, 
+            "MaxDifficulty": 21, 
+            "Name": "D1", 
+            "PhraseIndex": 11, 
+            "StartTime": 113.416
+          }, 
+          {
+            "EndTime": 139.708, 
+            "MaxDifficulty": 13, 
+            "Name": "B", 
+            "PhraseIndex": 3, 
+            "StartTime": 123.494
+          }, 
+          {
+            "EndTime": 159.877, 
+            "MaxDifficulty": 18, 
+            "Name": "riff", 
+            "PhraseIndex": 8, 
+            "StartTime": 139.708
+          }, 
+          {
+            "EndTime": 162.973, 
+            "MaxDifficulty": 0, 
+            "Name": "NG", 
+            "PhraseIndex": 22, 
+            "StartTime": 159.877
+          }, 
+          {
+            "EndTime": 173.62, 
+            "MaxDifficulty": 19, 
+            "Name": "solo", 
+            "PhraseIndex": 4, 
+            "StartTime": 162.973
+          }, 
+          {
+            "EndTime": 178.188, 
+            "MaxDifficulty": 19, 
+            "Name": "solorun", 
+            "PhraseIndex": 18, 
+            "StartTime": 173.62
+          }, 
+          {
+            "EndTime": 186.286, 
+            "MaxDifficulty": 15, 
+            "Name": "F", 
+            "PhraseIndex": 9, 
+            "StartTime": 178.188
+          }, 
+          {
+            "EndTime": 202.297, 
+            "MaxDifficulty": 13, 
+            "Name": "Big", 
+            "PhraseIndex": 14, 
+            "StartTime": 186.286
+          }, 
+          {
+            "EndTime": 210.178, 
+            "MaxDifficulty": 18, 
+            "Name": "riffig", 
+            "PhraseIndex": 19, 
+            "StartTime": 202.297
+          }, 
+          {
+            "EndTime": 214.081, 
+            "MaxDifficulty": 8, 
+            "Name": "soloout", 
+            "PhraseIndex": 5, 
+            "StartTime": 210.178
+          }, 
+          {
+            "EndTime": 221.067, 
+            "MaxDifficulty": 0, 
+            "Name": "ng", 
+            "PhraseIndex": 10, 
+            "StartTime": 214.081
+          }, 
+          {
+            "EndTime": 230.0, 
+            "MaxDifficulty": 10, 
+            "Name": "solo1", 
+            "PhraseIndex": 12, 
+            "StartTime": 221.067
+          }, 
+          {
+            "EndTime": 239.816, 
+            "MaxDifficulty": 16, 
+            "Name": "solo2", 
+            "PhraseIndex": 13, 
+            "StartTime": 230.0
+          }, 
+          {
+            "EndTime": 251.115, 
+            "MaxDifficulty": 19, 
+            "Name": "solo3", 
+            "PhraseIndex": 15, 
+            "StartTime": 239.816
+          }, 
+          {
+            "EndTime": 263.323, 
+            "MaxDifficulty": 25, 
+            "Name": "solo4", 
+            "PhraseIndex": 16, 
+            "StartTime": 251.115
+          }, 
+          {
+            "EndTime": 271.135, 
+            "MaxDifficulty": 24, 
+            "Name": "solo5", 
+            "PhraseIndex": 17, 
+            "StartTime": 263.323
+          }, 
+          {
+            "EndTime": 280.346, 
+            "MaxDifficulty": 0, 
+            "Name": "end", 
+            "PhraseIndex": 7, 
+            "StartTime": 271.135
+          }
+        ], 
+        "Phrases": [
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 0, 
+            "Name": "default"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 13, 
+            "Name": "P"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 21, 
+            "Name": "A"
+          }, 
+          {
+            "IterationCount": 2, 
+            "MaxDifficulty": 13, 
+            "Name": "B"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 19, 
+            "Name": "solo"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 8, 
+            "Name": "soloout"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 11, 
+            "Name": "D"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 0, 
+            "Name": "end"
+          }, 
+          {
+            "IterationCount": 3, 
+            "MaxDifficulty": 18, 
+            "Name": "riff"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 15, 
+            "Name": "F"
+          }, 
+          {
+            "IterationCount": 2, 
+            "MaxDifficulty": 0, 
+            "Name": "ng"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 21, 
+            "Name": "D1"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 10, 
+            "Name": "solo1"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 16, 
+            "Name": "solo2"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 13, 
+            "Name": "Big"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 19, 
+            "Name": "solo3"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 25, 
+            "Name": "solo4"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 24, 
+            "Name": "solo5"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 19, 
+            "Name": "solorun"
+          }, 
+          {
+            "IterationCount": 2, 
+            "MaxDifficulty": 18, 
+            "Name": "riffig"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 19, 
+            "Name": "riff1"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 19, 
+            "Name": "riffig1"
+          }, 
+          {
+            "IterationCount": 1, 
+            "MaxDifficulty": 0, 
+            "Name": "NG"
+          }
+        ], 
+        "PreviewBankPath": "song_cooppois_preview.bnk", 
+        "RelativeDifficulty": 0, 
+        "SKU": "RS2", 
+        "Score_MaxNotes": 645.0, 
+        "Score_PNV": 155.03876, 
+        "Sections": [
+          {
+            "EndPhraseIterationIndex": 1, 
+            "EndTime": 20.374, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 1, 
+            "StartTime": 12.113, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 2, 
+            "EndTime": 28.661, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 2, 
+            "StartTime": 20.374, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 3, 
+            "EndTime": 36.818, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 3, 
+            "StartTime": 28.661, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 4, 
+            "EndTime": 51.949, 
+            "IsSolo": false, 
+            "Name": "intro", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 4, 
+            "StartTime": 36.818, 
+            "UIName": "$[34286] Intro [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 5, 
+            "EndTime": 58.259, 
+            "IsSolo": false, 
+            "Name": "noguitar", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 5, 
+            "StartTime": 51.949, 
+            "UIName": "$[6091] No Guitar [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 6, 
+            "EndTime": 68.447, 
+            "IsSolo": false, 
+            "Name": "verse", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 6, 
+            "StartTime": 58.259, 
+            "UIName": "$[34304] Verse [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 7, 
+            "EndTime": 84.892, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 7, 
+            "StartTime": 68.447, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 8, 
+            "EndTime": 96.938, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 8, 
+            "StartTime": 84.892, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 9, 
+            "EndTime": 105.047, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 9, 
+            "StartTime": 96.938, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 10, 
+            "EndTime": 113.416, 
+            "IsSolo": false, 
+            "Name": "verse", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 10, 
+            "StartTime": 105.047, 
+            "UIName": "$[34304] Verse [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 11, 
+            "EndTime": 123.494, 
+            "IsSolo": false, 
+            "Name": "verse", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 11, 
+            "StartTime": 113.416, 
+            "UIName": "$[34304] Verse [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 12, 
+            "EndTime": 139.708, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 12, 
+            "StartTime": 123.494, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 14, 
+            "EndTime": 162.973, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 13, 
+            "StartTime": 139.708, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 15, 
+            "EndTime": 173.62, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 15, 
+            "StartTime": 162.973, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 16, 
+            "EndTime": 178.188, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 16, 
+            "StartTime": 173.62, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 17, 
+            "EndTime": 186.286, 
+            "IsSolo": false, 
+            "Name": "bridge", 
+            "Number": 1, 
+            "StartPhraseIterationIndex": 17, 
+            "StartTime": 178.188, 
+            "UIName": "$[34282] Bridge [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 18, 
+            "EndTime": 202.297, 
+            "IsSolo": false, 
+            "Name": "prechorus", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 18, 
+            "StartTime": 186.286, 
+            "UIName": "$[34296] Pre Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 19, 
+            "EndTime": 210.178, 
+            "IsSolo": false, 
+            "Name": "chorus", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 19, 
+            "StartTime": 202.297, 
+            "UIName": "$[34279] Chorus [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 20, 
+            "EndTime": 214.081, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 20, 
+            "StartTime": 210.178, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 21, 
+            "EndTime": 221.067, 
+            "IsSolo": false, 
+            "Name": "noguitar", 
+            "Number": 2, 
+            "StartPhraseIterationIndex": 21, 
+            "StartTime": 214.081, 
+            "UIName": "$[6091] No Guitar [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 22, 
+            "EndTime": 230.0, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 4, 
+            "StartPhraseIterationIndex": 22, 
+            "StartTime": 221.067, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 23, 
+            "EndTime": 239.816, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 5, 
+            "StartPhraseIterationIndex": 23, 
+            "StartTime": 230.0, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 24, 
+            "EndTime": 251.115, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 6, 
+            "StartPhraseIterationIndex": 24, 
+            "StartTime": 239.816, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 25, 
+            "EndTime": 263.323, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 7, 
+            "StartPhraseIterationIndex": 25, 
+            "StartTime": 251.115, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 26, 
+            "EndTime": 271.135, 
+            "IsSolo": true, 
+            "Name": "solo", 
+            "Number": 8, 
+            "StartPhraseIterationIndex": 26, 
+            "StartTime": 263.323, 
+            "UIName": "$[34300] Solo [1]"
+          }, 
+          {
+            "EndPhraseIterationIndex": 27, 
+            "EndTime": 280.346, 
+            "IsSolo": false, 
+            "Name": "noguitar", 
+            "Number": 3, 
+            "StartPhraseIterationIndex": 27, 
+            "StartTime": 271.135, 
+            "UIName": "$[6091] No Guitar [1]"
+          }
+        ], 
+        "Shipping": true, 
+        "ShowlightsXML": "urn:application:xml:cooppois_showlights", 
+        "SongAsset": "urn:application:musicgame-song:cooppois_lead", 
+        "SongAverageTempo": 120.0, 
+        "SongBank": "song_cooppois.bnk", 
+        "SongDiffEasy": 0.618549551, 
+        "SongDiffHard": 0.730940702, 
+        "SongDiffMed": 0.594600253, 
+        "SongDifficulty": 0.730940702, 
+        "SongEvent": "Play_CoopPois", 
+        "SongKey": "CoopPois", 
+        "SongLength": 280.346, 
+        "SongName": "Poison", 
+        "SongNameSort": "Poison", 
+        "SongOffset": -10.0, 
+        "SongPartition": 1, 
+        "SongXml": "urn:application:xml:cooppois_lead", 
+        "SongYear": 1989, 
+        "TargetScore": 100000, 
+        "Techniques": {
+          "4": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "11": [
+              35
+            ], 
+            "12": [
+              35
+            ], 
+            "17": [
+              35
+            ]
+          }, 
+          "5": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              35
+            ], 
+            "11": [
+              35
+            ], 
+            "12": [
+              35
+            ], 
+            "15": [
+              13
+            ], 
+            "16": [
+              35
+            ], 
+            "17": [
+              35
+            ], 
+            "20": [
+              13
+            ], 
+            "22": [
+              13
+            ], 
+            "23": [
+              13
+            ], 
+            "24": [
+              13
+            ], 
+            "25": [
+              13
+            ]
+          }, 
+          "6": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              35
+            ], 
+            "11": [
+              35
+            ], 
+            "12": [
+              35
+            ], 
+            "13": [
+              35
+            ], 
+            "15": [
+              13
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35
+            ], 
+            "20": [
+              13
+            ], 
+            "22": [
+              1, 
+              13, 
+              29
+            ], 
+            "23": [
+              1, 
+              13
+            ], 
+            "24": [
+              13, 
+              1
+            ], 
+            "25": [
+              1, 
+              13
+            ]
+          }, 
+          "7": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              35
+            ], 
+            "11": [
+              35
+            ], 
+            "12": [
+              35
+            ], 
+            "13": [
+              35
+            ], 
+            "15": [
+              13
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35
+            ], 
+            "20": [
+              13
+            ], 
+            "21": [
+              1, 
+              13
+            ], 
+            "22": [
+              1, 
+              13, 
+              29
+            ], 
+            "23": [
+              1, 
+              13
+            ], 
+            "24": [
+              13, 
+              1
+            ], 
+            "25": [
+              1, 
+              13
+            ]
+          }, 
+          "8": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              7, 
+              35
+            ], 
+            "11": [
+              7, 
+              35
+            ], 
+            "12": [
+              35
+            ], 
+            "13": [
+              35
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35
+            ], 
+            "20": [
+              13, 
+              11, 
+              16, 
+              12
+            ], 
+            "21": [
+              1, 
+              13
+            ], 
+            "22": [
+              1, 
+              13, 
+              29
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13
+            ]
+          }, 
+          "9": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              0, 
+              35
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              7, 
+              35
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "12": [
+              35
+            ], 
+            "13": [
+              35
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35
+            ], 
+            "21": [
+              1, 
+              13
+            ], 
+            "22": [
+              1, 
+              13, 
+              29, 
+              31
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13
+            ]
+          }, 
+          "10": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              0, 
+              35, 
+              7
+            ], 
+            "7": [
+              35
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              7, 
+              35
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "12": [
+              35
+            ], 
+            "13": [
+              35
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35
+            ], 
+            "21": [
+              1, 
+              13
+            ], 
+            "22": [
+              1, 
+              16, 
+              13, 
+              29, 
+              12, 
+              31
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13
+            ]
+          }, 
+          "11": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "7": [
+              35, 
+              38
+            ], 
+            "9": [
+              35
+            ], 
+            "10": [
+              7, 
+              38, 
+              35
+            ], 
+            "11": [
+              7, 
+              35, 
+              0, 
+              38
+            ], 
+            "12": [
+              35, 
+              38
+            ], 
+            "13": [
+              38
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35, 
+              38
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              29
+            ]
+          }, 
+          "12": {
+            "0": [
+              35
+            ], 
+            "4": [
+              35
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "7": [
+              35, 
+              38
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0, 
+              38
+            ], 
+            "12": [
+              35, 
+              38
+            ], 
+            "13": [
+              38
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35, 
+              38
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              16, 
+              29
+            ]
+          }, 
+          "13": {
+            "0": [
+              35
+            ], 
+            "1": [
+              13, 
+              12
+            ], 
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "7": [
+              35, 
+              38
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0, 
+              38
+            ], 
+            "12": [
+              35, 
+              38, 
+              16, 
+              13, 
+              5
+            ], 
+            "13": [
+              38
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              35, 
+              38, 
+              13
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              16, 
+              29
+            ]
+          }, 
+          "14": {
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "13": [
+              38
+            ], 
+            "15": [
+              13, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              13
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              16, 
+              29
+            ]
+          }, 
+          "15": {
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "13": [
+              38
+            ], 
+            "15": [
+              13, 
+              11, 
+              1
+            ], 
+            "16": [
+              35, 
+              1, 
+              13
+            ], 
+            "17": [
+              16, 
+              13, 
+              5
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13, 
+              29
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              16, 
+              29
+            ]
+          }, 
+          "16": {
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "14": [
+              13, 
+              11
+            ], 
+            "15": [
+              13, 
+              11, 
+              1
+            ], 
+            "16": [
+              1, 
+              13
+            ], 
+            "22": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              16, 
+              13, 
+              29, 
+              9, 
+              6
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              16, 
+              29
+            ]
+          }, 
+          "17": {
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "14": [
+              13, 
+              11
+            ], 
+            "15": [
+              13, 
+              11, 
+              1
+            ], 
+            "16": [
+              1, 
+              13
+            ], 
+            "23": [
+              1, 
+              13
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              29, 
+              16
+            ]
+          }, 
+          "18": {
+            "3": [
+              13
+            ], 
+            "4": [
+              35, 
+              41, 
+              13
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "8": [
+              16, 
+              13
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              35, 
+              0
+            ], 
+            "13": [
+              16, 
+              13
+            ], 
+            "14": [
+              13, 
+              11
+            ], 
+            "15": [
+              13, 
+              11, 
+              1, 
+              12
+            ], 
+            "16": [
+              1, 
+              13
+            ], 
+            "19": [
+              16, 
+              13
+            ], 
+            "23": [
+              1, 
+              13
+            ], 
+            "24": [
+              13, 
+              1, 
+              29
+            ], 
+            "25": [
+              1, 
+              13, 
+              29, 
+              16
+            ]
+          }, 
+          "19": {
+            "2": [
+              13, 
+              11
+            ], 
+            "3": [
+              13, 
+              11
+            ], 
+            "4": [
+              35, 
+              41, 
+              13, 
+              11
+            ], 
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7
+            ], 
+            "14": [
+              13, 
+              11
+            ], 
+            "15": [
+              13, 
+              11, 
+              1, 
+              16, 
+              29, 
+              12
+            ], 
+            "16": [
+              1, 
+              13, 
+              16, 
+              29, 
+              12
+            ], 
+            "23": [
+              1, 
+              13
+            ], 
+            "24": [
+              16, 
+              13, 
+              1, 
+              29, 
+              11
+            ], 
+            "25": [
+              13, 
+              11, 
+              1, 
+              29, 
+              16
+            ]
+          }, 
+          "20": {
+            "6": [
+              0, 
+              38, 
+              7
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7
+            ], 
+            "25": [
+              13, 
+              11, 
+              1, 
+              29, 
+              16
+            ]
+          }, 
+          "21": {
+            "6": [
+              38, 
+              0, 
+              7, 
+              13, 
+              11
+            ], 
+            "10": [
+              7
+            ], 
+            "11": [
+              7, 
+              13, 
+              12
+            ], 
+            "25": [
+              13, 
+              11, 
+              1, 
+              29, 
+              16
+            ]
+          }, 
+          "22": {
+            "25": [
+              13, 
+              11, 
+              1, 
+              29, 
+              16, 
+              3, 
+              6, 
+              9
+            ]
+          }, 
+          "23": {
+            "25": [
+              13, 
+              11, 
+              9, 
+              6, 
+              1, 
+              29, 
+              16, 
+              3
+            ]
+          }, 
+          "24": {
+            "25": [
+              13, 
+              11, 
+              9, 
+              6, 
+              1, 
+              29, 
+              16, 
+              3
+            ]
+          }
+        }, 
+        "Tone_A": "cooppois_drive", 
+        "Tone_B": "cooppois_dist", 
+        "Tone_Base": "cooppois_dist", 
+        "Tone_C": "cooppois_echodrive", 
+        "Tone_D": "cooppois_lead", 
+        "Tone_Multiplayer": "", 
+        "Tones": [
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Amp_MarshallJCM800", 
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Bass": 66, 
+                  "Amp_MarshallJCM800_Gain": 39, 
+                  "Amp_MarshallJCM800_Mid": 88, 
+                  "Amp_MarshallJCM800_Pres": 1, 
+                  "Amp_MarshallJCM800_Treble": 88
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Cab_Marshall1960TV_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PrePedal1": {
+                "Category": "30785", 
+                "Key": "Pedal_EQ5", 
+                "KnobValues": {
+                  "Pedal_EQ5_2200": 1, 
+                  "Pedal_EQ5_250": -2, 
+                  "Pedal_EQ5_5700": -3, 
+                  "Pedal_EQ5_63": -5, 
+                  "Pedal_EQ5_750": 2
+                }, 
+                "Type": "Pedals"
+              }, 
+              "Rack1": {
+                "Category": "30785", 
+                "Key": "Rack_StudioEQ", 
+                "KnobValues": {
+                  "Rack_StudioEQ_Bass": 1, 
+                  "Rack_StudioEQ_BassFreq": 440, 
+                  "Rack_StudioEQ_HiMid": -1, 
+                  "Rack_StudioEQ_HiMidFreq": 0.900005, 
+                  "Rack_StudioEQ_HiMidQ": 0, 
+                  "Rack_StudioEQ_LoMid": -0.5, 
+                  "Rack_StudioEQ_LoMidFreq": 120, 
+                  "Rack_StudioEQ_LoMidQ": 1, 
+                  "Rack_StudioEQ_Treble": 1, 
+                  "Rack_StudioEQ_TrebleFreq": 2.4
+                }, 
+                "Type": "Racks"
+              }, 
+              "Rack2": {
+                "Category": "30788", 
+                "Key": "Rack_StudioChorus", 
+                "KnobValues": {
+                  "Rack_StudioChorus_Delay": 55, 
+                  "Rack_StudioChorus_Depth": 28, 
+                  "Rack_StudioChorus_HiFilter": 100, 
+                  "Rack_StudioChorus_LoFilter": 1, 
+                  "Rack_StudioChorus_Mix": 100, 
+                  "Rack_StudioChorus_Rate": 0.3, 
+                  "Rack_StudioChorus_Stereo": 1
+                }, 
+                "Type": "Racks"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_drive", 
+            "Name": "cooppois_drive", 
+            "NameSeparator": " - ", 
+            "SortOrder": 42, 
+            "ToneDescriptors": [
+              "$[35716]OVERDRIVE"
+            ], 
+            "Volume": "-22.500"
+          }, 
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Amp_MarshallJCM800", 
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Bass": 66, 
+                  "Amp_MarshallJCM800_Gain": 66, 
+                  "Amp_MarshallJCM800_Mid": 88, 
+                  "Amp_MarshallJCM800_Pres": 1, 
+                  "Amp_MarshallJCM800_Treble": 88
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Cab_Marshall1960TV_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PrePedal1": {
+                "Category": "30785", 
+                "Key": "Pedal_EQ5", 
+                "KnobValues": {
+                  "Pedal_EQ5_2200": 1, 
+                  "Pedal_EQ5_250": 0, 
+                  "Pedal_EQ5_5700": -3, 
+                  "Pedal_EQ5_63": -3, 
+                  "Pedal_EQ5_750": 2
+                }, 
+                "Type": "Pedals"
+              }, 
+              "Rack1": {
+                "Category": "30785", 
+                "Key": "Rack_StudioEQ", 
+                "KnobValues": {
+                  "Rack_StudioEQ_Bass": 1, 
+                  "Rack_StudioEQ_BassFreq": 440, 
+                  "Rack_StudioEQ_HiMid": -1, 
+                  "Rack_StudioEQ_HiMidFreq": 0.900005, 
+                  "Rack_StudioEQ_HiMidQ": 0, 
+                  "Rack_StudioEQ_LoMid": -0.5, 
+                  "Rack_StudioEQ_LoMidFreq": 120, 
+                  "Rack_StudioEQ_LoMidQ": 1, 
+                  "Rack_StudioEQ_Treble": 1, 
+                  "Rack_StudioEQ_TrebleFreq": 2.4
+                }, 
+                "Type": "Racks"
+              }, 
+              "Rack2": {
+                "Category": "30788", 
+                "Key": "Rack_StudioChorus", 
+                "KnobValues": {
+                  "Rack_StudioChorus_Delay": 55, 
+                  "Rack_StudioChorus_Depth": 22, 
+                  "Rack_StudioChorus_HiFilter": 100, 
+                  "Rack_StudioChorus_LoFilter": 1, 
+                  "Rack_StudioChorus_Mix": 100, 
+                  "Rack_StudioChorus_Rate": 0.2, 
+                  "Rack_StudioChorus_Stereo": 1
+                }, 
+                "Type": "Racks"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_dist", 
+            "Name": "cooppois_dist", 
+            "NameSeparator": " - ", 
+            "SortOrder": 42, 
+            "ToneDescriptors": [
+              "$[35722]DISTORTION"
+            ], 
+            "Volume": "-21.750"
+          }, 
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Amp_MarshallJCM800", 
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Bass": 66, 
+                  "Amp_MarshallJCM800_Gain": 66, 
+                  "Amp_MarshallJCM800_Mid": 88, 
+                  "Amp_MarshallJCM800_Pres": 1, 
+                  "Amp_MarshallJCM800_Treble": 88
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Cab_Marshall1960TV_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PrePedal1": {
+                "Category": "30785", 
+                "Key": "Pedal_EQ5", 
+                "KnobValues": {
+                  "Pedal_EQ5_2200": 1, 
+                  "Pedal_EQ5_250": 0, 
+                  "Pedal_EQ5_5700": -3, 
+                  "Pedal_EQ5_63": -3, 
+                  "Pedal_EQ5_750": 2
+                }, 
+                "Type": "Pedals"
+              }, 
+              "Rack1": {
+                "Category": "30785", 
+                "Key": "Rack_StudioEQ", 
+                "KnobValues": {
+                  "Rack_StudioEQ_Bass": 1, 
+                  "Rack_StudioEQ_BassFreq": 440, 
+                  "Rack_StudioEQ_HiMid": -1, 
+                  "Rack_StudioEQ_HiMidFreq": 0.900005, 
+                  "Rack_StudioEQ_HiMidQ": 0, 
+                  "Rack_StudioEQ_LoMid": -0.5, 
+                  "Rack_StudioEQ_LoMidFreq": 120, 
+                  "Rack_StudioEQ_LoMidQ": 1, 
+                  "Rack_StudioEQ_Treble": 1, 
+                  "Rack_StudioEQ_TrebleFreq": 2.4
+                }, 
+                "Type": "Racks"
+              }, 
+              "Rack2": {
+                "Category": "30788", 
+                "Key": "Rack_StudioChorus", 
+                "KnobValues": {
+                  "Rack_StudioChorus_Delay": 55, 
+                  "Rack_StudioChorus_Depth": 22, 
+                  "Rack_StudioChorus_HiFilter": 100, 
+                  "Rack_StudioChorus_LoFilter": 1, 
+                  "Rack_StudioChorus_Mix": 100, 
+                  "Rack_StudioChorus_Rate": 0.2, 
+                  "Rack_StudioChorus_Stereo": 1
+                }, 
+                "Type": "Racks"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_dist", 
+            "Name": "cooppois_dist", 
+            "NameSeparator": " - ", 
+            "SortOrder": 42, 
+            "ToneDescriptors": [
+              "$[35722]DISTORTION"
+            ], 
+            "Volume": "-21.750"
+          }, 
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Amp_MarshallJCM800", 
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Bass": 66, 
+                  "Amp_MarshallJCM800_Gain": 39, 
+                  "Amp_MarshallJCM800_Mid": 88, 
+                  "Amp_MarshallJCM800_Pres": 1, 
+                  "Amp_MarshallJCM800_Treble": 88
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Cab_Marshall1960TV_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PrePedal1": {
+                "Category": "30785", 
+                "Key": "Pedal_EQ5", 
+                "KnobValues": {
+                  "Pedal_EQ5_2200": 1, 
+                  "Pedal_EQ5_250": -2, 
+                  "Pedal_EQ5_5700": -3, 
+                  "Pedal_EQ5_63": -6, 
+                  "Pedal_EQ5_750": 2
+                }, 
+                "Type": "Pedals"
+              }, 
+              "Rack1": {
+                "Category": "30779", 
+                "Key": "Rack_StudioDelay", 
+                "KnobValues": {
+                  "Rack_StudioDelay_Feedback": 38, 
+                  "Rack_StudioDelay_Filter": 33, 
+                  "Rack_StudioDelay_Mix": 28, 
+                  "Rack_StudioDelay_TimeL": 170, 
+                  "Rack_StudioDelay_TimeR": 170
+                }, 
+                "Type": "Racks"
+              }, 
+              "Rack2": {
+                "Category": "30785", 
+                "Key": "Rack_StudioEQ", 
+                "KnobValues": {
+                  "Rack_StudioEQ_Bass": 0.5, 
+                  "Rack_StudioEQ_BassFreq": 440, 
+                  "Rack_StudioEQ_HiMid": -1, 
+                  "Rack_StudioEQ_HiMidFreq": 0.900005, 
+                  "Rack_StudioEQ_HiMidQ": 0, 
+                  "Rack_StudioEQ_LoMid": -1.5, 
+                  "Rack_StudioEQ_LoMidFreq": 120, 
+                  "Rack_StudioEQ_LoMidQ": 1, 
+                  "Rack_StudioEQ_Treble": -1, 
+                  "Rack_StudioEQ_TrebleFreq": 3.4
+                }, 
+                "Type": "Racks"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_echodrive", 
+            "Name": "cooppois_echodrive", 
+            "NameSeparator": " - ", 
+            "SortOrder": 42, 
+            "ToneDescriptors": [
+              "$[35754]ECHO", 
+              "$[35716]OVERDRIVE"
+            ], 
+            "Volume": "-27.500"
+          }, 
+          {
+            "GearList": {
+              "Amp": {
+                "Key": "Amp_MarshallJCM800", 
+                "KnobValues": {
+                  "Amp_MarshallJCM800_Bass": 48, 
+                  "Amp_MarshallJCM800_Gain": 66, 
+                  "Amp_MarshallJCM800_Mid": 96, 
+                  "Amp_MarshallJCM800_Pres": 1, 
+                  "Amp_MarshallJCM800_Treble": 88
+                }, 
+                "Type": "Amps"
+              }, 
+              "Cabinet": {
+                "Key": "Cab_Marshall1960TV_57_Edge", 
+                "KnobValues": {}, 
+                "Type": "Cabinets"
+              }, 
+              "PrePedal1": {
+                "Category": "30785", 
+                "Key": "Pedal_EQ5", 
+                "KnobValues": {
+                  "Pedal_EQ5_2200": 3, 
+                  "Pedal_EQ5_250": 6, 
+                  "Pedal_EQ5_5700": -6, 
+                  "Pedal_EQ5_63": -9, 
+                  "Pedal_EQ5_750": 9
+                }, 
+                "Type": "Pedals"
+              }, 
+              "Rack1": {
+                "Category": "30785", 
+                "Key": "Rack_StudioEQ", 
+                "KnobValues": {
+                  "Rack_StudioEQ_Bass": 1, 
+                  "Rack_StudioEQ_BassFreq": 440, 
+                  "Rack_StudioEQ_HiMid": 1, 
+                  "Rack_StudioEQ_HiMidFreq": 0.900005, 
+                  "Rack_StudioEQ_HiMidQ": 0, 
+                  "Rack_StudioEQ_LoMid": -1, 
+                  "Rack_StudioEQ_LoMidFreq": 120, 
+                  "Rack_StudioEQ_LoMidQ": 0, 
+                  "Rack_StudioEQ_Treble": -1, 
+                  "Rack_StudioEQ_TrebleFreq": 6.6
+                }, 
+                "Type": "Racks"
+              }, 
+              "Rack2": {
+                "Category": "30788", 
+                "Key": "Rack_StudioChorus", 
+                "KnobValues": {
+                  "Rack_StudioChorus_Delay": 55, 
+                  "Rack_StudioChorus_Depth": 28, 
+                  "Rack_StudioChorus_HiFilter": 100, 
+                  "Rack_StudioChorus_LoFilter": 1, 
+                  "Rack_StudioChorus_Mix": 100, 
+                  "Rack_StudioChorus_Rate": 0.3, 
+                  "Rack_StudioChorus_Stereo": 1
+                }, 
+                "Type": "Racks"
+              }
+            }, 
+            "IsCustom": true, 
+            "Key": "cooppois_lead", 
+            "Name": "cooppois_lead", 
+            "NameSeparator": " - ", 
+            "SortOrder": 42, 
+            "ToneDescriptors": [
+              "$[35724]LEAD"
+            ], 
+            "Volume": "-25.000"
+          }
+        ], 
+        "Tuning": {
+          "string0": 0, 
+          "string1": 0, 
+          "string2": 0, 
+          "string3": 0, 
+          "string4": 0, 
+          "string5": 0
+        }
+      }
+    }
+  }, 
+  "InsertRoot": "Static.Songs.Entries", 
+  "IterationVersion": 3, 
+  "ModelName": "RSEnumerable_Song"
+}
