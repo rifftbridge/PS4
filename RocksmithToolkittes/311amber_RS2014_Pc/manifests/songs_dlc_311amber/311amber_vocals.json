@@ -1,0 +1,57 @@
+{
+  "Entries": {
+    "A729E13915851D3F264A109759CE650B": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_311amber",
+        "ArrangementName": "Vocals",
+        "ArrangementSort": 0,
+        "BlockAsset": "urn:emergent-world:311amber",
+        "DLC": true,
+        "DLCKey": "311Amber",
+        "DynamicVisualDensity": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "FullName": "311Amber_Vocals",
+        "InputEvent": "Play_Tone_Standard_Mic",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:311amber_vocals",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30591,
+        "MasterID_XBox360": -1,
+        "PreviewBankPath": "song_311amber_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:311amber_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:311amber_vocals",
+        "SongBank": "song_311amber.bnk",
+        "SongEvent": "Play_311Amber",
+        "SongKey": "311Amber",
+        "SongXml": "urn:application:xml:311amber_vocals",
+        "PersistentID": "A729E13915851D3F264A109759CE650B"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}

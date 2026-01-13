@@ -1,0 +1,633 @@
+{
+  "Entries": {
+    "ED9FF55FA6B3CEAE37BAB66A351EC4A9": {
+      "Attributes": {
+        "AlbumArt": "urn:image:dds:album_311amber",
+        "AlbumName": "From Chaos",
+        "AlbumNameSort": "From Chaos",
+        "ArrangementName": "Bass",
+        "ArrangementProperties": {
+          "represent": 1,
+          "bonusArr": 0,
+          "standardTuning": 0,
+          "nonStandardChords": 0,
+          "barreChords": 0,
+          "powerChords": 0,
+          "dropDPower": 0,
+          "openChords": 0,
+          "fingerPicking": 0,
+          "pickDirection": 0,
+          "doubleStops": 0,
+          "palmMutes": 0,
+          "harmonics": 0,
+          "pinchHarmonics": 0,
+          "hopo": 0,
+          "tremolo": 0,
+          "slides": 0,
+          "unpitchedSlides": 1,
+          "bends": 0,
+          "tapping": 0,
+          "vibrato": 0,
+          "fretHandMutes": 1,
+          "slapPop": 0,
+          "twoFingerPicking": 1,
+          "fifthsAndOctaves": 1,
+          "syncopation": 1,
+          "bassPick": 0,
+          "sustain": 1,
+          "pathLead": 0,
+          "pathRhythm": 0,
+          "pathBass": 1,
+          "routeMask": 4
+        },
+        "ArrangementSort": 0,
+        "ArrangementType": 3,
+        "ArtistName": "311",
+        "ArtistNameSort": "311",
+        "BlockAsset": "urn:emergent-world:311amber",
+        "CentOffset": 0.0,
+        "Chords": {},
+        "ChordTemplates": [],
+        "DLC": true,
+        "DLCKey": "311Amber",
+        "DNA_Chords": 0.0,
+        "DNA_Riffs": 0.0,
+        "DNA_Solo": 0.0,
+        "DynamicVisualDensity": [
+          5.0,
+          4.7,
+          4.4,
+          4.1,
+          3.8,
+          3.5,
+          3.3,
+          3.1,
+          2.8,
+          2.6,
+          2.4,
+          2.1,
+          1.9,
+          1.7,
+          1.6,
+          1.5,
+          1.4,
+          1.3,
+          1.3,
+          1.3
+        ],
+        "EasyMastery": 0.1119403,
+        "FullName": "311Amber_Bass",
+        "LastConversionDateTime": "02-25-14 16:36",
+        "LeaderboardChallengeRating": 0,
+        "ManifestUrn": "urn:database:json-db:311amber_bass",
+        "MasterID_PS3": -1,
+        "MasterID_RDV": 30592,
+        "MasterID_XBox360": -1,
+        "MaxPhraseDifficulty": 15,
+        "MediumMastery": 0.608208954,
+        "NotesEasy": 60.0,
+        "NotesHard": 536.0,
+        "NotesMedium": 326.0,
+        "PhraseIterations": [
+          {
+            "PhraseIndex": 0,
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "StartTime": 10.0,
+            "EndTime": 24.446
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 11,
+            "Name": "A",
+            "StartTime": 24.446,
+            "EndTime": 36.003
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 11,
+            "Name": "A",
+            "StartTime": 36.003,
+            "EndTime": 47.559
+          },
+          {
+            "PhraseIndex": 2,
+            "MaxDifficulty": 11,
+            "Name": "A",
+            "StartTime": 47.559,
+            "EndTime": 59.116
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 59.116,
+            "EndTime": 70.672
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "B",
+            "StartTime": 70.672,
+            "EndTime": 82.229
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 82.229,
+            "EndTime": 93.785
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 93.785,
+            "EndTime": 105.342
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 105.342,
+            "EndTime": 116.898
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "B",
+            "StartTime": 116.898,
+            "EndTime": 128.455
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 128.455,
+            "EndTime": 140.01
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "StartTime": 140.01,
+            "EndTime": 145.787
+          },
+          {
+            "PhraseIndex": 6,
+            "MaxDifficulty": 12,
+            "Name": "C",
+            "StartTime": 145.787,
+            "EndTime": 157.341
+          },
+          {
+            "PhraseIndex": 7,
+            "MaxDifficulty": 15,
+            "Name": "Ca",
+            "StartTime": 157.341,
+            "EndTime": 168.896
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 168.896,
+            "EndTime": 180.448
+          },
+          {
+            "PhraseIndex": 4,
+            "MaxDifficulty": 13,
+            "Name": "B",
+            "StartTime": 180.448,
+            "EndTime": 192.001
+          },
+          {
+            "PhraseIndex": 3,
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "StartTime": 192.001,
+            "EndTime": 203.553
+          },
+          {
+            "PhraseIndex": 5,
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "StartTime": 203.553,
+            "EndTime": 218.092
+          },
+          {
+            "PhraseIndex": 1,
+            "MaxDifficulty": 0,
+            "Name": "END",
+            "StartTime": 218.092,
+            "EndTime": 221.064
+          }
+        ],
+        "Phrases": [
+          {
+            "MaxDifficulty": 0,
+            "Name": "default",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "END",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 11,
+            "Name": "A",
+            "IterationCount": 3
+          },
+          {
+            "MaxDifficulty": 11,
+            "Name": "Ab",
+            "IterationCount": 7
+          },
+          {
+            "MaxDifficulty": 13,
+            "Name": "B",
+            "IterationCount": 3
+          },
+          {
+            "MaxDifficulty": 0,
+            "Name": "NG",
+            "IterationCount": 2
+          },
+          {
+            "MaxDifficulty": 12,
+            "Name": "C",
+            "IterationCount": 1
+          },
+          {
+            "MaxDifficulty": 15,
+            "Name": "Ca",
+            "IterationCount": 1
+          }
+        ],
+        "PreviewBankPath": "song_311amber_preview.bnk",
+        "RelativeDifficulty": 0,
+        "Score_MaxNotes": 536.0,
+        "Score_PNV": 186.567169,
+        "Sections": [
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 1,
+            "StartTime": 24.446,
+            "EndTime": 36.003,
+            "StartPhraseIterationIndex": 1,
+            "EndPhraseIterationIndex": 1,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 2,
+            "StartTime": 36.003,
+            "EndTime": 47.559,
+            "StartPhraseIterationIndex": 2,
+            "EndPhraseIterationIndex": 2,
+            "IsSolo": false
+          },
+          {
+            "Name": "intro",
+            "UIName": "$[34286] Intro [1]",
+            "Number": 3,
+            "StartTime": 47.559,
+            "EndTime": 59.116,
+            "StartPhraseIterationIndex": 3,
+            "EndPhraseIterationIndex": 3,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 1,
+            "StartTime": 59.116,
+            "EndTime": 70.672,
+            "StartPhraseIterationIndex": 4,
+            "EndPhraseIterationIndex": 4,
+            "IsSolo": false
+          },
+          {
+            "Name": "prechorus",
+            "UIName": "$[34296] Pre Chorus [1]",
+            "Number": 1,
+            "StartTime": 70.672,
+            "EndTime": 82.229,
+            "StartPhraseIterationIndex": 5,
+            "EndPhraseIterationIndex": 5,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 2,
+            "StartTime": 82.229,
+            "EndTime": 93.785,
+            "StartPhraseIterationIndex": 6,
+            "EndPhraseIterationIndex": 6,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 3,
+            "StartTime": 93.785,
+            "EndTime": 105.342,
+            "StartPhraseIterationIndex": 7,
+            "EndPhraseIterationIndex": 7,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 4,
+            "StartTime": 105.342,
+            "EndTime": 116.898,
+            "StartPhraseIterationIndex": 8,
+            "EndPhraseIterationIndex": 8,
+            "IsSolo": false
+          },
+          {
+            "Name": "prechorus",
+            "UIName": "$[34296] Pre Chorus [1]",
+            "Number": 2,
+            "StartTime": 116.898,
+            "EndTime": 128.455,
+            "StartPhraseIterationIndex": 9,
+            "EndPhraseIterationIndex": 9,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 5,
+            "StartTime": 128.455,
+            "EndTime": 140.01,
+            "StartPhraseIterationIndex": 10,
+            "EndPhraseIterationIndex": 10,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 1,
+            "StartTime": 140.01,
+            "EndTime": 145.787,
+            "StartPhraseIterationIndex": 11,
+            "EndPhraseIterationIndex": 11,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 1,
+            "StartTime": 145.787,
+            "EndTime": 157.341,
+            "StartPhraseIterationIndex": 12,
+            "EndPhraseIterationIndex": 12,
+            "IsSolo": false
+          },
+          {
+            "Name": "bridge",
+            "UIName": "$[34282] Bridge [1]",
+            "Number": 2,
+            "StartTime": 157.341,
+            "EndTime": 168.896,
+            "StartPhraseIterationIndex": 13,
+            "EndPhraseIterationIndex": 13,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 6,
+            "StartTime": 168.896,
+            "EndTime": 180.448,
+            "StartPhraseIterationIndex": 14,
+            "EndPhraseIterationIndex": 14,
+            "IsSolo": false
+          },
+          {
+            "Name": "prechorus",
+            "UIName": "$[34296] Pre Chorus [1]",
+            "Number": 3,
+            "StartTime": 180.448,
+            "EndTime": 192.001,
+            "StartPhraseIterationIndex": 15,
+            "EndPhraseIterationIndex": 15,
+            "IsSolo": false
+          },
+          {
+            "Name": "chorus",
+            "UIName": "$[34279] Chorus [1]",
+            "Number": 7,
+            "StartTime": 192.001,
+            "EndTime": 203.553,
+            "StartPhraseIterationIndex": 16,
+            "EndPhraseIterationIndex": 16,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 2,
+            "StartTime": 203.553,
+            "EndTime": 218.092,
+            "StartPhraseIterationIndex": 17,
+            "EndPhraseIterationIndex": 17,
+            "IsSolo": false
+          },
+          {
+            "Name": "noguitar",
+            "UIName": "$[6091] No Guitar [1]",
+            "Number": 3,
+            "StartTime": 218.092,
+            "EndTime": 221.064,
+            "StartPhraseIterationIndex": 18,
+            "EndPhraseIterationIndex": 18,
+            "IsSolo": false
+          }
+        ],
+        "Shipping": true,
+        "ShowlightsXML": "urn:application:xml:311amber_showlights",
+        "SKU": "RS2",
+        "SongAsset": "urn:application:musicgame-song:311amber_bass",
+        "SongAverageTempo": 120.0,
+        "SongBank": "song_311amber.bnk",
+        "SongDiffEasy": 0.488701731,
+        "SongDiffHard": 0.279201567,
+        "SongDifficulty": 0.279201567,
+        "SongDiffMed": 0.202256873,
+        "SongEvent": "Play_311Amber",
+        "SongKey": "311Amber",
+        "SongLength": 221.064,
+        "SongName": "Amber",
+        "SongNameSort": "Amber",
+        "SongOffset": -10.0,
+        "SongPartition": 1,
+        "SongXml": "urn:application:xml:311amber_bass",
+        "SongYear": 2002,
+        "TargetScore": 100000,
+        "Techniques": {
+          "10": {
+            "1": [
+              13
+            ],
+            "2": [
+              13
+            ],
+            "3": [
+              13
+            ],
+            "4": [
+              13
+            ],
+            "6": [
+              13
+            ],
+            "7": [
+              13
+            ],
+            "8": [
+              13
+            ],
+            "10": [
+              13
+            ],
+            "14": [
+              13
+            ]
+          },
+          "11": {
+            "1": [
+              13
+            ],
+            "2": [
+              13
+            ],
+            "3": [
+              13
+            ],
+            "4": [
+              13
+            ],
+            "6": [
+              13
+            ],
+            "7": [
+              13
+            ],
+            "8": [
+              13
+            ],
+            "10": [
+              13,
+              12
+            ],
+            "14": [
+              13
+            ]
+          },
+          "13": {
+            "13": [
+              12,
+              13
+            ]
+          }
+        },
+        "Tone_A": "",
+        "Tone_B": "",
+        "Tone_Base": "311Amber_bass",
+        "Tone_C": "",
+        "Tone_D": "",
+        "Tone_Multiplayer": "",
+        "Tones": [
+          {
+            "GearList": {
+              "Rack1": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioEQ_BassFreq": 175,
+                  "Rack_StudioEQ_HiMidFreq": 0.800003,
+                  "Rack_StudioEQ_TrebleFreq": 7,
+                  "Rack_StudioEQ_LoMidFreq": 360,
+                  "Rack_StudioEQ_Treble": 2,
+                  "Rack_StudioEQ_LoMidQ": 1,
+                  "Rack_StudioEQ_Bass": 0,
+                  "Rack_StudioEQ_HiMid": 2.5,
+                  "Rack_StudioEQ_LoMid": -9,
+                  "Rack_StudioEQ_HiMidQ": 0
+                },
+                "Key": "Rack_StudioEQ",
+                "Category": "30785"
+              },
+              "Rack2": {
+                "Type": "Racks",
+                "KnobValues": {
+                  "Rack_StudioCompressor_Attack": 40,
+                  "Rack_StudioCompressor_Threshold": -18,
+                  "Rack_StudioCompressor_Release": 140,
+                  "Rack_StudioCompressor_Ratio": 2
+                },
+                "Key": "Rack_StudioCompressor"
+              },
+              "Amp": {
+                "Type": "Amps",
+                "KnobValues": {
+                  "Bass_Amp_BT600B_2600": 1.5,
+                  "Bass_Amp_BT600B_180": -1,
+                  "Bass_Amp_BT600B_340": -2,
+                  "Bass_Amp_BT600B_Gain": 3,
+                  "Bass_Amp_BT600B_Compression": 0,
+                  "Bass_Amp_BT600B_Treble": 70,
+                  "Bass_Amp_BT600B_1200": -5.5,
+                  "Bass_Amp_BT600B_Mid": 70,
+                  "Bass_Amp_BT600B_Bass": 75
+                },
+                "Key": "Bass_Amp_BT600B"
+              },
+              "Cabinet": {
+                "Type": "Cabinets",
+                "KnobValues": {},
+                "Key": "Bass_Cab_BT410BC_Condenser_Cone"
+              },
+              "PostPedal1": {
+                "Type": "Pedals",
+                "KnobValues": {
+                  "Bass_Pedal_MBComp_Filter": 390,
+                  "Bass_Pedal_MBComp_Compress": 55,
+                  "Bass_Pedal_MBComp_Rate": 74
+                },
+                "Key": "Bass_Pedal_MBComp"
+              }
+            },
+            "ToneDescriptors": [
+              "$[35715]BASS"
+            ],
+            "NameSeparator": " - ",
+            "IsCustom": true,
+            "Volume": "-19.000",
+            "Key": "311Amber_bass",
+            "Name": "311Amber_bass",
+            "SortOrder": 40
+          }
+        ],
+        "Tuning": {
+          "string0": -2,
+          "string1": 0,
+          "string2": 0,
+          "string3": 0,
+          "string4": 0,
+          "string5": 0
+        },
+        "PersistentID": "ED9FF55FA6B3CEAE37BAB66A351EC4A9"
+      }
+    }
+  },
+  "ModelName": "RSEnumerable_Song",
+  "IterationVersion": 2,
+  "InsertRoot": "Static.Songs.Entries"
+}
