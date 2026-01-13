@@ -43,6 +43,12 @@ def convert_psarc_format(input_path: Path, output_path: Path):
         # Change ArchiveFlags from 4 to 0
         struct.pack_into('>I', data, 28, 0)
 
+        # Clear encryption/signature data at bytes 32-47 (16 bytes)
+        # Steam PSARCs have encryption keys here that must be zeroed
+        print("Clearing encryption data at bytes 32-47...")
+        for i in range(32, 48):
+            data[i] = 0
+
         # Write converted file
         with open(output_path, 'wb') as f:
             f.write(data)
