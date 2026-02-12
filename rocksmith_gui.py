@@ -178,8 +178,8 @@ class RocksmithGUI:
                         artwork_path = embedded_path
                         self.log_message(f"✓ Found embedded artwork: {possible_name}", 'success')
                         break
-                except Exception as e:
-                    pass  # Silent fail, try next
+                except Exception:
+                    continue
             
             if not artwork_path:
                 self.log_message("⚠ Artwork not found - using default layout", 'warning')
@@ -503,9 +503,12 @@ class RocksmithGUI:
         selected = self.file_tree.selection()
         if not selected:
             return
-        
-        for item in selected:
-            index = self.file_tree.index(item)
+
+        # Get indices before deleting, then delete in reverse order
+        # to prevent index shifting corruption
+        items_with_indices = [(self.file_tree.index(item), item) for item in selected]
+        items_with_indices.sort(key=lambda x: x[0], reverse=True)
+        for index, item in items_with_indices:
             self.file_tree.delete(item)
             del self.jobs[index]
         
@@ -672,7 +675,14 @@ class RocksmithGUI:
         self.update_status("Conversion complete")
     
     def log_message(self, message: str, tag: str = 'info'):
-        """Add message to log"""
+        """Add message to log (thread-safe)"""
+        if threading.current_thread() is not threading.main_thread():
+            self.root.after(0, self._log_message_impl, message, tag)
+        else:
+            self._log_message_impl(message, tag)
+
+    def _log_message_impl(self, message: str, tag: str):
+        """Internal log implementation - must run on main thread"""
         self.log_text.config(state=tk.NORMAL)
         self.log_text.insert(tk.END, message + '\n', tag)
         self.log_text.see(tk.END)
@@ -710,12 +720,13 @@ class RocksmithGUI:
     
     def open_output_folder(self):
         """Open output folder in file explorer"""
+        import subprocess
         if sys.platform == 'win32':
             os.startfile(self.output_base_dir)
         elif sys.platform == 'darwin':
-            os.system(f'open "{self.output_base_dir}"')
+            subprocess.run(['open', str(self.output_base_dir)])
         else:
-            os.system(f'xdg-open "{self.output_base_dir}"')
+            subprocess.run(['xdg-open', str(self.output_base_dir)])
     
     def toggle_steam(self):
         """Toggle Steam integration"""
@@ -885,11 +896,11 @@ def main():
         # Set icon if available
         try:
             if sys.platform == 'win32':
-                self.root.iconbitmap('RiffBridge.ico')
+                root.iconbitmap('RiffBridge.ico')
             else:
                 # For Linux/Mac, use PNG
                 icon_img = tk.PhotoImage(file='RiffBridge_512.png')
-                self.root.iconphoto(True, icon_img)
+                root.iconphoto(True, icon_img)
         except Exception as e:
             # Icon not critical, continue without it
             pass

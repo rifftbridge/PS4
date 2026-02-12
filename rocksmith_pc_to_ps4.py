@@ -48,37 +48,46 @@ class RocksmithPS4Converter:
         - Number of entries
         """
         try:
-            # SFO structure
+            # SFO entry types
+            SFO_TYPE_INT32 = 0x0404
+            SFO_TYPE_UTF8 = 0x0402
+
+            # SFO entries: (key, value, max_len, data_type)
+            # ATTRIBUTE is an integer (0 for DLC), not a string
+            # Include FORMAT, PUBTOOLINFO, SYSTEM_VER per PS4 SFO spec
             entries = [
-                ("ATTRIBUTE", "ac", 4, 4),  # Additional Content
-                ("CATEGORY", "ac", 4, 3),
-                ("CONTENT_ID", content_id, 48, len(content_id) + 1),
-                ("TITLE", title, 128, len(title) + 1),
-                ("TITLE_ID", title_id, 12, len(title_id) + 1),
-                ("VERSION", version, 8, len(version) + 1),
+                ("ATTRIBUTE", 0, 4, SFO_TYPE_INT32),
+                ("CATEGORY", "ac", 4, SFO_TYPE_UTF8),
+                ("CONTENT_ID", content_id, 48, SFO_TYPE_UTF8),
+                ("FORMAT", "obs", 4, SFO_TYPE_UTF8),
+                ("PUBTOOLINFO", f"c_date={datetime.now().strftime('%Y%m%d')}", 512, SFO_TYPE_UTF8),
+                ("SYSTEM_VER", 0, 4, SFO_TYPE_INT32),
+                ("TITLE", title, 128, SFO_TYPE_UTF8),
+                ("TITLE_ID", title_id, 12, SFO_TYPE_UTF8),
+                ("VERSION", version, 8, SFO_TYPE_UTF8),
             ]
-            
+
             # Calculate offsets
             header_size = 20
             index_table_size = len(entries) * 16
             key_table_start = header_size + index_table_size
-            
+
             key_data = b""
             data_values = []
-            
-            for key, value, max_len, used_len in entries:
+
+            for key, value, max_len, data_type in entries:
                 key_data += key.encode('utf-8') + b'\x00'
-                if isinstance(value, str):
-                    data_values.append(value.encode('utf-8') + b'\x00')
+                if data_type == SFO_TYPE_INT32:
+                    data_values.append(struct.pack('<I', value))
                 else:
-                    data_values.append(value)
-            
-            data_table_start = key_table_start + len(key_data)
-            
-            # Align to 4 bytes
+                    data_values.append(value.encode('utf-8') + b'\x00')
+
+            # Align key table to 4 bytes BEFORE calculating data_table_start
             while len(key_data) % 4 != 0:
                 key_data += b'\x00'
-            
+
+            data_table_start = key_table_start + len(key_data)
+
             # Write SFO file
             with open(output_path, 'wb') as f:
                 # Header
@@ -87,26 +96,26 @@ class RocksmithPS4Converter:
                 f.write(struct.pack('<I', key_table_start))
                 f.write(struct.pack('<I', data_table_start))
                 f.write(struct.pack('<I', len(entries)))
-                
+
                 # Index table
                 key_offset = 0
                 data_offset = 0
-                for i, (key, value, max_len, used_len) in enumerate(entries):
-                    # Key offset, alignment, data type, used size, total size, data offset
+                for i, (key, value, max_len, data_type) in enumerate(entries):
+                    used_len = len(data_values[i])
                     f.write(struct.pack('<H', key_offset))
-                    f.write(struct.pack('<H', 0x0404 if max_len == 4 else 0x0402))  # data type
+                    f.write(struct.pack('<H', data_type))
                     f.write(struct.pack('<I', used_len))
                     f.write(struct.pack('<I', max_len))
                     f.write(struct.pack('<I', data_offset))
-                    
+
                     key_offset += len(key) + 1
                     data_offset += max_len
-                
+
                 # Key table
                 f.write(key_data)
-                
+
                 # Data table
-                for i, (key, value, max_len, used_len) in enumerate(entries):
+                for i, (key, value, max_len, data_type) in enumerate(entries):
                     data = data_values[i]
                     f.write(data)
                     # Pad to max_len

@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('enhanced_converter.py', '.'), ('rocksmith_pc_to_ps4.py', '.'), ('steam_dlc_database.py', '.'), ('RiffBridge_icon.ico', '.'), ('Riff_Bridge_cover_art.jpg', '.')]
+datas = [('enhanced_converter.py', '.'), ('rocksmith_pc_to_ps4.py', '.'), ('steam_dlc_database.py', '.'), ('ps4_pkg_builder.py', '.'), ('RiffBridge_icon.ico', '.'), ('Riff_Bridge_cover_art.jpg', '.')]
 binaries = []
 hiddenimports = ['tkinterdnd2', 'PIL._tkinter_finder', 'PIL.Image', 'PIL.ImageDraw', 'PIL.ImageFont', 'PIL.ImageTk']
 tmp_ret = collect_all('tkinterdnd2')

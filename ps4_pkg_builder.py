@@ -10,7 +10,6 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime
 from typing import List, Tuple, Optional
-import io
 
 
 class PS4PkgBuilder:
@@ -27,12 +26,13 @@ class PS4PkgBuilder:
     ENTRY_LICENSE = 0x0400
     ENTRY_PARAM_SFO = 0x1000
     ENTRY_ICON0 = 0x1200
-    
+
     def __init__(self):
         self.files = []
         self.content_id = ""
         self.passcode = bytes(32)  # All zeros for fake PKG
-        
+        self._next_data_entry_id = 0x1201
+
     def parse_gp4(self, gp4_path: Path) -> bool:
         """
         Parse GP4 project file
@@ -74,18 +74,20 @@ class PS4PkgBuilder:
         except Exception as e:
             print(f"Error parsing GP4: {e}")
             return False
-    
+
     def _get_entry_id_for_file(self, target_path: str) -> int:
         """Determine entry ID based on file path"""
         target_lower = target_path.lower()
-        
+
         if 'param.sfo' in target_lower:
             return self.ENTRY_PARAM_SFO
         elif 'icon0.png' in target_lower:
             return self.ENTRY_ICON0
         else:
             # Data files get sequential IDs starting at 0x1201
-            return 0x1201
+            entry_id = self._next_data_entry_id
+            self._next_data_entry_id += 1
+            return entry_id
     
     def build_pkg(self, output_path: Path) -> bool:
         """

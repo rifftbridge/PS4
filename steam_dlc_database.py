@@ -184,10 +184,10 @@ class SteamDLCDatabase:
         Format: REGION-TITLEID_00-APPID00000000000
         Where APPID is padded to 16 characters
         """
-        app_id = str(dlc_info.get('app_id', '0'))
-        
-        # Pad app_id to 16 characters
-        suffix = f"APPID{app_id}".ljust(16, '0')[:16]
+        app_id = int(dlc_info.get('app_id', 0))
+
+        # Generate 16-character suffix from app_id
+        suffix = f"RS2014D{app_id:09d}"[:16]
         
         content_id = f"{region}-{title_id}_00-{suffix}"
         

@@ -96,15 +96,14 @@ class EnhancedRocksmithConverter(RocksmithPS4Converter):
     def generate_steam_content_id(self, app_id: int, region: str, title_id: str) -> str:
         """
         Generate Content ID based on Steam App ID
-        
-        Format: REGION-TITLEID_00-APPID00000000000
+
+        Format: REGION-TITLEID_00-RS2014DXXXXXXXXX
+        Where X is the zero-padded app ID (16 chars total)
         """
-        # Convert app_id to 16-character suffix
-        app_id_str = str(app_id)
-        suffix = f"APPID{app_id_str}".ljust(16, '0')[:16]
-        
+        suffix = f"RS2014D{app_id:09d}"[:16]
+
         content_id = f"{region}-{title_id}_00-{suffix}"
-        
+
         self.log(f"  Generated Content ID from App ID: {content_id}")
         return content_id
     
