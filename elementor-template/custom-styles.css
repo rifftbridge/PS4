@@ -1,0 +1,98 @@
+/* Consulting Studio Clone — Custom CSS
+   Paste into Elementor → Site Settings → Custom CSS
+   (or your child theme's style.css) */
+
+:root {
+  --cs-primary: #3519E2;
+  --cs-secondary: #0059F0;
+  --cs-accent: #384EDF;
+  --cs-accent-hover: #2339C8;
+  --cs-text: #1F242E;
+  --cs-muted: #ACAFB2;
+  --cs-bg: #FFFFFF;
+  --cs-bg-alt: #F6F7F1;
+  --cs-success: #72BF40;
+  --cs-warn: #FF5E2E;
+  --cs-radius: 12px;
+  --cs-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+body, p, .elementor-widget-text-editor {
+  font-family: 'Inter', sans-serif;
+  color: var(--cs-text);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* Buttons */
+.elementor-button {
+  border-radius: 10px !important;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: background-color .25s ease, transform .25s ease;
+}
+.elementor-button:hover { transform: translateY(-1px); }
+
+/* Service icon-box cards */
+.elementor-widget-icon-box .elementor-icon-box-wrapper {
+  background: #FFFFFF;
+  padding: 32px 28px;
+  border-radius: var(--cs-radius);
+  box-shadow: var(--cs-shadow);
+  height: 100%;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.elementor-widget-icon-box .elementor-icon-box-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.06);
+}
+
+/* Counter (stats) */
+.elementor-counter-number-wrapper {
+  font-weight: 600;
+  color: var(--cs-primary);
+}
+
+/* Blog cards */
+.elementor-widget-image img {
+  border-radius: var(--cs-radius);
+}
+
+/* Feature checkmark list */
+.cs-feature-list li {
+  list-style: none;
+  position: relative;
+  padding: 6px 12px 6px 36px;
+  background: var(--cs-bg-alt);
+  border-radius: 24px;
+  display: inline-block;
+  margin: 4px 6px 4px 0;
+  font-size: 13px;
+}
+.cs-feature-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px; height: 16px;
+  background: var(--cs-success);
+  color: #FFF;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Section spacing helper */
+.cs-section-pad { padding: 100px 0; }
+
+/* Navigation hover */
+.elementor-nav-menu a:hover { color: var(--cs-secondary) !important; }
+
+/* Footer */
+.cs-footer a { color: var(--cs-muted); text-decoration: none; }
+.cs-footer a:hover { color: #FFFFFF; }
